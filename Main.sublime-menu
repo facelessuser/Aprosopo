@@ -1,0 +1,228 @@
+[
+    {
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "Theme - Faceless",
+                        "children":
+                        [
+                            {
+                                "caption": "Set Dark Theme",
+                                "children":
+                                [
+                                    {
+                                        "command": "set_faceless_theme_dark", "args":
+                                        {
+                                            "theme": "dark",
+                                            "color": "aqua"
+                                        },
+                                        "caption": "Aqua"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dark", "args":
+                                        {
+                                            "theme": "dark",
+                                            "color": "blue"
+                                        },
+                                        "caption": "Blue"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dark", "args":
+                                        {
+                                            "theme": "dark",
+                                            "color": "green"
+                                        },
+                                        "caption": "Green"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dark", "args":
+                                        {
+                                            "theme": "dark",
+                                            "color": "orange"
+                                        },
+                                        "caption": "Orange"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dark", "args":
+                                        {
+                                            "theme": "dark",
+                                            "color": "purple"
+                                        },
+                                        "caption": "Purple"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dark", "args":
+                                        {
+                                            "theme": "dark",
+                                            "color": "red"
+                                        },
+                                        "caption": "Red"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dark", "args":
+                                        {
+                                            "theme": "dark",
+                                            "color": "yellow"
+                                        },
+                                        "caption": "Yellow"
+                                    }
+                                ]
+                            },
+                            {
+                                "caption": "Set Dirty Indicator Color",
+                                "children":
+                                [
+                                    {
+                                        "command": "set_faceless_theme_dark_dirty", "args":
+                                        {
+                                            "theme": "dark",
+                                            "color": "aqua"
+                                        },
+                                        "caption": "Aqua"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dark_dirty", "args":
+                                        {
+                                            "theme": "dark",
+                                            "color": "blue"
+                                        },
+                                        "caption": "Blue"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dark_dirty", "args":
+                                        {
+                                            "theme": "dark",
+                                            "color": "green"
+                                        },
+                                        "caption": "Green"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dark_dirty", "args":
+                                        {
+                                            "theme": "dark",
+                                            "color": "orange"
+                                        },
+                                        "caption": "Orange"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dark_dirty", "args":
+                                        {
+                                            "theme": "dark",
+                                            "color": "purple"
+                                        },
+                                        "caption": "Purple"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dark_dirty", "args":
+                                        {
+                                            "theme": "dark",
+                                            "color": "red"
+                                        },
+                                        "caption": "Red"
+                                    },
+
+                                    {
+                                        "command": "set_faceless_theme_dark_dirty", "args":
+                                        {
+                                            "theme": "dark",
+                                            "color": "yellow"
+                                        },
+                                        "caption": "Yellow"
+                                    }
+                                ]
+                            },
+                            { "caption": "-" },
+                            {
+                                "caption": "Set Sidebar Tree Size",
+                                "children":
+                                [
+                                    {
+                                        "command": "set_faceless_theme_sidbar_size", "args":
+                                        {
+                                            "size": "xsmall"
+                                        },
+                                        "caption": "Extra Small"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_sidbar_size", "args":
+                                        {
+                                            "size": "small"
+                                        },
+                                        "caption": "Small"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_sidbar_size", "args":
+                                        {
+                                            "size": "medium"
+                                        },
+                                        "caption": "Medium"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_sidbar_size", "args":
+                                        {
+                                            "size": "large"
+                                        },
+                                        "caption": "Large"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_sidbar_size", "args":
+                                        {
+                                            "size": "xlarge"
+                                        },
+                                        "caption": "Extra Large"
+                                    }
+                                ]
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "toggle_faceless_theme_feature", "args":
+                                {
+                                    "feature": "faceless_active_bar"
+                                },
+                                "caption": "Active Tab Bar Indicator"
+                            },
+                            {
+                                "command": "toggle_faceless_theme_feature", "args":
+                                {
+                                    "feature": "faceless_solid_tab"
+                                },
+                                "caption": "Active Tab Solid Indicator"
+                            },
+                            {
+                                "command": "toggle_faceless_theme_feature", "args":
+                                {
+                                    "feature": "faceless_active_text"
+                                },
+                                "caption": "Active Tab Text Indicator"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "toggle_faceless_theme_feature", "args":
+                                {
+                                    "feature": "faceless_dirty_bar"
+                                },
+                                "caption": "Dirty Tab Bar Indicator"
+                            },
+                            {
+                                "command": "toggle_faceless_theme_feature", "args":
+                                {
+                                    "feature": "faceless_dirty_button"
+                                },
+                                "caption": "Dirty Tab Close Button Indicator"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

@@ -1,0 +1,13 @@
+{
+    "themes": {
+        "dark": {
+            "colors": ["aqua", "blue", "green", "orange", "purple", "red", "yellow"],
+            "dirty_colors": ["aqua", "blue", "green", "orange", "purple","red", "yellow"],
+            "widget_scheme": "Packages/Theme - Faceless/Dark/Widget - %s.stTheme",
+            "widget_settings": "Widget - Faceless Dark.sublime-settings",
+            "theme": "Faceless Dark.sublime-theme",
+            "color_key": "faceless_dark_%s",
+            "dirty_color_key": "faceless_dark_dirty_%s"
+        }
+    }
+}
