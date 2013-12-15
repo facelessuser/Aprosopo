@@ -1,5 +1,6 @@
 import sublime
 import sublime_plugin
+import os
 
 PREFERENCES = "Preferences.sublime-settings"
 PLUGIN_SETTINGS = "Theme - Faceless.sublime-settings"
@@ -13,7 +14,59 @@ def clear_all_theme_colors(pref, themes, color_list_key, color_key):
                 pref.erase(key % c)
 
 
-class SetFacelessThemeDarkCommand(sublime_plugin.ApplicationCommand):
+def clear_all_themes(pref, themes):
+    for k, v in themes.items():
+        theme = v.get("theme")
+        if theme is not None:
+            if pref.get("theme", "") == theme:
+                pref.erase("theme")
+
+
+def clear_all_sizes(pref, themes):
+    for s in ["xsmall", "small", "medium", "large", "xlarge"]:
+        pref.erase("faceless_sidebar_tree_%s" % s)
+
+
+def clear_all_widgets(themes):
+    widget_path = os.path.join(sublime.packages_path(), "User")
+    for k, v in themes.items():
+        widget = v.get("widget_settings")
+        if widget is not None:
+            widget_file = os.path.join(widget_path, widget)
+            if os.path.exists(widget_file):
+                os.remove(widget_file)
+
+
+def clear_all_features(pref, themes):
+    common = [
+        "faceless_active_bar",
+        "faceless_solid_tab",
+        "faceless_active_text",
+        "faceless_dirty_bar",
+        "faceless_dirty_button"
+    ]
+    for feat in common:
+        pref.erase(feat)
+    for k, v in themes.items():
+        for feat in v.get("theme_specific_keys", []):
+            pref.erase(feat)
+
+
+class ClearFacelessThemeCommand(sublime_plugin.ApplicationCommand):
+    def run(self):
+        pref = sublime.load_settings(PREFERENCES)
+        plug = sublime.load_settings(PLUGIN_SETTINGS)
+        themes = plug.get("themes", {})
+        clear_all_themes(pref, themes)
+        clear_all_theme_colors(pref, themes, "colors", "color_key")
+        clear_all_theme_colors(pref, themes, "dirty_colors", "dirty_color_key")
+        clear_all_sizes(pref, themes)
+        clear_all_features(pref, themes)
+        clear_all_widgets(themes)
+        sublime.save_settings(PREFERENCES)
+
+
+class SetFacelessThemeCommand(sublime_plugin.ApplicationCommand):
     def run(self, color, theme):
         pref = sublime.load_settings(PREFERENCES)
         plug = sublime.load_settings(PLUGIN_SETTINGS)
@@ -46,7 +99,7 @@ class SetFacelessThemeDarkCommand(sublime_plugin.ApplicationCommand):
         return pref.get(color_key % color, False) == True
 
 
-class SetFacelessThemeDarkDirtyCommand(sublime_plugin.ApplicationCommand):
+class SetFacelessThemeDirtyCommand(sublime_plugin.ApplicationCommand):
     def run(self, color, theme):
         pref = sublime.load_settings(PREFERENCES)
         plug = sublime.load_settings(PLUGIN_SETTINGS)

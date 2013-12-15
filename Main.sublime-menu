@@ -16,11 +16,15 @@
                         "children":
                         [
                             {
+                                "command": "clear_faceless_theme",
+                                "caption": "Unset Theme"
+                            },
+                            {
                                 "caption": "Set Dark Theme",
                                 "children":
                                 [
                                     {
-                                        "command": "set_faceless_theme_dark", "args":
+                                        "command": "set_faceless_theme", "args":
                                         {
                                             "theme": "dark",
                                             "color": "aqua"
@@ -28,7 +32,7 @@
                                         "caption": "Aqua"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dark", "args":
+                                        "command": "set_faceless_theme", "args":
                                         {
                                             "theme": "dark",
                                             "color": "blue"
@@ -36,7 +40,7 @@
                                         "caption": "Blue"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dark", "args":
+                                        "command": "set_faceless_theme", "args":
                                         {
                                             "theme": "dark",
                                             "color": "green"
@@ -44,7 +48,7 @@
                                         "caption": "Green"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dark", "args":
+                                        "command": "set_faceless_theme", "args":
                                         {
                                             "theme": "dark",
                                             "color": "orange"
@@ -52,7 +56,7 @@
                                         "caption": "Orange"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dark", "args":
+                                        "command": "set_faceless_theme", "args":
                                         {
                                             "theme": "dark",
                                             "color": "purple"
@@ -60,7 +64,7 @@
                                         "caption": "Purple"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dark", "args":
+                                        "command": "set_faceless_theme", "args":
                                         {
                                             "theme": "dark",
                                             "color": "red"
@@ -68,7 +72,7 @@
                                         "caption": "Red"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dark", "args":
+                                        "command": "set_faceless_theme", "args":
                                         {
                                             "theme": "dark",
                                             "color": "yellow"
@@ -82,7 +86,7 @@
                                 "children":
                                 [
                                     {
-                                        "command": "set_faceless_theme_dark_dirty", "args":
+                                        "command": "set_faceless_theme_dirty", "args":
                                         {
                                             "theme": "dark",
                                             "color": "aqua"
@@ -90,7 +94,7 @@
                                         "caption": "Aqua"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dark_dirty", "args":
+                                        "command": "set_faceless_theme_dirty", "args":
                                         {
                                             "theme": "dark",
                                             "color": "blue"
@@ -98,7 +102,7 @@
                                         "caption": "Blue"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dark_dirty", "args":
+                                        "command": "set_faceless_theme_dirty", "args":
                                         {
                                             "theme": "dark",
                                             "color": "green"
@@ -106,7 +110,7 @@
                                         "caption": "Green"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dark_dirty", "args":
+                                        "command": "set_faceless_theme_dirty", "args":
                                         {
                                             "theme": "dark",
                                             "color": "orange"
@@ -114,7 +118,7 @@
                                         "caption": "Orange"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dark_dirty", "args":
+                                        "command": "set_faceless_theme_dirty", "args":
                                         {
                                             "theme": "dark",
                                             "color": "purple"
@@ -122,7 +126,7 @@
                                         "caption": "Purple"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dark_dirty", "args":
+                                        "command": "set_faceless_theme_dirty", "args":
                                         {
                                             "theme": "dark",
                                             "color": "red"
@@ -131,7 +135,7 @@
                                     },
 
                                     {
-                                        "command": "set_faceless_theme_dark_dirty", "args":
+                                        "command": "set_faceless_theme_dirty", "args":
                                         {
                                             "theme": "dark",
                                             "color": "yellow"
