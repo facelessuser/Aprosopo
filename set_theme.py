@@ -4,6 +4,34 @@ import os
 
 PREFERENCES = "Preferences.sublime-settings"
 PLUGIN_SETTINGS = "Theme - Faceless.sublime-settings"
+ST3 = int(sublime.version()) >= 3000
+
+
+def get_theme(obj, default=None):
+    special = "@st3" if ST3 else "@st2"
+    theme = obj.get("theme", None)
+    if theme is None:
+        theme = default
+    else:
+        parts = os.path.splitext(theme)
+        special_theme = parts[0] + special + parts[1]
+        resources = sublime.find_resources(special_theme)
+        for r in resources:
+            if r == "Packages/Theme - Faceless/%s" % special_theme:
+                theme = special_theme
+                break
+    return theme
+
+
+def is_valid_theme(theme, theme_file):
+    valid = False
+    if theme is not None and theme != "" and theme_file is not None:
+        special = "@st3" if ST3 else "@st2"
+        parts = os.path.splitext(theme_file)
+        valid_themes = [theme_file, parts[0] + special + parts[1]]
+        if theme in [valid_themes]:
+            valid = True
+    return valid
 
 
 def clear_all_theme_colors(pref, themes, color_list_key, color_key):
@@ -18,9 +46,10 @@ def clear_all_themes(pref, themes):
     for k, v in themes.items():
         theme = v.get("theme")
         if theme is not None:
-            if pref.get("theme", "") == theme:
+            parts = os.path.splitext(theme)
+            valid_themes = [theme, parts[0] + "@st2" + parts[1], parts[0] + "@st3" + parts[1]]
+            if pref.get("theme", "") in valid_themes:
                 pref.erase("theme")
-
 
 def clear_all_sizes(pref, themes):
     for s in ["xsmall", "small", "medium", "large", "xlarge"]:
@@ -52,6 +81,13 @@ def clear_all_features(pref, themes):
             pref.erase(feat)
 
 
+class SpecialCommand(sublime_plugin.ApplicationCommand):
+    def run(self):
+        plug = sublime.load_settings(PLUGIN_SETTINGS)
+        themes = plug.get("themes", {})
+        print(get_theme(themes.get("dark", {}), None))
+
+
 class ClearFacelessThemeCommand(sublime_plugin.ApplicationCommand):
     def run(self):
         pref = sublime.load_settings(PREFERENCES)
@@ -74,7 +110,7 @@ class SetFacelessThemeCommand(sublime_plugin.ApplicationCommand):
         colors = themes.get(theme, {}).get("colors", [])
         widget_scheme = themes.get(theme, {}).get("widget_scheme", None)
         widget_settings = themes.get(theme, {}).get("widget_settings", None)
-        theme_file = themes.get(theme, {}).get("theme", None)
+        theme_file = get_theme(themes.get(theme, {}), None)
         color_key = themes.get(theme, {}).get("color_key", None)
         if color not in colors or color_key is None or widget_scheme is None or theme_file is None or widget_settings is None:
             return
@@ -105,9 +141,9 @@ class SetFacelessThemeDirtyCommand(sublime_plugin.ApplicationCommand):
         plug = sublime.load_settings(PLUGIN_SETTINGS)
         themes = plug.get("themes", {})
         colors = themes.get(theme, {}).get("dirty_colors", [])
-        theme_file = themes.get(theme, {}).get("theme", None)
+        theme_file = get_theme(themes.get(theme, {}), None)
         dirty_key = themes.get(theme, {}).get("dirty_color_key", None)
-        if color not in colors or dirty_key is None or theme_file is None or pref.get("theme", "") != theme_file:
+        if color not in colors or dirty_key is None or theme_file is None or is_valid_theme(pref.get("theme", ""), theme_file):
             return
         clear_all_theme_colors(pref, themes, "dirty_colors", "dirty_color_key")
         pref.set(dirty_key % color, True)
@@ -117,10 +153,10 @@ class SetFacelessThemeDirtyCommand(sublime_plugin.ApplicationCommand):
         plug = sublime.load_settings(PLUGIN_SETTINGS)
         themes = plug.get("themes", {})
         colors = themes.get(theme, {}).get("dirty_colors", [])
-        theme_file = themes.get(theme, {}).get("theme", None)
+        theme_file = get_theme(themes.get(theme, {}), None)
         dirty_key = themes.get(theme, {}).get("dirty_color_key", None)
         pref = sublime.load_settings(PREFERENCES)
-        if dirty_key is None or pref.get("theme", "") != theme_file:
+        if dirty_key is None or is_valid_theme(pref.get("theme", ""), theme_file):
             return False
         if color not in colors:
             return False
