@@ -974,7 +974,8 @@
         "class": "tree_row",
         "layer0.texture": "Theme - Faceless/Dark/row_select.png",
         "layer0.opacity": 0.0,
-        "layer0.inner_margin": [2,1]
+        "layer0.inner_margin": [3,1]
+
     },
 
     // Sidebar row selection colors
@@ -1297,7 +1298,7 @@
         "layer0.opacity": 1.0,
         "layer1.texture": "Theme - Faceless/Dark/row_select.png",
         "layer1.tint": [30, 30, 30],
-        "layer1.inner_margin": [2, 2, 2, 2],
+        "layer1.inner_margin": [3, 2, 2, 2],
         "layer1.opacity": 0.0
     },
     // Quickpanel selected row colors
@@ -1514,7 +1515,7 @@
         "layer0.opacity": 1.0,
         "layer1.texture": "Theme - Faceless/Dark/row_select.png",
         "layer1.tint": [30, 30, 30],
-        "layer1.inner_margin": [2, 2, 2, 2],
+        "layer1.inner_margin": [3, 2, 2, 2],
         "layer1.opacity": 0.0
     },
     {
@@ -1633,7 +1634,7 @@
     {
         "class": "table_row",
         "layer0.opacity": 0.0,
-        "layer0.inner_margin": [2, 1]
+        "layer0.inner_margin": [3, 1]
     },
     // Code completion selected row colors
     {
