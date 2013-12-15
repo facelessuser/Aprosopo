@@ -19,6 +19,7 @@
                                 "command": "clear_faceless_theme",
                                 "caption": "Unset Theme"
                             },
+                            { "caption": "-" },
                             {
                                 "caption": "Set Dark Theme",
                                 "children":
