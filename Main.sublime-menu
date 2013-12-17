@@ -44,6 +44,14 @@
                                         "command": "set_faceless_theme", "args":
                                         {
                                             "theme": "dark",
+                                            "color": "gray"
+                                        },
+                                        "caption": "Gray"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme", "args":
+                                        {
+                                            "theme": "dark",
                                             "color": "green"
                                         },
                                         "caption": "Green"
@@ -109,6 +117,14 @@
                                             "color": "green"
                                         },
                                         "caption": "Green"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dirty", "args":
+                                        {
+                                            "theme": "dark",
+                                            "color": "gray"
+                                        },
+                                        "caption": "Gray"
                                     },
                                     {
                                         "command": "set_faceless_theme_dirty", "args":

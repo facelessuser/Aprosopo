@@ -29,12 +29,13 @@
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
+    // Scroll left colors
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
-        "layer1.tint": [255, 255, 255]
+        "settings": ["faceless_dark_gray"],
+        "layer0.tint": [153, 153, 153]
     },
-    // Scroll left colors
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
@@ -85,12 +86,13 @@
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
+    // Scroll right colors
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
-        "layer1.tint": [255, 255, 255]
+        "settings": ["faceless_dark_gray"],
+        "layer0.tint": [153, 153, 153]
     },
-    // Scroll right colors
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
@@ -141,12 +143,13 @@
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
+    // Dropdown colors
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
-        "layer0.tint": [255, 255, 255]
+        "settings": ["faceless_dark_gray"],
+        "layer0.tint": [153, 153, 153]
     },
-    // Dropdown colors
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
@@ -209,6 +212,12 @@
     {
         "class": "tab_control",
         "attributes": ["selected"],
+        "settings": ["faceless_dark_gray", "faceless_solid_tab"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
         "settings": ["faceless_dark_blue", "faceless_solid_tab"],
         "layer0.tint": [102, 153, 204]
     },
@@ -262,6 +271,12 @@
     },
 
     // Tab select overlay colors
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["faceless_dark_gray", "faceless_active_bar"],
+        "layer1.tint": [153, 153, 153]
+    },
     {
         "class": "tab_control",
         "attributes": ["selected"],
@@ -349,6 +364,12 @@
     {
         "class": "tab_control",
         "attributes": ["dirty"],
+        "settings": ["faceless_dark_dirty_gray"],
+        "layer3.tint": [153, 153, 153]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["dirty"],
         "settings": ["faceless_dark_dirty_blue"],
         "layer3.tint": [102, 153, 204]
     },
@@ -389,7 +410,6 @@
         "fg": [144, 146, 147],
         "font.bold" : false,
         "shadow_offset": [0, 0]
-        // "font.size" : 11
     },
 
     // Hover tab labels
@@ -413,6 +433,12 @@
         "fg": [255, 255, 255]
     },
     // Text Active
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "settings": ["faceless_dark_gray", "faceless_active_text"],
+        "fg": [255, 255, 255]
+    },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
@@ -461,6 +487,7 @@
         "class": "tab_close_button",
         "content_margin": [0, 0],
         "layer0.texture": "Theme - Faceless/Dark/file_close.png",
+        "layer0.tint": [150, 153, 155],
         "layer0.opacity": 0.5,
         "layer0.inner_margin": [0, 0]
     },
@@ -470,14 +497,6 @@
         "class": "tab_close_button",
         "settings": ["show_tab_close_buttons"],
         "content_margin": [8, 8]
-    },
-
-    // Tab close hover button
-    {
-        "class": "tab_close_button",
-        "settings": ["show_tab_close_buttons"],
-        "attributes": ["hover"],
-        "layer0.opacity": 1.0
     },
 
     // Tab close dirty colors
@@ -492,6 +511,13 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "settings": ["faceless_dark_dirty_aqua", "faceless_dirty_button"],
         "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "settings": ["faceless_dark_dirty_gray", "faceless_dirty_button"],
+        "layer0.tint": [255, 255, 255],
+        "layer0.opacity": 0.75
     },
     {
         "class": "tab_close_button",
@@ -522,6 +548,14 @@
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "settings": ["faceless_dark_dirty_purple", "faceless_dirty_button"],
         "layer0.tint": [204, 153, 204]
+    },
+
+    // Tab close hover button
+    {
+        "class": "tab_close_button",
+        "settings": ["show_tab_close_buttons"],
+        "attributes": ["hover"],
+        "layer0.opacity": 1.0
     },
 
 ////////////////////////////////////
@@ -565,11 +599,6 @@
         "layer0.texture": "Theme - Faceless/Dark/arrow_down.png",
         "layer0.tint": [180, 183, 185]
     },
-    {
-        "class": "fold_button_control",
-        "attributes": ["hover"],
-        "layer0.tint": [255, 255, 255]
-    },
     // Fold button colors
     {
         "class": "fold_button_control",
@@ -582,6 +611,12 @@
         "attributes": ["hover"],
         "settings": ["faceless_dark_aqua"],
         "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["hover"],
+        "settings": ["faceless_dark_gray"],
+        "layer0.tint": [153, 153, 153]
     },
     {
         "class": "fold_button_control",
@@ -759,10 +794,6 @@
 ////////////////////////////////////
     {
         "class": "minimap_control",
-        "viewport_color": [255, 255, 255, 30]
-    },
-    {
-        "class": "minimap_control",
         "settings": ["faceless_dark_red"],
         "viewport_color": [242, 119, 122, 30]
     },
@@ -770,6 +801,11 @@
         "class": "minimap_control",
         "settings": ["faceless_dark_aqua"],
         "viewport_color": [102, 204, 204, 30]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["faceless_dark_gray"],
+        "viewport_color": [153, 153, 153, 30]
     },
     {
         "class": "minimap_control",
@@ -829,11 +865,6 @@
     {
         "class": "label_control",
         "parents": [{"class": "button_control", "attributes": ["hover"]}],
-        "color": [255, 255, 255]
-    },
-    {
-        "class": "label_control",
-        "parents": [{"class": "button_control", "attributes": ["hover"]}],
         "settings": ["faceless_dark_red"],
         "color": [242, 119, 122]
     },
@@ -842,6 +873,12 @@
         "parents": [{"class": "button_control", "attributes": ["hover"]}],
         "settings": ["faceless_dark_aqua"],
         "color": [102, 204, 204]
+    },
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control", "attributes": ["hover"]}],
+        "settings": ["faceless_dark_gray"],
+        "color": [153, 153, 153]
     },
     {
         "class": "label_control",
@@ -982,6 +1019,13 @@
     {
         "class": "tree_row",
         "attributes": ["selected"],
+        "settings": ["faceless_dark_gray"],
+        "layer0.tint": [153, 153, 153],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "tree_row",
+        "attributes": ["selected"],
         "settings": ["faceless_dark_blue"],
         "layer0.tint": [102, 153, 204],
         "layer0.opacity": 1.0
@@ -1083,6 +1127,7 @@
         "class": "close_button",
         "layer0.texture": "Theme - Faceless/Dark/file_close.png",
         "layer0.opacity": 0.0,
+        "layer0.tint": [150, 153, 155],
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
     },
@@ -1099,11 +1144,6 @@
         "layer0.texture": "Theme - Faceless/Dark/file_dirty.png",
         "layer0.opacity": 0.5
     },
-    // {
-    //     "class": "close_button",
-    //     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-    //     "layer0.opacity": 0.75
-    // },
     {
         "class": "close_button",
         "attributes": ["dirty"],
@@ -1187,6 +1227,11 @@
     },
 
     // Sidebar group Colors
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_dark_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
     {
         "class": "disclosure_button_control",
         "settings": ["faceless_dark_blue"],
@@ -1312,7 +1357,6 @@
     {
         "class": "quick_panel",
         "row_padding": [5, 2],
-        // "layer0.tint": [49, 52, 55],
         "layer0.opacity": 1.0,
         "dark_content": true
     },
@@ -1331,6 +1375,12 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer1.opacity": 1.0
+    },
+    {
+        "class": "quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_dark_gray"],
+        "layer1.tint": [153, 153, 153]
     },
     {
         "class": "quick_panel_row",
@@ -1378,12 +1428,13 @@
         "class": "quick_panel_label",
         "fg": [255, 255, 255],
         "selected_fg": [255, 255, 255, 255]
-        // "selected_match_fg": [40, 43, 45, 255]
     },
     // Quickpanel label match colors
     {
         "class": "quick_panel_label",
-        "match_fg": [30, 30, 30]
+        "settings": ["faceless_dark_gray"],
+        "match_fg": [153, 153, 153],
+        "selected_match_fg": [153, 153, 153]
     },
     {
         "class": "quick_panel_label",
@@ -1438,7 +1489,9 @@
     // Quickpanel path label match colors
     {
         "class": "quick_panel_path_label",
-        "match_fg": [30, 30, 30]
+        "settings": ["faceless_dark_gray"],
+        "match_fg": [153, 153, 153],
+        "selected_match_fg": [153, 153, 153]
     },
     {
         "class": "quick_panel_path_label",
@@ -1491,8 +1544,8 @@
     // Quickpanel score colors
     {
         "class": "quick_panel_score_label",
-        "fg": [30, 30, 30],
-        "selected_fg": [255, 255, 255]
+        "settings": ["faceless_dark_gray"],
+        "fg": [153, 153, 153]
     },
     {
         "class": "quick_panel_score_label",
@@ -1539,7 +1592,6 @@
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
         "layer1.texture": "Theme - Faceless/Dark/row_select.png",
-        "layer1.tint": [30, 30, 30],
         "layer1.inner_margin": [3, 2, 2, 2],
         "layer1.opacity": 0.0
     },
@@ -1549,6 +1601,12 @@
         "layer1.opacity": 1.0
     },
     // Mini-quickpanel selected row colors
+    {
+        "class": "mini_quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_dark_gray"],
+        "layer1.tint": [153, 153, 153]
+    },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
@@ -1616,6 +1674,12 @@
     // Code completion label colors
     {
         "class": "auto_complete_label",
+        "settings": ["faceless_dark_gray"],
+        "match_fg": [153, 153, 153],
+        "selected_match_fg": [153, 153, 153]
+    },
+    {
+        "class": "auto_complete_label",
         "settings": ["faceless_dark_blue"],
         "match_fg": [102, 153, 204],
         "selected_match_fg": [102, 153, 204]
@@ -1667,6 +1731,12 @@
         "attributes": ["selected"],
         "layer0.texture": "Theme - Faceless/Dark/row_select.png",
         "layer0.opacity": 1.0
+    },
+    {
+        "class": "table_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_dark_gray"],
+        "layer0.tint": [153, 153, 153]
     },
     {
         "class": "table_row",
@@ -1788,6 +1858,12 @@
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_dark_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "icon_regex",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_dark_blue"],
         "layer0.tint": [102, 153, 204]
     },
@@ -1841,6 +1917,12 @@
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_dark_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "icon_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_dark_blue"],
         "layer0.tint": [102, 153, 204]
     },
@@ -1891,6 +1973,12 @@
     },
 
     // Button Selectd Colors
+    {
+        "class": "icon_whole_word",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_dark_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
@@ -1950,6 +2038,12 @@
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_dark_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "icon_context",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_dark_blue"],
         "layer0.tint": [102, 153, 204]
     },
@@ -1999,6 +2093,12 @@
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
+    {
+        "class": "icon_use_buffer",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_dark_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
@@ -2057,6 +2157,12 @@
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_dark_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "icon_reverse",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_dark_blue"],
         "layer0.tint": [102, 153, 204]
     },
@@ -2109,6 +2215,12 @@
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_dark_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "icon_wrap",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_dark_blue"],
         "layer0.tint": [102, 153, 204]
     },
@@ -2158,6 +2270,12 @@
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
+    {
+        "class": "icon_in_selection",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_dark_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
@@ -2216,6 +2334,12 @@
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_dark_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "icon_preserve_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_dark_blue"],
         "layer0.tint": [102, 153, 204]
     },
@@ -2268,6 +2392,12 @@
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
+    {
+        "class": "icon_highlight",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_dark_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
