@@ -1780,17 +1780,6 @@
         "settings": ["faceless_dark_yellow"],
         "layer0.tint": [255, 204, 102]
     },
-    // {
-    //     "class": "table_row",
-    //     "layer0.texture": "Theme - Faceless/Dark/code-completion-row-selected.png",
-    //     "layer0.opacity": 0.0,
-    //     "layer0.inner_margin": [1, 1]
-    // },
-    // {
-    //     "class": "table_row",
-    //     "attributes": ["selected"],
-    //     "layer0.opacity": 1.0
-    // },
 
 ////////////////////////////////////
 // Bottom Panel Buttons
