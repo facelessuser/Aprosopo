@@ -1544,42 +1544,50 @@
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_dark_gray"],
-        "fg": [153, 153, 153]
+        "fg": [153, 153, 153],
+        "selected_fg": [153, 153, 153]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_dark_blue"],
-        "fg": [102, 153, 204]
+        "fg": [102, 153, 204],
+        "selected_fg": [102, 153, 204]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_dark_green"],
-        "fg": [153, 204, 153]
+        "fg": [153, 204, 153],
+        "selected_fg": [153, 204, 153]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_dark_orange"],
-        "fg": [249, 145, 87]
+        "fg": [249, 145, 87],
+        "selected_fg": [249, 145, 87]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_dark_purple"],
-        "fg": [204, 153, 204]
+        "fg": [204, 153, 204],
+        "selected_fg": [204, 153, 204]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_dark_red"],
-        "fg": [242, 119, 122]
+        "fg": [242, 119, 122],
+        "selected_fg": [242, 119, 122]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_dark_aqua"],
-        "fg": [102, 204, 204]
+        "fg": [102, 204, 204],
+        "selected_fg": [102, 204, 204]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_dark_yellow"],
-        "fg": [255, 204, 102]
+        "fg": [255, 204, 102],
+        "selected_fg": [255, 204, 102]
     },
 
 ////////////////////////////////////
