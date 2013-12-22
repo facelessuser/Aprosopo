@@ -1329,8 +1329,6 @@
         "layer0.inner_margin": [2, 2, 2, 5],
         "layer0.opacity": 1.0
     },
-
-
     {
         "class": "panel_close_button",
         "layer0.texture": "Theme - Faceless/Dark/file_close.png",
@@ -1358,6 +1356,7 @@
         "class": "quick_panel",
         "row_padding": [5, 2],
         "layer0.opacity": 1.0,
+        "layer0.tint": [60, 63, 65],
         "dark_content": true
     },
     {
@@ -1366,7 +1365,7 @@
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
         "layer1.texture": "Theme - Faceless/Dark/row_select.png",
-        "layer1.tint": [30, 30, 30],
+        "layer1.tint": [30, 33, 35],
         "layer1.inner_margin": [3, 2, 2, 2],
         "layer1.opacity": 0.0
     },
