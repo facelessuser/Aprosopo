@@ -51,7 +51,7 @@ def is_valid_theme(theme, theme_file, check_all=False):
         valid_themes = [theme_file, parts[0] + special + parts[1]]
         if check_all:
             valid_themes.append(parts[0] + ("@st3" if not ST3 else "@st2") + parts[1])
-        if theme in [valid_themes]:
+        if theme in valid_themes:
             valid = True
     return valid
 
