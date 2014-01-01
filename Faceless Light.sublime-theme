@@ -1,0 +1,2443 @@
+[
+////////////////////////////////////
+// Tabs
+////////////////////////////////////
+    // Tab set
+    {
+        "class": "tabset_control",
+        "layer0.tint": [100, 103, 105],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 0, 0, 0],
+        "tab_overlap": 2,
+        "tab_width": 160,
+        "tab_min_width": 48,
+        "tab_height": 32,
+        "mouse_wheel_switch": false
+    },
+    {
+        "class": "tabset_control",
+        "settings": ["mouse_wheel_switches_tabs"],
+        "mouse_wheel_switch": true
+    },
+
+    // Tab set scroll left scroll right and dropdown
+    {
+        "class": "scroll_tabs_left_button",
+        "content_margin": [9, 7, 8, 6],
+        "layer0.texture": "Theme - Faceless/Light/arrow_left.png",
+        "layer0.tint": [230, 233, 235],
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0
+    },
+    // Scroll left colors
+    {
+        "class": "scroll_tabs_left_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_blue"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_green"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_orange"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_purple"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_red"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_aqua"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "scroll_tabs_left_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_yellow"],
+        "layer0.tint": [255, 204, 102]
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "content_margin": [9, 7, 8, 6],
+        "layer0.texture": "Theme - Faceless/Light/arrow_right.png",
+        "layer0.tint": [230, 233, 235],
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0
+    },
+    // Scroll right colors
+    {
+        "class": "scroll_tabs_right_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_blue"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_green"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_orange"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_purple"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_red"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_aqua"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "scroll_tabs_right_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_yellow"],
+        "layer0.tint": [255, 204, 102]
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "content_margin": [9, 7, 8, 6],
+        "layer0.texture": "Theme - Faceless/Light/arrow_down.png",
+        "layer0.tint": [230, 233, 235],
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0
+    },
+    // Dropdown colors
+    {
+        "class": "show_tabs_dropdown_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_blue"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_green"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_orange"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_purple"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_red"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_aqua"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "show_tabs_dropdown_button",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_yellow"],
+        "layer0.tint": [255, 204, 102]
+    },
+
+    // Tabs
+    {
+        "class": "tab_control",
+        "max_margin_trim": 0,
+        "hit_test_level": 0.5,
+
+        "layer0.texture": "Theme - Faceless/Light/tab.png",
+        "layer0.inner_margin": [15, 4],
+        "layer0.tint": [250, 253, 255],
+        "layer0.opacity": 1.0,
+        "layer1.opacity": 0.0,
+        "layer3.opacity": 0.0,
+        "content_margin": [12, 4, 4, 4]
+    },
+
+    // Tab solid colors
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_gray", "faceless_solid_tab"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_blue", "faceless_solid_tab"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_green", "faceless_solid_tab"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_orange", "faceless_solid_tab"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_purple", "faceless_solid_tab"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_red", "faceless_solid_tab"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_aqua", "faceless_solid_tab"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_yellow", "faceless_solid_tab"],
+        "layer0.tint": [255, 204, 102]
+    },
+
+    // Tab active overlays
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["faceless_active_bar"],
+
+        // Tab select overlay
+        "layer1.texture": "Theme - Faceless/Light/tab_overlay_bar_bottom.png",
+        "layer1.inner_margin": [15, 4],
+        "layer1.opacity": 1.0
+    },
+
+    // Tab select overlay colors
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_gray", "faceless_active_bar"],
+        "layer1.tint": [153, 153, 153]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_blue", "faceless_active_bar"],
+        "layer1.tint": [102, 153, 204]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_green", "faceless_active_bar"],
+        "layer1.tint": [153, 204, 153]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_orange", "faceless_active_bar"],
+        "layer1.tint": [249, 145, 87]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_purple", "faceless_active_bar"],
+        "layer1.tint": [204, 153, 204]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_red", "faceless_active_bar"],
+        "layer1.tint": [242, 119, 122]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_aqua", "faceless_active_bar"],
+        "layer1.tint": [102, 204, 204]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_yellow", "faceless_active_bar"],
+        "layer1.tint": [255, 204, 102]
+    },
+
+    // Tab dirty overlay (when active overlay is disabled)
+    {
+        "class": "tab_control",
+        "attributes": ["dirty"],
+        "settings": ["faceless_dirty_bar"],
+        "max_margin_trim": 0,
+        "hit_test_level": 0.5,
+        "layer3.texture": "Theme - Faceless/Light/tab_overlay_bar_bottom.png",
+        "layer3.inner_margin": [15, 4],
+        "layer3.opacity": 1.0
+    },
+
+    // Tab dirty overlay (when active overlay is enabled)
+    {
+        "class": "tab_control",
+        "attributes": ["dirty", "selected"],
+        "settings": ["faceless_dirty_bar", "faceless_active_bar"],
+        "layer3.texture": "Theme - Faceless/Light/tab_overlay_bar_top.png"
+    },
+
+    // Tab dirty overlay (when active overlay is disabled)
+    {
+        "class": "tab_control",
+        "attributes": ["dirty"],
+        "settings": ["faceless_dirty_bar", "!faceless_active_bar"],
+        "layer3.texture": "Theme - Faceless/Light/tab_overlay_bar_bottom.png"
+    },
+
+    // Dirty overlay colors
+    {
+        "class": "tab_control",
+        "attributes": ["dirty"],
+        "settings": ["faceless_light_dirty_red"],
+        "layer3.tint": [242, 119, 122]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["dirty"],
+        "settings": ["faceless_light_dirty_aqua"],
+        "layer3.tint": [102, 204, 204]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["dirty"],
+        "settings": ["faceless_light_dirty_gray"],
+        "layer3.tint": [153, 153, 153]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["dirty"],
+        "settings": ["faceless_light_dirty_blue"],
+        "layer3.tint": [102, 153, 204]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["dirty"],
+        "settings": ["faceless_light_dirty_green"],
+        "layer3.tint": [153, 204, 153]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["dirty"],
+        "settings": ["faceless_light_dirty_yellow"],
+        "layer3.tint": [255, 204, 102]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["dirty"],
+        "settings": ["faceless_light_dirty_orange"],
+        "layer3.tint": [249, 145, 87]
+    },
+    {
+        "class": "tab_control",
+        "attributes": ["dirty"],
+        "settings": ["faceless_light_dirty_purple"],
+        "layer3.tint": [204, 153, 204]
+    },
+    {
+        "class": "tab_control",
+        "settings": ["faceless_dirty_bar", "faceless_active_bar"],
+        "content_margin": [12, -4, 4, 4]
+    },
+
+    // Tab labels
+    {
+        "class": "tab_label",
+        "fade": false,
+        "fg": [110, 113, 115],
+        "font.bold" : false,
+        "shadow_offset": [0, 0]
+    },
+
+    // Hover tab labels
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
+        "fg": [40, 43, 45]
+    },
+
+    // Selected tab labels
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "settings": ["faceless_solid_tab"],
+        "color": [255, 255, 255],
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [1, 1]
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "settings": ["!faceless_solid_tab"],
+        "fg": [40, 43, 45]
+    },
+    // Text Active
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_gray", "faceless_active_text"],
+        "fg": [255, 255, 255]
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_blue", "faceless_active_text"],
+        "fg": [102, 153, 204]
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_green", "faceless_active_text"],
+        "fg": [153, 204, 153]
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_orange", "faceless_active_text"],
+        "fg": [249, 145, 87]
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_purple", "faceless_active_text"],
+        "fg": [204, 153, 204]
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_red", "faceless_active_text"],
+        "fg": [242, 119, 122]
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_aqua", "faceless_active_text"],
+        "fg": [102, 204, 204]
+    },
+    {
+        "class": "tab_label",
+        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_yellow", "faceless_active_text"],
+        "fg": [255, 204, 102]
+    },
+
+    // Tab close button (hidden by default)
+    {
+        "class": "tab_close_button",
+        "content_margin": [0, 0],
+        "layer0.texture": "Theme - Faceless/Light/file_close.png",
+        // "layer0.tint": [40, 43, 45],
+        "layer0.opacity": 0.5,
+        "layer0.inner_margin": [0, 0]
+    },
+
+    // Tab close button (enabled)
+    {
+        "class": "tab_close_button",
+        "settings": ["show_tab_close_buttons"],
+        "content_margin": [8, 8]
+    },
+
+    // Tab close dirty colors
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "settings": ["faceless_light_dirty_red", "faceless_dirty_button"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "settings": ["faceless_light_dirty_aqua", "faceless_dirty_button"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "settings": ["faceless_light_dirty_gray", "faceless_dirty_button"],
+        "layer0.tint": [255, 255, 255],
+        "layer0.opacity": 0.75
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "settings": ["faceless_light_dirty_blue", "faceless_dirty_button"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "settings": ["faceless_light_dirty_green", "faceless_dirty_button"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "settings": ["faceless_light_dirty_yellow", "faceless_dirty_button"],
+        "layer0.tint": [255, 204, 102]
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "settings": ["faceless_light_dirty_orange", "faceless_dirty_button"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "tab_close_button",
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "settings": ["faceless_light_dirty_purple", "faceless_dirty_button"],
+        "layer0.tint": [204, 153, 204]
+    },
+
+    // Tab close hover button
+    {
+        "class": "tab_close_button",
+        "settings": ["show_tab_close_buttons"],
+        "attributes": ["hover"],
+        "layer0.opacity": 1.0
+    },
+
+////////////////////////////////////
+// DIALOG
+////////////////////////////////////
+    {
+        "class": "dialog",
+        "layer0.tint": [40, 43, 45],
+        "layer0.opacity": 1.0
+    },
+
+////////////////////////////////////
+// PROGRESS BAR
+////////////////////////////////////
+    {
+        "class": "progress_bar_control",
+        "layer0.tint": [30, 30, 30],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "progress_gauge_control",
+        "layer0.tint": [144, 144, 144],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+
+////////////////////////////////////
+// Fold Buttons
+////////////////////////////////////
+    {
+        "class": "fold_button_control",
+        "layer0.texture": "Theme - Faceless/Light/arrow_right.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0,
+        "layer0.tint": [180, 183, 185],
+        "content_margin": [9, 7, 8, 6]
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["expanded"],
+        "layer0.texture": "Theme - Faceless/Light/arrow_down.png",
+        "layer0.tint": [180, 183, 185]
+    },
+    // Fold button colors
+    {
+        "class": "fold_button_control",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_dirty_red"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_aqua"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_blue"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_green"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_yellow"],
+        "layer0.tint": [255, 204, 102]
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_orange"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "fold_button_control",
+        "attributes": ["hover"],
+        "settings": ["faceless_light_purple"],
+        "layer0.tint": [204, 153, 204]
+    },
+
+////////////////////////////////////
+// Scroll bars
+////////////////////////////////////
+    // Standard vertical scroll bar
+    {
+        "class": "scroll_bar_control",
+        "layer0.texture": "Theme - Faceless/Light/standard_scrollbar_vertical.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [0, 5],
+        "blur": false
+    },
+
+    // Standard horizontal scroll bar
+    {
+        "class": "scroll_bar_control",
+        "attributes": ["horizontal"],
+        "layer0.texture": "Theme - Faceless/Light/standard_scrollbar_horizontal.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [5, 0],
+        "blur": false
+    },
+
+    // Standard scroll bar corner
+    {
+        "class": "scroll_corner_control",
+        "layer0.texture": "Theme - Faceless/Light/standard_scrollbar_corner.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [1, 1]
+    },
+
+    // Standard vertical scroll puck
+    {
+        "class": "puck_control",
+        "layer0.texture": "Theme - Faceless/Light/standard_puck_vertical.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [0, 5],
+        "content_margin": [5, 20],
+        "blur": false
+    },
+
+    // Standard horizontal scroll puck
+    {
+        "class": "puck_control",
+        "attributes": ["horizontal"],
+        "layer0.texture": "Theme - Faceless/Light/standard_puck_horizontal.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [5, 0],
+        "content_margin": [20, 5],
+        "blur": false
+    },
+
+////////////////////////////////////
+// Overlay scrollbars
+////////////////////////////////////
+    // Overlay toggle scroll bar
+    {
+        "class": "scroll_area_control",
+        "settings": ["overlay_scroll_bars"],
+        "overlay": true
+    },
+    {
+        "class": "scroll_area_control",
+        "settings": ["!overlay_scroll_bars"],
+        "overlay": false
+    },
+
+    // Overlay vertical scroll bar
+    {
+        "class": "scroll_bar_control",
+        "settings": ["overlay_scroll_bars"],
+        "layer0.texture": "Theme - Faceless/Light/overlay_scrollbar_vertical.png",
+        "layer0.inner_margin": [0, 5],
+        "blur": true
+    },
+
+    // Overlay horizontal scroll bar
+    {
+        "class": "scroll_bar_control",
+        "settings": ["overlay_scroll_bars"],
+        "attributes": ["horizontal"],
+        "layer0.texture": "Theme - Faceless/Light/overlay_scrollbar_horizontal.png",
+        "layer0.inner_margin": [5, 0],
+        "blur": true
+    },
+
+    // Overlay vertical puck
+    {
+        "class": "puck_control",
+        "settings": ["overlay_scroll_bars"],
+        "layer0.texture": "Theme - Faceless/Light/overlay_puck_vertical.png",
+        "layer0.inner_margin": [0, 5],
+        "content_margin": [5, 20],
+        "blur": true
+    },
+
+    // Overlay horizontal puck
+    {
+        "class": "puck_control",
+        "settings": ["overlay_scroll_bars"],
+        "attributes": ["horizontal"],
+        "layer0.texture": "Theme - Faceless/Light/overlay_puck_horizontal.png",
+        "layer0.inner_margin": [5, 0],
+        "content_margin": [20, 5],
+        "blur": true
+    },
+
+    // Overlay light puck (for dark content)
+    {
+        "class": "puck_control",
+        "settings": ["overlay_scroll_bars"],
+        "attributes": ["dark"],
+        "layer0.texture": "Theme - Faceless/Light/overlay_dark_puck_vertical.png"
+    },
+
+    // Overlay light horizontal puck (for dark content)
+    {
+        "class": "puck_control",
+        "settings": ["overlay_scroll_bars"],
+        "attributes": ["horizontal", "dark"],
+        "layer0.texture": "Theme - Faceless/Light/overlay_dark_puck_horizontal.png"
+    },
+
+////////////////////////////////////
+// Empty Window Background
+////////////////////////////////////
+    {
+        "class": "sheet_container_control",
+        "layer0.tint": [38,41,44],
+        "layer0.opacity": 1.0
+    },
+
+////////////////////////////////////
+// Grid Layout
+////////////////////////////////////
+    {
+        "class": "grid_layout_control",
+        "border_size": 1,
+        "border_color": [70, 70, 70]
+    },
+
+////////////////////////////////////
+// Mini Map (colors)
+////////////////////////////////////
+    {
+        "class": "minimap_control",
+        "settings": ["faceless_light_red"],
+        "viewport_color": [242, 119, 122, 30]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["faceless_light_aqua"],
+        "viewport_color": [102, 204, 204, 30]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["faceless_light_gray"],
+        "viewport_color": [153, 153, 153, 30]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["faceless_light_blue"],
+        "viewport_color": [102, 153, 204, 30]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["faceless_light_green"],
+        "viewport_color": [153, 204, 153, 30]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["faceless_light_yellow"],
+        "viewport_color": [255, 204, 102, 30]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["faceless_light_orange"],
+        "viewport_color": [249, 145, 87, 30]
+    },
+    {
+        "class": "minimap_control",
+        "settings": ["faceless_light_purple"],
+        "viewport_color": [204, 153, 204, 30]
+    },
+
+////////////////////////////////////
+// Labels
+////////////////////////////////////
+    // General labels
+    {
+        "class": "label_control",
+        "color": [201, 202, 203],
+        "shadow_color": [201, 202, 203],
+        "shadow_offset": [0, 0],
+        "font.bold" : true,
+        "font.size" : 11
+    },
+
+    // Text field labels
+    {
+        "class": "label_control",
+        "parents": [{"class": "panel_control"}],
+        "shadow_color": [201, 202, 203],
+        "shadow_offset": [0, 0]
+    },
+
+    // Button labels
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control"}],
+        "shadow_color": [201, 202, 203],
+        "shadow_offset": [0, 0]
+    },
+    // Button label color
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control", "attributes": ["hover"]}],
+        "settings": ["faceless_light_red"],
+        "color": [242, 119, 122]
+    },
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control", "attributes": ["hover"]}],
+        "settings": ["faceless_light_aqua"],
+        "color": [102, 204, 204]
+    },
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control", "attributes": ["hover"]}],
+        "settings": ["faceless_light_gray"],
+        "color": [153, 153, 153]
+    },
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control", "attributes": ["hover"]}],
+        "settings": ["faceless_light_blue"],
+        "color": [102, 153, 204]
+    },
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control", "attributes": ["hover"]}],
+        "settings": ["faceless_light_green"],
+        "color": [153, 204, 153]
+    },
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control", "attributes": ["hover"]}],
+        "settings": ["faceless_light_yellow"],
+        "color": [255, 204, 102]
+    },
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control", "attributes": ["hover"]}],
+        "settings": ["faceless_light_orange"],
+        "color": [249, 145, 87]
+    },
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control", "attributes": ["hover"]}],
+        "settings": ["faceless_light_purple"],
+        "color": [204, 153, 204]
+    },
+
+    // Status bar label
+    {
+        "class": "label_control",
+        "parents": [{"class": "status_bar"}],
+        "color": [60, 63, 65],
+        "shadow_color": [200, 200, 200],
+        "shadow_offset": [0, 0],
+        "font.bold" : false
+    },
+
+////////////////////////////////////
+// Tooltips
+////////////////////////////////////
+    // Tooltip container
+    {
+        "class": "tool_tip_control",
+        "layer0.texture": "Theme - Faceless/Light/tooltip.png",
+        "layer0.inner_margin": [1, 1],
+        "layer0.opacity": 1.0,
+        "content_margin": [3, 3]
+    },
+    // Tooltip content
+    {
+        "class": "tool_tip_label_control",
+        "color": [0, 0, 0]
+    },
+
+////////////////////////////////////
+// Status Bar
+////////////////////////////////////
+    // Status bar container
+    {
+        "class": "status_bar",
+        "layer0.texture": "Theme - Faceless/Light/status_bar.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [2, 2],
+        "content_margin": [14, 4, 4, 4]
+    },
+    {
+        "class": "status_button",
+        "min_size": [100, 0]
+    },
+
+////////////////////////////////////
+// Sidebar
+////////////////////////////////////
+    // Sidebar container
+    {
+        "class": "sidebar_container",
+        "layer0.tint": [40, 43, 45],
+        "layer0.opacity": 1.0,
+        "layer0.draw_center": false,
+        "layer0.inner_margin": [0, 0, 0, 0],
+        "content_margin": [0, 0, 0, 0]
+    },
+
+    // Sidebar tree
+    {
+        "class": "sidebar_tree",
+        "row_padding": [8, 4],
+        "indent": 14,
+        "indent_offset": 20,
+        "indent_top_level": false,
+        "layer0.tint": [200, 203, 205],
+        "layer0.opacity": 1.0,
+        "dark_content": false
+    },
+
+    // Sidebar spacing
+    {
+        "class": "sidebar_tree",
+        "settings": ["faceless_sidebar_tree_xsmall"],
+        "row_padding": [8, 0]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["faceless_sidebar_tree_small"],
+        "row_padding": [8, 2]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["faceless_sidebar_tree_medium"],
+        "row_padding": [8, 3]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["faceless_sidebar_tree_large"],
+        "row_padding": [8, 6]
+    },
+    {
+        "class": "sidebar_tree",
+        "settings": ["faceless_sidebar_tree_xlarge"],
+        "row_padding": [8, 8]
+    },
+
+    // Sidebar row selection
+    {
+        "class": "tree_row",
+        "layer0.texture": "Theme - Faceless/Light/row_select.png",
+        "layer0.opacity": 0.0,
+        "layer0.inner_margin": [3,1]
+
+    },
+
+    // Sidebar row selection colors
+    {
+        "class": "tree_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_gray"],
+        "layer0.tint": [153, 153, 153],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "tree_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_blue"],
+        "layer0.tint": [102, 153, 204],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "tree_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_green"],
+        "layer0.tint": [153, 204, 153],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "tree_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_orange"],
+        "layer0.tint": [249, 145, 87],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "tree_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_purple"],
+        "layer0.tint": [204, 153, 204],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "tree_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_red"],
+        "layer0.tint": [242, 119, 122],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "tree_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_aqua"],
+        "layer0.tint": [102, 204, 204],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "tree_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_yellow"],
+        "layer0.tint": [255, 204, 102],
+        "layer0.opacity": 1.0
+    },
+
+    // Sidebar heading
+    {
+        "class": "sidebar_heading",
+        "color": [30, 33, 35],
+        "font.bold": true,
+        "shadow_color": [148, 149, 151],
+        "shadow_offset": [0, 0]
+    },
+
+    // Sidebar labels
+    {
+        "class": "sidebar_label",
+        "color": [60, 63, 65],
+        "shadow_offset": [0, 0]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "color": [255, 255, 255],
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [1, 1]
+    },
+
+    // Sidebar folder labels
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+        "color": [60, 63, 65],
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [0, 0]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
+        "color": [0, 0, 0]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable", "selected"]}],
+        "color": [255, 255, 255],
+        "shadow_color": [0, 0, 0],
+        "shadow_offset": [1, 1]
+    },
+    {
+        "class": "sidebar_label",
+        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
+        "settings": ["bold_folder_labels"],
+        "font.bold": true
+    },
+
+    // Sidebar file close
+    {
+        "class": "close_button",
+        "layer0.texture": "Theme - Faceless/Light/file_close.png",
+        "layer0.opacity": 0.0,
+        // "layer0.tint": [60, 63, 65],
+        "layer0.inner_margin": 0,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "close_button",
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.opacity": 0.5
+    },
+
+    // Sidebar file dirty
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "layer0.texture": "Theme - Faceless/Light/file_dirty.png",
+        "layer0.opacity": 0.5
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.texture": "Theme - Faceless/Light/file_close.png"
+    },
+
+    // Sidebar file dirty Colors
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "settings": ["faceless_light_dirty_blue"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "settings": ["faceless_light_dirty_green"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "settings": ["faceless_light_dirty_orange"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "settings": ["faceless_light_dirty_purple"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "parents": [{"class": "tree_row"}],
+        "settings": ["faceless_light_dirty_red"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "settings": ["faceless_light_dirty_aqua"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "settings": ["faceless_light_dirty_yellow"],
+        "layer0.tint": [255, 204, 102]
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.tint": [255, 255, 255]
+    },
+
+    // Sidebar file close hover
+    {
+        "class": "close_button",
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - Faceless/Light/file_close.png",
+        "layer0.opacity": 1.0
+    },
+
+    // Sidebar group closed
+    {
+        "class": "disclosure_button_control",
+        "content_margin": [0, 6, 18, 7],
+        "layer0.texture": "Theme - Faceless/Light/group_close.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0
+    },
+
+    // Sidebar group open
+    {
+        "class": "disclosure_button_control",
+        "attributes": ["expanded"],
+        "layer0.texture": "Theme - Faceless/Light/group_open.png"
+    },
+
+    // Sidebar group Colors
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_light_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_light_blue"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_light_green"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_light_orange"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_light_purple"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_light_red"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_light_aqua"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_light_yellow"],
+        "layer0.tint": [255, 204, 102]
+    },
+    {
+        "class": "disclosure_button_control",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.tint": [255, 255, 255]
+    },
+
+////////////////////////////////////
+// Standard buttons
+////////////////////////////////////
+    // Standard buttons (used for Find / Replace panel)
+    {
+        "class": "button_control",
+        "content_margin": [5, 6, 5, 6],
+        "min_size": [69, 0],
+
+        // Default button state
+        "layer0.texture": "Theme - Faceless/Light/btn_large.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [6, 6],
+        "layer0.tint": [255, 255, 255]
+    },
+    {
+        // Pressed button state
+        "class": "button_control",
+        "attributes": ["pressed", "hover"],
+        "layer0.tint": [200, 200, 200]
+    },
+
+////////////////////////////////////
+// Text Input
+////////////////////////////////////
+    // Text input field item
+    {
+        "class": "text_line_control",
+        "layer0.texture": "Theme - Faceless/Light/text_field.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": [4, 5, 4, 3],
+        "content_margin": [5, 3]
+    },
+    {
+        "class": "dropdown_button_control",
+        "content_margin": [8, 8],
+        "layer0.texture": "Theme - Faceless/Light/down_arrow_inv.png",
+        "layer0.opacity": 0.5,
+        "layer0.tint": [180, 183, 185],
+        "layer0.inner_margin": [4, 4]
+    },
+    {
+        "class": "dropdown_button_control",
+        "attributes": ["hover"],
+        "layer0.opacity": 1.0
+    },
+
+////////////////////////////////////
+// Panels
+////////////////////////////////////
+    // Bottom panel background
+    {
+        "class": "panel_control",
+        "layer0.texture": "Theme - Faceless/Light/panel_background.png",
+        "layer0.inner_margin": [2, 2, 2, 5],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "panel_close_button",
+        "layer0.texture": "Theme - Faceless/Light/file_close.png",
+        "layer0.opacity": 0.5,
+        "content_margin": [8, 8]
+    },
+    {
+        "class": "panel_close_button",
+        "attributes": ["hover"],
+        "layer0.opacity": 1.0
+    },
+
+////////////////////////////////////
+// Quick Panel
+////////////////////////////////////
+    // Quick panel background
+    {
+        "class": "overlay_control",
+        "layer0.texture": "Theme - Faceless/Light/quickpanel_background.png",
+        "layer0.inner_margin": [25, 25, 25, 25],
+        "layer0.opacity": 1.0,
+        "content_margin": [20, 5, 20, 25]
+    },
+    {
+        "class": "quick_panel",
+        "row_padding": [5, 2],
+        "layer0.opacity": 1.0,
+        "layer0.tint": [250, 250, 250],
+        "dark_content": false
+    },
+    {
+        "class": "quick_panel_row",
+        "layer0.tint": [250, 250, 250],
+        "layer0.inner_margin": [2, 2, 2, 2],
+        "layer0.opacity": 1.0,
+        "layer1.texture": "Theme - Faceless/Light/row_select.png",
+        "layer1.tint": [30, 33, 35],
+        "layer1.inner_margin": [3, 2, 2, 2],
+        "layer1.opacity": 0.0
+    },
+    // Quickpanel selected row colors
+    {
+        "class": "quick_panel_row",
+        "attributes": ["selected"],
+        "layer1.opacity": 1.0
+    },
+    {
+        "class": "quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_gray"],
+        "layer1.tint": [153, 153, 153]
+    },
+    {
+        "class": "quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_blue"],
+        "layer1.tint": [102, 153, 204]
+    },
+    {
+        "class": "quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_green"],
+        "layer1.tint": [153, 204, 153]
+    },
+    {
+        "class": "quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_orange"],
+        "layer1.tint": [249, 145, 87]
+    },
+    {
+        "class": "quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_purple"],
+        "layer1.tint": [204, 153, 204]
+    },
+    {
+        "class": "quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_red"],
+        "layer1.tint": [242, 119, 122]
+    },
+    {
+        "class": "quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_aqua"],
+        "layer1.tint": [102, 204, 204]
+    },
+    {
+        "class": "quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_yellow"],
+        "layer1.tint": [255, 204, 102]
+    },
+    {
+        "class": "quick_panel_label",
+        "fg": [30, 33, 35],
+        "selected_fg": [255, 255, 255, 255]
+    },
+    // Quickpanel label match colors
+    {
+        "class": "quick_panel_label",
+        "settings": ["faceless_light_gray"],
+        "match_fg": [153, 153, 153],
+        "selected_match_fg": [153, 153, 153]
+    },
+    {
+        "class": "quick_panel_label",
+        "settings": ["faceless_light_blue"],
+        "match_fg": [102, 153, 204],
+        "selected_match_fg": [102, 153, 204]
+    },
+    {
+        "class": "quick_panel_label",
+        "settings": ["faceless_light_green"],
+        "match_fg": [153, 204, 153],
+        "selected_match_fg": [153, 204, 153]
+    },
+    {
+        "class": "quick_panel_label",
+        "settings": ["faceless_light_orange"],
+        "match_fg": [249, 145, 87],
+        "selected_match_fg": [249, 145, 87]
+    },
+    {
+        "class": "quick_panel_label",
+        "settings": ["faceless_light_purple"],
+        "match_fg": [204, 153, 204],
+        "selected_match_fg": [204, 153, 204]
+    },
+    {
+        "class": "quick_panel_label",
+        "settings": ["faceless_light_red"],
+        "match_fg": [242, 119, 122],
+        "selected_match_fg": [242, 119, 122]
+    },
+    {
+        "class": "quick_panel_label",
+        "settings": ["faceless_light_aqua"],
+        "match_fg": [102, 204, 204],
+        "selected_match_fg": [102, 204, 204]
+    },
+    {
+        "class": "quick_panel_label",
+        "settings": ["faceless_light_yellow"],
+        "match_fg": [255, 204, 102],
+        "selected_match_fg": [255, 204, 102]
+    },
+
+    {
+        "class": "quick_panel_path_label",
+        "fg": [174, 176, 177, 255],
+        "match_fg": [16, 130, 213, 255],
+        "selected_match_fg": [57, 60, 63, 255]
+    },
+
+    // Quickpanel path label match colors
+    {
+        "class": "quick_panel_path_label",
+        "settings": ["faceless_light_gray"],
+        "match_fg": [153, 153, 153],
+        "selected_match_fg": [153, 153, 153]
+    },
+    {
+        "class": "quick_panel_path_label",
+        "settings": ["faceless_light_blue"],
+        "match_fg": [102, 153, 204],
+        "selected_match_fg": [102, 153, 204]
+    },
+    {
+        "class": "quick_panel_path_label",
+        "settings": ["faceless_light_green"],
+        "match_fg": [153, 204, 153],
+        "selected_match_fg": [153, 204, 153]
+    },
+    {
+        "class": "quick_panel_path_label",
+        "settings": ["faceless_light_orange"],
+        "match_fg": [249, 145, 87],
+        "selected_match_fg": [249, 145, 87]
+    },
+    {
+        "class": "quick_panel_path_label",
+        "settings": ["faceless_light_purple"],
+        "match_fg": [204, 153, 204],
+        "selected_match_fg": [204, 153, 204]
+    },
+    {
+        "class": "quick_panel_path_label",
+        "settings": ["faceless_light_red"],
+        "match_fg": [242, 119, 122],
+        "selected_match_fg": [242, 119, 122]
+    },
+    {
+        "class": "quick_panel_path_label",
+        "settings": ["faceless_light_aqua"],
+        "match_fg": [102, 204, 204],
+        "selected_match_fg": [102, 204, 204]
+    },
+    {
+        "class": "quick_panel_path_label",
+        "settings": ["faceless_light_yellow"],
+        "match_fg": [255, 204, 102],
+        "selected_match_fg": [255, 204, 102]
+    },
+
+    {
+        "class": "quick_panel_path_label",
+        "selected_fg": [255, 255, 255]
+    },
+
+    // Quickpanel score colors
+    {
+        "class": "quick_panel_score_label",
+        "settings": ["faceless_light_gray"],
+        "fg": [153, 153, 153],
+        "selected_fg": [153, 153, 153]
+    },
+    {
+        "class": "quick_panel_score_label",
+        "settings": ["faceless_light_blue"],
+        "fg": [102, 153, 204],
+        "selected_fg": [102, 153, 204]
+    },
+    {
+        "class": "quick_panel_score_label",
+        "settings": ["faceless_light_green"],
+        "fg": [153, 204, 153],
+        "selected_fg": [153, 204, 153]
+    },
+    {
+        "class": "quick_panel_score_label",
+        "settings": ["faceless_light_orange"],
+        "fg": [249, 145, 87],
+        "selected_fg": [249, 145, 87]
+    },
+    {
+        "class": "quick_panel_score_label",
+        "settings": ["faceless_light_purple"],
+        "fg": [204, 153, 204],
+        "selected_fg": [204, 153, 204]
+    },
+    {
+        "class": "quick_panel_score_label",
+        "settings": ["faceless_light_red"],
+        "fg": [242, 119, 122],
+        "selected_fg": [242, 119, 122]
+    },
+    {
+        "class": "quick_panel_score_label",
+        "settings": ["faceless_light_aqua"],
+        "fg": [102, 204, 204],
+        "selected_fg": [102, 204, 204]
+    },
+    {
+        "class": "quick_panel_score_label",
+        "settings": ["faceless_light_yellow"],
+        "fg": [255, 204, 102],
+        "selected_fg": [255, 204, 102]
+    },
+
+////////////////////////////////////
+// Mini Quick Panel
+////////////////////////////////////
+    {
+        "class": "mini_quick_panel_row",
+        "layer0.tint": [250, 250, 250],
+        "layer0.inner_margin": [2, 2, 2, 2],
+        "layer0.opacity": 1.0,
+        "layer1.texture": "Theme - Faceless/Light/row_select.png",
+        "layer1.inner_margin": [3, 2, 2, 2],
+        "layer1.opacity": 0.0
+    },
+    {
+        "class": "mini_quick_panel_row",
+        "attributes": ["selected"],
+        "layer1.opacity": 1.0
+    },
+    // Mini-quickpanel selected row colors
+    {
+        "class": "mini_quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_gray"],
+        "layer1.tint": [153, 153, 153]
+    },
+    {
+        "class": "mini_quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_blue"],
+        "layer1.tint": [102, 153, 204]
+    },
+    {
+        "class": "mini_quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_green"],
+        "layer1.tint": [153, 204, 153]
+    },
+    {
+        "class": "mini_quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_orange"],
+        "layer1.tint": [249, 145, 87]
+    },
+    {
+        "class": "mini_quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_purple"],
+        "layer1.tint": [204, 153, 204]
+    },
+    {
+        "class": "mini_quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_red"],
+        "layer1.tint": [242, 119, 122]
+    },
+    {
+        "class": "mini_quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_aqua"],
+        "layer1.tint": [102, 204, 204]
+    },
+    {
+        "class": "mini_quick_panel_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_yellow"],
+        "layer1.tint": [255, 204, 102]
+    },
+
+////////////////////////////////////
+// Code completion popup
+////////////////////////////////////
+    {
+        "class": "popup_control",
+        "content_margin": [0, 0]
+    },
+    {
+        "class": "auto_complete",
+        "row_padding": [2, 2],
+        "layer0.tint": [98, 101, 102],
+        "layer0.opacity": 1.0,
+        "dark_content": true
+    },
+    {
+        "class": "auto_complete_label",
+        "fg": [255, 255, 255],
+        "match_fg": [255, 255, 255],
+        "selected_fg": [255, 255, 255],
+        "selected_match_fg": [255, 255, 255]
+    },
+    // Code completion label colors
+    {
+        "class": "auto_complete_label",
+        "settings": ["faceless_light_gray"],
+        "match_fg": [153, 153, 153],
+        "selected_match_fg": [153, 153, 153]
+    },
+    {
+        "class": "auto_complete_label",
+        "settings": ["faceless_light_blue"],
+        "match_fg": [102, 153, 204],
+        "selected_match_fg": [102, 153, 204]
+    },
+    {
+        "class": "auto_complete_label",
+        "settings": ["faceless_light_green"],
+        "match_fg": [153, 204, 153],
+        "selected_match_fg": [153, 204, 153]
+    },
+    {
+        "class": "auto_complete_label",
+        "settings": ["faceless_light_orange"],
+        "match_fg": [249, 145, 87],
+        "selected_match_fg": [249, 145, 87]
+    },
+    {
+        "class": "auto_complete_label",
+        "settings": ["faceless_light_purple"],
+        "match_fg": [204, 153, 204],
+        "selected_match_fg": [204, 153, 204]
+    },
+    {
+        "class": "auto_complete_label",
+        "settings": ["faceless_light_red"],
+        "match_fg": [242, 119, 122],
+        "selected_match_fg": [242, 119, 122]
+    },
+    {
+        "class": "auto_complete_label",
+        "settings": ["faceless_light_aqua"],
+        "match_fg": [102, 204, 204],
+        "selected_match_fg": [102, 204, 204]
+    },
+    {
+        "class": "auto_complete_label",
+        "settings": ["faceless_light_yellow"],
+        "match_fg": [255, 204, 102],
+        "selected_match_fg": [255, 204, 102]
+    },
+    {
+        "class": "table_row",
+        "layer0.opacity": 0.0,
+        "layer0.inner_margin": [3, 1]
+    },
+    // Code completion selected row colors
+    {
+        "class": "table_row",
+        "attributes": ["selected"],
+        "layer0.texture": "Theme - Faceless/Light/row_select.png",
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "table_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "table_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_blue"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "table_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_green"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "table_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_orange"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "table_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_purple"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "table_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_red"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "table_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_aqua"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "table_row",
+        "attributes": ["selected"],
+        "settings": ["faceless_light_yellow"],
+        "layer0.tint": [255, 204, 102]
+    },
+
+////////////////////////////////////
+// Bottom Panel Buttons
+////////////////////////////////////
+    // Button group middle
+    {
+        "class": "icon_button_control",
+        "layer0.texture": "Theme - Faceless/Light/btn_middle.png",
+        "layer0.opacity": 1.0,
+        "content_margin": [4,5,4,5],
+        "layer0.tint": [255, 255, 255]
+    },
+
+    // Button group left
+    {
+        "class": "icon_button_control",
+        "attributes": ["left"],
+        "layer0.texture": "Theme - Faceless/Light/btn_left.png",
+        "layer0.opacity": 1.0,
+        "content_margin": [9,5,4,5]
+    },
+
+    // Button group right
+    {
+        "class": "icon_button_control",
+        "attributes": ["right"],
+        "layer0.texture": "Theme - Faceless/Light/btn_right.png",
+        "layer0.opacity": 1.0,
+        "content_margin": [4,5,9,5]
+    },
+
+    // Button single
+    {
+        "class": "icon_button_control",
+        "attributes": ["left", "right"],
+        "layer0.texture": "Theme - Faceless/Light/btn_single.png",
+        "layer0.opacity": 1.0,
+        "content_margin": [9,5,9,5]
+    },
+
+    {
+        "class": "icon_button_control",
+        "layer0.tint": [255, 255, 255]
+    },
+
+    {
+        "class": "icon_button_control",
+        "attributes": ["pressed", "hover"],
+        "layer0.tint": [200, 200, 200]
+    },
+
+////////////////////////////////////
+// Bottom Panel Buttons - Group 1
+////////////////////////////////////
+    // Regex search button
+    {
+        "class": "icon_regex",
+        "layer0.texture": "Theme - Faceless/Light/icon-regex-on.png",
+        "layer0.opacity": 1.0,
+        "layer0.tint": [201, 202, 203],
+        "content_margin": [8, 8]
+    },
+
+    // Button Selectd Colors
+    {
+        "class": "icon_regex",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "icon_regex",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_blue"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "icon_regex",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_green"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "icon_regex",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_orange"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "icon_regex",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_purple"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "icon_regex",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_red"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "icon_regex",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_aqua"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "icon_regex",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_yellow"],
+        "layer0.tint": [255, 204, 102]
+    },
+
+    // Case sensitive search button
+    {
+        "class": "icon_case",
+        "layer0.texture": "Theme - Faceless/Light/icon-case-on.png",
+        "layer0.opacity": 1.0,
+        "layer0.tint": [201, 202, 203],
+        "content_margin": [8, 8]
+    },
+
+    // Button Selectd Colors
+    {
+        "class": "icon_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "icon_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_blue"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "icon_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_green"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "icon_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_orange"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "icon_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_purple"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "icon_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_red"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "icon_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_aqua"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "icon_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_yellow"],
+        "layer0.tint": [255, 204, 102]
+    },
+
+    // Match whole word search button
+    {
+        "class": "icon_whole_word",
+        "layer0.texture": "Theme - Faceless/Light/icon-word-on.png",
+        "layer0.opacity": 1.0,
+        "layer0.tint": [201, 202, 203],
+        "content_margin": [8, 8]
+    },
+
+    // Button Selectd Colors
+    {
+        "class": "icon_whole_word",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "icon_whole_word",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_blue"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "icon_whole_word",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_green"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "icon_whole_word",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_orange"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "icon_whole_word",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_purple"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "icon_whole_word",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_red"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "icon_whole_word",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_aqua"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "icon_whole_word",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_yellow"],
+        "layer0.tint": [255, 204, 102]
+    },
+
+////////////////////////////////////
+// Bottom Panel Buttons - Group 1
+// Find in Files
+////////////////////////////////////
+    // Show search context button
+    {
+        "class": "icon_context",
+        "layer0.texture": "Theme - Faceless/Light/icon-context-on.png",
+        "layer0.opacity": 1.0,
+        "layer0.tint": [201, 202, 203],
+        "content_margin": [8, 8]
+    },
+    // Button Selectd Colors
+    {
+        "class": "icon_context",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "icon_context",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_blue"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "icon_context",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_green"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "icon_context",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_orange"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "icon_context",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_purple"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "icon_context",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_red"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "icon_context",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_aqua"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "icon_context",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_yellow"],
+        "layer0.tint": [255, 204, 102]
+    },
+
+    // Use search buffer
+    {
+        "class": "icon_use_buffer",
+        "layer0.texture": "Theme - Faceless/Light/icon-buffer-on.png",
+        "layer0.opacity": 1.0,
+        "layer0.tint": [201, 202, 203],
+        "content_margin": [8, 8]
+    },
+    // Button Selectd Colors
+    {
+        "class": "icon_use_buffer",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "icon_use_buffer",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_blue"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "icon_use_buffer",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_green"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "icon_use_buffer",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_orange"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "icon_use_buffer",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_purple"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "icon_use_buffer",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_red"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "icon_use_buffer",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_aqua"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "icon_use_buffer",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_yellow"],
+        "layer0.tint": [255, 204, 102]
+    },
+
+////////////////////////////////////
+// Bottom Panel Buttons - Group 2
+////////////////////////////////////
+    // Reverse search direction button
+    {
+        "class": "icon_reverse",
+        "layer0.texture": "Theme - Faceless/Light/icon-reverse-on.png",
+        "layer0.opacity": 1.0,
+        "layer0.tint": [201, 202, 203],
+        "content_margin": [8, 8]
+    },
+    // Button Selectd Colors
+    {
+        "class": "icon_reverse",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "icon_reverse",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_blue"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "icon_reverse",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_green"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "icon_reverse",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_orange"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "icon_reverse",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_purple"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "icon_reverse",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_red"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "icon_reverse",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_aqua"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "icon_reverse",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_yellow"],
+        "layer0.tint": [255, 204, 102]
+    },
+
+    // Search wrap button
+    {
+        "class": "icon_wrap",
+        "layer0.texture": "Theme - Faceless/Light/icon-wrap-on.png",
+        "layer0.opacity": 1.0,
+        "layer0.tint": [201, 202, 203],
+        "content_margin": [8, 8]
+    },
+    // Button Selectd Colors
+    {
+        "class": "icon_wrap",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "icon_wrap",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_blue"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "icon_wrap",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_green"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "icon_wrap",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_orange"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "icon_wrap",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_purple"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "icon_wrap",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_red"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "icon_wrap",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_aqua"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "icon_wrap",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_yellow"],
+        "layer0.tint": [255, 204, 102]
+    },
+
+    // Search in selection button
+    {
+        "class": "icon_in_selection",
+        "layer0.texture": "Theme - Faceless/Light/icon-selection-on.png",
+        "layer0.opacity": 1.0,
+        "layer0.tint": [201, 202, 203],
+        "content_margin": [8, 8]
+    },
+    // Button Selectd Colors
+    {
+        "class": "icon_in_selection",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "icon_in_selection",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_blue"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "icon_in_selection",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_green"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "icon_in_selection",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_orange"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "icon_in_selection",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_purple"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "icon_in_selection",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_red"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "icon_in_selection",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_aqua"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "icon_in_selection",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_yellow"],
+        "layer0.tint": [255, 204, 102]
+    },
+
+////////////////////////////////////
+// Bottom Panel Buttons - Group 3
+////////////////////////////////////
+    // Preserve case button
+    {
+        "class": "icon_preserve_case",
+        "layer0.texture": "Theme - Faceless/Light/icon-preserve-on.png",
+        "layer0.opacity": 1.0,
+        "layer0.tint": [201, 202, 203],
+        "content_margin": [8, 8]
+    },
+    // Button Selectd Colors
+    {
+        "class": "icon_preserve_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "icon_preserve_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_blue"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "icon_preserve_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_green"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "icon_preserve_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_orange"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "icon_preserve_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_purple"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "icon_preserve_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_red"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "icon_preserve_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_aqua"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "icon_preserve_case",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_yellow"],
+        "layer0.tint": [255, 204, 102]
+    },
+
+////////////////////////////////////
+// Bottom Panel Buttons - Group 4
+////////////////////////////////////
+    // Highlight results button
+    {
+        "class": "icon_highlight",
+        "layer0.texture": "Theme - Faceless/Light/icon-highlight-on.png",
+        "layer0.opacity": 1.0,
+        "layer0.tint": [201, 202, 203],
+        "content_margin": [8, 8]
+    },
+    // Button Selectd Colors
+    {
+        "class": "icon_highlight",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "icon_highlight",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_blue"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "icon_highlight",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_green"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "icon_highlight",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_orange"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "icon_highlight",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_purple"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "icon_highlight",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_red"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "icon_highlight",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_aqua"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "icon_highlight",
+        "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+        "settings": ["faceless_light_yellow"],
+        "layer0.tint": [255, 204, 102]
+    }
+]

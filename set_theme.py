@@ -189,7 +189,7 @@ class SetFacelessThemeDirtyCommand(sublime_plugin.ApplicationCommand):
         # See if it is okay to continue
         if (
             color not in colors or dirty_key is None or
-            theme_file is None or is_valid_theme(pref.get("theme", None), theme_file)
+            theme_file is None or not is_valid_theme(pref.get("theme", None), theme_file)
         ):
             return
 
