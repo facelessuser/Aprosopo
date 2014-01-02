@@ -240,6 +240,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Language Variable</string>
+			<key>scope</key>
+			<string>variable.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFCC66</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Markdown: List</string>
 			<key>scope</key>
 			<string>markup.list</string>
