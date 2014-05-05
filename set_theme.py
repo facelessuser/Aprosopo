@@ -94,9 +94,13 @@ def clear_all_widgets(themes):
     for k, v in themes.items():
         widget = v.get("widget_settings")
         if widget is not None:
-            widget_file = os.path.join(widget_path, widget)
-            if os.path.exists(widget_file):
-                os.remove(widget_file)
+            special = "@st3" if ST3 else "@st2"
+            parts = os.path.splitext(widget)
+            widget_names = [widget, parts[0] + special + parts[1]]
+            for w in widget_names:
+                widget_file = os.path.join(widget_path, w)
+                if os.path.exists(widget_file):
+                    os.remove(widget_file)
 
 
 def clear_all_features(pref, themes):
@@ -138,9 +142,13 @@ class SetFacelessThemeCommand(sublime_plugin.ApplicationCommand):
         plug = sublime.load_settings(PLUGIN_SETTINGS)
         themes = plug.get("themes", {})
         colors = themes.get(theme, {}).get("colors", [])
-        widget_scheme = themes.get(theme, {}).get("widget_scheme", None)
-        widget_settings = themes.get(theme, {}).get("widget_settings", None)
         theme_file = get_theme(themes.get(theme, {}), None)
+        widget_settings = themes.get(theme, {}).get("widget_settings", None)
+        widget_scheme = themes.get(theme, {}).get("widget_scheme", None)
+        if theme_file.replace(".sublime-theme", '').endswith(("@st3", "@st2")):
+            special = "@st3" if ST3 else "@st2"
+            parts = os.path.splitext(widget_settings)
+            widget_settings = parts[0] + special + parts[1]
         color_key = themes.get(theme, {}).get("color_key", None)
 
         # See if it is okay to continue
