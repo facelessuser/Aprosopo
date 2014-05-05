@@ -1286,135 +1286,137 @@
         "layer0.opacity": 1.0
     },
 
-    // // Sidebar group closed
-    // {
-    //     "class": "disclosure_button_control",
-    //     "content_margin": [0, 6, 18, 7],
-    //     "layer0.texture": "Theme - Faceless/Dark/arrow_right.png",
-    //     "layer0.opacity": 1.0,
-    //     "layer0.inner_margin": 0,
-    //     "layer0.tint": [153, 153, 153]
-    // },
+    // Sidebar group closed
+    {
+        "class": "disclosure_button_control",
+        "content_margin": [0, 6, 18, 7],
+        "layer0.texture": "Theme - Faceless/Dark/group_close.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0,
+        "layer0.tint": [153, 153, 153]
+    },
 
-    // // Sidebar group open
-    // {
-    //     "class": "disclosure_button_control",
-    //     "attributes": ["expanded"],
-    //     "layer0.texture": "Theme - Faceless/Dark/arrow_down.png",
-    //     "layer0.tint": [153, 153, 153]
-    // },
+    // Sidebar group open
+    {
+        "class": "disclosure_button_control",
+        "attributes": ["expanded"],
+        "layer0.texture": "Theme - Faceless/Dark/group_open.png",
+        "layer0.tint": [153, 153, 153]
+    },
 
-    // // Sidebar group Colors
-    // {
-    //     "class": "disclosure_button_control",
-    //     "settings": ["faceless_dark_gray"],
-    //     "layer0.tint": [153, 153, 153]
-    // },
-    // {
-    //     "class": "disclosure_button_control",
-    //     "settings": ["faceless_dark_blue"],
-    //     "layer0.tint": [102, 153, 204]
-    // },
-    // {
-    //     "class": "disclosure_button_control",
-    //     "settings": ["faceless_dark_green"],
-    //     "layer0.tint": [153, 204, 153]
-    // },
-    // {
-    //     "class": "disclosure_button_control",
-    //     "settings": ["faceless_dark_orange"],
-    //     "layer0.tint": [249, 145, 87]
-    // },
-    // {
-    //     "class": "disclosure_button_control",
-    //     "settings": ["faceless_dark_purple"],
-    //     "layer0.tint": [204, 153, 204]
-    // },
-    // {
-    //     "class": "disclosure_button_control",
-    //     "settings": ["faceless_dark_red"],
-    //     "layer0.tint": [242, 119, 122]
-    // },
-    // {
-    //     "class": "disclosure_button_control",
-    //     "settings": ["faceless_dark_aqua"],
-    //     "layer0.tint": [102, 204, 204]
-    // },
-    // {
-    //     "class": "disclosure_button_control",
-    //     "settings": ["faceless_dark_yellow"],
-    //     "layer0.tint": [255, 204, 102]
-    // },
-    // {
-    //     "class": "disclosure_button_control",
-    //     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-    //     "layer0.tint": [255, 255, 255]
-    // },
+    // Sidebar group Colors
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_dark_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_dark_blue"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_dark_green"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_dark_orange"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_dark_purple"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_dark_red"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_dark_aqua"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_dark_yellow"],
+        "layer0.tint": [255, 204, 102]
+    },
+    {
+        "class": "disclosure_button_control",
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.tint": [255, 255, 255]
+    },
 
     // Sidebar group closed
     {
         "class": "icon_folder",
-        "layer0.texture": "Theme - Faceless/Dark/group_close.png",
-        "layer0.opacity": 1.0,
-        "content_margin": [0, 6, 18, 7]
+        // "layer0.texture": "Theme - Faceless/Dark/group_close.png",
+        // "layer0.opacity": 1.0,
+        // "content_margin": [0, 6, 18, 7]
+        "content_margin": [0, 0]
     },
 
     // Sidebar group open
     {
         "class": "icon_folder",
-        "parents":
-        [
-            { "class": "tree_row", "attributes": ["expanded"] }
-        ],
-        "layer0.texture": "Theme - Faceless/Dark/group_open.png"
+        // "parents":
+        // [
+        //     { "class": "tree_row", "attributes": ["expanded"] }
+        // ],
+        // "layer0.texture": "Theme - Faceless/Dark/group_open.png"
+        "content_margin": [0, 0]
     },
 
-    // Sidebar group Colors
-    {
-        "class": "icon_folder",
-        "settings": ["faceless_dark_gray"],
-        "layer0.tint": [153, 153, 153]
-    },
-    {
-        "class": "icon_folder",
-        "settings": ["faceless_dark_blue"],
-        "layer0.tint": [102, 153, 204]
-    },
-    {
-        "class": "icon_folder",
-        "settings": ["faceless_dark_green"],
-        "layer0.tint": [153, 204, 153]
-    },
-    {
-        "class": "icon_folder",
-        "settings": ["faceless_dark_orange"],
-        "layer0.tint": [249, 145, 87]
-    },
-    {
-        "class": "icon_folder",
-        "settings": ["faceless_dark_purple"],
-        "layer0.tint": [204, 153, 204]
-    },
-    {
-        "class": "icon_folder",
-        "settings": ["faceless_dark_red"],
-        "layer0.tint": [242, 119, 122]
-    },
-    {
-        "class": "icon_folder",
-        "settings": ["faceless_dark_aqua"],
-        "layer0.tint": [102, 204, 204]
-    },
-    {
-        "class": "icon_folder",
-        "settings": ["faceless_dark_yellow"],
-        "layer0.tint": [255, 204, 102]
-    },
-    {
-        "class": "icon_folder",
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.tint": [255, 255, 255]
-    },
+    // // Sidebar group Colors
+    // {
+    //     "class": "icon_folder",
+    //     "settings": ["faceless_dark_gray"],
+    //     "layer0.tint": [153, 153, 153]
+    // },
+    // {
+    //     "class": "icon_folder",
+    //     "settings": ["faceless_dark_blue"],
+    //     "layer0.tint": [102, 153, 204]
+    // },
+    // {
+    //     "class": "icon_folder",
+    //     "settings": ["faceless_dark_green"],
+    //     "layer0.tint": [153, 204, 153]
+    // },
+    // {
+    //     "class": "icon_folder",
+    //     "settings": ["faceless_dark_orange"],
+    //     "layer0.tint": [249, 145, 87]
+    // },
+    // {
+    //     "class": "icon_folder",
+    //     "settings": ["faceless_dark_purple"],
+    //     "layer0.tint": [204, 153, 204]
+    // },
+    // {
+    //     "class": "icon_folder",
+    //     "settings": ["faceless_dark_red"],
+    //     "layer0.tint": [242, 119, 122]
+    // },
+    // {
+    //     "class": "icon_folder",
+    //     "settings": ["faceless_dark_aqua"],
+    //     "layer0.tint": [102, 204, 204]
+    // },
+    // {
+    //     "class": "icon_folder",
+    //     "settings": ["faceless_dark_yellow"],
+    //     "layer0.tint": [255, 204, 102]
+    // },
+    // {
+    //     "class": "icon_folder",
+    //     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+    //     "layer0.tint": [255, 255, 255]
+    // },
 
 ////////////////////////////////////
 // Standard buttons
