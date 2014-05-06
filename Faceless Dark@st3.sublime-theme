@@ -1,80 +1,4 @@
 [
-    {
-        "class": "icon_file_type",
-        // layer0.texture is filled in by code with the relevant icon name
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
-    },
-
-    // // Sidebar group Colors
-    // {
-    //     "class": "icon_file_type",
-    //     "settings": ["faceless_dark_gray"],
-    //     "layer0.tint": [153, 153, 153]
-    // },
-    // {
-    //     "class": "icon_file_type",
-    //     "settings": ["faceless_dark_blue"],
-    //     "layer0.tint": [102, 153, 204]
-    // },
-    // {
-    //     "class": "icon_file_type",
-    //     "settings": ["faceless_dark_green"],
-    //     "layer0.tint": [153, 204, 153]
-    // },
-    // {
-    //     "class": "icon_file_type",
-    //     "settings": ["faceless_dark_orange"],
-    //     "layer0.tint": [249, 145, 87]
-    // },
-    // {
-    //     "class": "icon_file_type",
-    //     "settings": ["faceless_dark_purple"],
-    //     "layer0.tint": [204, 153, 204]
-    // },
-    // {
-    //     "class": "icon_file_type",
-    //     "settings": ["faceless_dark_red"],
-    //     "layer0.tint": [242, 119, 122]
-    // },
-    // {
-    //     "class": "icon_file_type",
-    //     "settings": ["faceless_dark_aqua"],
-    //     "layer0.tint": [102, 204, 204]
-    // },
-    // {
-    //     "class": "icon_file_type",
-    //     "settings": ["faceless_dark_yellow"],
-    //     "layer0.tint": [255, 204, 102]
-    // },
-    // {
-    //     "class": "icon_file_type",
-    //     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-    //     "layer0.tint": [255, 255, 255]
-    // },
-
-    {
-        "class": "icon_folder_loading",
-        "layer0.texture":
-        {
-            "keyframes":
-            [
-                "Theme - Faceless/icons/spinner7.png",
-                "Theme - Faceless/icons/spinner6.png",
-                "Theme - Faceless/icons/spinner5.png",
-                "Theme - Faceless/icons/spinner4.png",
-                "Theme - Faceless/icons/spinner3.png",
-                "Theme - Faceless/icons/spinner2.png",
-                "Theme - Faceless/icons/spinner1.png",
-                "Theme - Faceless/icons/spinner.png"
-            ],
-            "loop": true,
-            "frame_time": 0.075
-        },
-
-        "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
-    },
 ////////////////////////////////////
 // Tabs
 ////////////////////////////////////
@@ -1351,72 +1275,99 @@
         "layer0.tint": [255, 255, 255]
     },
 
+    // Hide folder icons since disclosure does the same thing
+    // No need to have to icons representing a folder
+
     // Sidebar group closed
     {
         "class": "icon_folder",
-        // "layer0.texture": "Theme - Faceless/Dark/group_close.png",
-        // "layer0.opacity": 1.0,
-        // "content_margin": [0, 6, 18, 7]
         "content_margin": [0, 0]
     },
 
     // Sidebar group open
     {
         "class": "icon_folder",
-        // "parents":
-        // [
-        //     { "class": "tree_row", "attributes": ["expanded"] }
-        // ],
-        // "layer0.texture": "Theme - Faceless/Dark/group_open.png"
         "content_margin": [0, 0]
     },
 
-    // // Sidebar group Colors
+    // File icons
+    {
+        "class": "icon_file_type",
+        // layer0.texture is filled in by code with the relevant icon name
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
+
+    // // Icon file type colors
     // {
-    //     "class": "icon_folder",
+    //     "class": "icon_file_type",
     //     "settings": ["faceless_dark_gray"],
     //     "layer0.tint": [153, 153, 153]
     // },
     // {
-    //     "class": "icon_folder",
+    //     "class": "icon_file_type",
     //     "settings": ["faceless_dark_blue"],
     //     "layer0.tint": [102, 153, 204]
     // },
     // {
-    //     "class": "icon_folder",
+    //     "class": "icon_file_type",
     //     "settings": ["faceless_dark_green"],
     //     "layer0.tint": [153, 204, 153]
     // },
     // {
-    //     "class": "icon_folder",
+    //     "class": "icon_file_type",
     //     "settings": ["faceless_dark_orange"],
     //     "layer0.tint": [249, 145, 87]
     // },
     // {
-    //     "class": "icon_folder",
+    //     "class": "icon_file_type",
     //     "settings": ["faceless_dark_purple"],
     //     "layer0.tint": [204, 153, 204]
     // },
     // {
-    //     "class": "icon_folder",
+    //     "class": "icon_file_type",
     //     "settings": ["faceless_dark_red"],
     //     "layer0.tint": [242, 119, 122]
     // },
     // {
-    //     "class": "icon_folder",
+    //     "class": "icon_file_type",
     //     "settings": ["faceless_dark_aqua"],
     //     "layer0.tint": [102, 204, 204]
     // },
     // {
-    //     "class": "icon_folder",
+    //     "class": "icon_file_type",
     //     "settings": ["faceless_dark_yellow"],
     //     "layer0.tint": [255, 204, 102]
     // },
     // {
-    //     "class": "icon_folder",
+    //     "class": "icon_file_type",
     //     "parents": [{"class": "tree_row", "attributes": ["selected"]}],
     //     "layer0.tint": [255, 255, 255]
     // },
+
+    // Icon folder loading
+    {
+        "class": "icon_folder_loading",
+        "layer0.texture":
+        {
+            "keyframes":
+            [
+                "Theme - Faceless/icons/spinner7.png",
+                "Theme - Faceless/icons/spinner6.png",
+                "Theme - Faceless/icons/spinner5.png",
+                "Theme - Faceless/icons/spinner4.png",
+                "Theme - Faceless/icons/spinner3.png",
+                "Theme - Faceless/icons/spinner2.png",
+                "Theme - Faceless/icons/spinner1.png",
+                "Theme - Faceless/icons/spinner.png"
+            ],
+            "loop": true,
+            "frame_time": 0.075
+        },
+
+        "layer0.opacity": 1.0,
+        "content_margin": [8, 8]
+    },
 
 ////////////////////////////////////
 // Standard buttons
