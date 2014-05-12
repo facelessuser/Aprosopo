@@ -49,6 +49,8 @@ def is_valid_theme(theme, theme_file, check_all=False):
         special = "@st3" if ST3 else "@st2"
         parts = os.path.splitext(theme_file)
         valid_themes = [theme_file, parts[0] + special + parts[1]]
+        print(valid_themes)
+        print(theme)
         if check_all:
             valid_themes.append(parts[0] + ("@st3" if not ST3 else "@st2") + parts[1])
         if theme in valid_themes:
@@ -197,7 +199,7 @@ class SetFacelessThemeDirtyCommand(sublime_plugin.ApplicationCommand):
         # See if it is okay to continue
         if (
             color not in colors or dirty_key is None or
-            theme_file is None or not is_valid_theme(pref.get("theme", None), theme_file)
+            theme_file is None or not (pref.get("theme", None) == theme_file)
         ):
             return
 
@@ -216,7 +218,7 @@ class SetFacelessThemeDirtyCommand(sublime_plugin.ApplicationCommand):
         theme_file = get_theme(themes.get(theme, {}), None)
         dirty_key = themes.get(theme, {}).get("dirty_color_key", None)
         pref = sublime.load_settings(PREFERENCES)
-        if dirty_key is None or is_valid_theme(pref.get("theme", None), theme_file):
+        if dirty_key is None or (pref.get("theme", None) != theme_file):
             return False
         if color not in colors:
             return False
