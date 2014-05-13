@@ -5,7 +5,7 @@
     // Tab set
     {
         "class": "tabset_control",
-        "layer0.tint": [100, 103, 105],
+        "layer0.tint": [98, 101, 102],
         "layer0.opacity": 1.0,
         "content_margin": [0, 0, 0, 0],
         "tab_overlap": 2,
@@ -40,43 +40,43 @@
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_blue"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_green"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_orange"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_purple"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_red"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_aqua"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "scroll_tabs_left_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_yellow"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     },
     {
         "class": "scroll_tabs_right_button",
@@ -97,43 +97,43 @@
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_blue"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_green"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_orange"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_purple"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_red"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_aqua"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "scroll_tabs_right_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_yellow"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     },
     {
         "class": "show_tabs_dropdown_button",
@@ -154,43 +154,43 @@
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_blue"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_green"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_orange"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_purple"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_red"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_aqua"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "show_tabs_dropdown_button",
         "attributes": ["hover"],
         "settings": ["faceless_light_yellow"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     },
 
     // Tabs
@@ -219,43 +219,43 @@
         "class": "tab_control",
         "attributes": ["selected"],
         "settings": ["faceless_light_blue", "faceless_solid_tab"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "tab_control",
         "attributes": ["selected"],
         "settings": ["faceless_light_green", "faceless_solid_tab"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "tab_control",
         "attributes": ["selected"],
         "settings": ["faceless_light_orange", "faceless_solid_tab"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "tab_control",
         "attributes": ["selected"],
         "settings": ["faceless_light_purple", "faceless_solid_tab"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
     {
         "class": "tab_control",
         "attributes": ["selected"],
         "settings": ["faceless_light_red", "faceless_solid_tab"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "tab_control",
         "attributes": ["selected"],
         "settings": ["faceless_light_aqua", "faceless_solid_tab"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "tab_control",
         "attributes": ["selected"],
         "settings": ["faceless_light_yellow", "faceless_solid_tab"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     },
 
     // Tab active overlays
@@ -281,43 +281,43 @@
         "class": "tab_control",
         "attributes": ["selected"],
         "settings": ["faceless_light_blue", "faceless_active_bar"],
-        "layer1.tint": [102, 153, 204]
+        "layer1.tint": [151, 202, 255]
     },
     {
         "class": "tab_control",
         "attributes": ["selected"],
         "settings": ["faceless_light_green", "faceless_active_bar"],
-        "layer1.tint": [153, 204, 153]
+        "layer1.tint": [190, 242, 190]
     },
     {
         "class": "tab_control",
         "attributes": ["selected"],
         "settings": ["faceless_light_orange", "faceless_active_bar"],
-        "layer1.tint": [249, 145, 87]
+        "layer1.tint": [255, 198, 167]
     },
     {
         "class": "tab_control",
         "attributes": ["selected"],
         "settings": ["faceless_light_purple", "faceless_active_bar"],
-        "layer1.tint": [204, 153, 204]
+        "layer1.tint": [242, 190, 241]
     },
     {
         "class": "tab_control",
         "attributes": ["selected"],
         "settings": ["faceless_light_red", "faceless_active_bar"],
-        "layer1.tint": [242, 119, 122]
+        "layer1.tint": [255, 179, 181]
     },
     {
         "class": "tab_control",
         "attributes": ["selected"],
         "settings": ["faceless_light_aqua", "faceless_active_bar"],
-        "layer1.tint": [102, 204, 204]
+        "layer1.tint": [151, 254, 255]
     },
     {
         "class": "tab_control",
         "attributes": ["selected"],
         "settings": ["faceless_light_yellow", "faceless_active_bar"],
-        "layer1.tint": [255, 204, 102]
+        "layer1.tint": [255, 228, 177]
     },
 
     // Tab dirty overlay (when active overlay is disabled)
@@ -353,13 +353,13 @@
         "class": "tab_control",
         "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_red"],
-        "layer3.tint": [242, 119, 122]
+        "layer3.tint": [255, 179, 181]
     },
     {
         "class": "tab_control",
         "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_aqua"],
-        "layer3.tint": [102, 204, 204]
+        "layer3.tint": [151, 254, 255]
     },
     {
         "class": "tab_control",
@@ -371,31 +371,31 @@
         "class": "tab_control",
         "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_blue"],
-        "layer3.tint": [102, 153, 204]
+        "layer3.tint": [151, 202, 255]
     },
     {
         "class": "tab_control",
         "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_green"],
-        "layer3.tint": [153, 204, 153]
+        "layer3.tint": [190, 242, 190]
     },
     {
         "class": "tab_control",
         "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_yellow"],
-        "layer3.tint": [255, 204, 102]
+        "layer3.tint": [255, 228, 177]
     },
     {
         "class": "tab_control",
         "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_orange"],
-        "layer3.tint": [249, 145, 87]
+        "layer3.tint": [255, 198, 167]
     },
     {
         "class": "tab_control",
         "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_purple"],
-        "layer3.tint": [204, 153, 204]
+        "layer3.tint": [242, 190, 241]
     },
     {
         "class": "tab_control",
@@ -445,43 +445,43 @@
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_blue", "faceless_active_text"],
-        "fg": [102, 153, 204]
+        "fg": [151, 202, 255]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_green", "faceless_active_text"],
-        "fg": [153, 204, 153]
+        "fg": [190, 242, 190]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_orange", "faceless_active_text"],
-        "fg": [249, 145, 87]
+        "fg": [255, 198, 167]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_purple", "faceless_active_text"],
-        "fg": [204, 153, 204]
+        "fg": [242, 190, 241]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_red", "faceless_active_text"],
-        "fg": [242, 119, 122]
+        "fg": [255, 179, 181]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_aqua", "faceless_active_text"],
-        "fg": [102, 204, 204]
+        "fg": [151, 254, 255]
     },
     {
         "class": "tab_label",
         "parents": [{"class": "tab_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_yellow", "faceless_active_text"],
-        "fg": [255, 204, 102]
+        "fg": [255, 228, 177]
     },
 
     // Tab close button (hidden by default)
@@ -506,13 +506,13 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "settings": ["faceless_light_dirty_red", "faceless_dirty_button"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "settings": ["faceless_light_dirty_aqua", "faceless_dirty_button"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "tab_close_button",
@@ -525,31 +525,31 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "settings": ["faceless_light_dirty_blue", "faceless_dirty_button"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "settings": ["faceless_light_dirty_green", "faceless_dirty_button"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "settings": ["faceless_light_dirty_yellow", "faceless_dirty_button"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "settings": ["faceless_light_dirty_orange", "faceless_dirty_button"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "settings": ["faceless_light_dirty_purple", "faceless_dirty_button"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
 
     // Tab close hover button
@@ -606,13 +606,13 @@
         "class": "fold_button_control",
         "attributes": ["hover"],
         "settings": ["faceless_light_dirty_red"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
         "settings": ["faceless_light_aqua"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "fold_button_control",
@@ -624,31 +624,31 @@
         "class": "fold_button_control",
         "attributes": ["hover"],
         "settings": ["faceless_light_blue"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
         "settings": ["faceless_light_green"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
         "settings": ["faceless_light_yellow"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     },
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
         "settings": ["faceless_light_orange"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
         "settings": ["faceless_light_purple"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
 
 ////////////////////////////////////
@@ -797,12 +797,12 @@
     {
         "class": "minimap_control",
         "settings": ["faceless_light_red"],
-        "viewport_color": [242, 119, 122, 30]
+        "viewport_color": [255, 179, 181, 30]
     },
     {
         "class": "minimap_control",
         "settings": ["faceless_light_aqua"],
-        "viewport_color": [102, 204, 204, 30]
+        "viewport_color": [151, 254, 255, 30]
     },
     {
         "class": "minimap_control",
@@ -812,27 +812,27 @@
     {
         "class": "minimap_control",
         "settings": ["faceless_light_blue"],
-        "viewport_color": [102, 153, 204, 30]
+        "viewport_color": [151, 202, 255, 30]
     },
     {
         "class": "minimap_control",
         "settings": ["faceless_light_green"],
-        "viewport_color": [153, 204, 153, 30]
+        "viewport_color": [190, 242, 190, 30]
     },
     {
         "class": "minimap_control",
         "settings": ["faceless_light_yellow"],
-        "viewport_color": [255, 204, 102, 30]
+        "viewport_color": [255, 228, 177, 30]
     },
     {
         "class": "minimap_control",
         "settings": ["faceless_light_orange"],
-        "viewport_color": [249, 145, 87, 30]
+        "viewport_color": [255, 198, 167, 30]
     },
     {
         "class": "minimap_control",
         "settings": ["faceless_light_purple"],
-        "viewport_color": [204, 153, 204, 30]
+        "viewport_color": [242, 190, 241, 30]
     },
 
 ////////////////////////////////////
@@ -868,13 +868,13 @@
         "class": "label_control",
         "parents": [{"class": "button_control", "attributes": ["hover"]}],
         "settings": ["faceless_light_red"],
-        "color": [242, 119, 122]
+        "color": [255, 179, 181]
     },
     {
         "class": "label_control",
         "parents": [{"class": "button_control", "attributes": ["hover"]}],
         "settings": ["faceless_light_aqua"],
-        "color": [102, 204, 204]
+        "color": [151, 254, 255]
     },
     {
         "class": "label_control",
@@ -886,31 +886,31 @@
         "class": "label_control",
         "parents": [{"class": "button_control", "attributes": ["hover"]}],
         "settings": ["faceless_light_blue"],
-        "color": [102, 153, 204]
+        "color": [151, 202, 255]
     },
     {
         "class": "label_control",
         "parents": [{"class": "button_control", "attributes": ["hover"]}],
         "settings": ["faceless_light_green"],
-        "color": [153, 204, 153]
+        "color": [190, 242, 190]
     },
     {
         "class": "label_control",
         "parents": [{"class": "button_control", "attributes": ["hover"]}],
         "settings": ["faceless_light_yellow"],
-        "color": [255, 204, 102]
+        "color": [255, 228, 177]
     },
     {
         "class": "label_control",
         "parents": [{"class": "button_control", "attributes": ["hover"]}],
         "settings": ["faceless_light_orange"],
-        "color": [249, 145, 87]
+        "color": [255, 198, 167]
     },
     {
         "class": "label_control",
         "parents": [{"class": "button_control", "attributes": ["hover"]}],
         "settings": ["faceless_light_purple"],
-        "color": [204, 153, 204]
+        "color": [242, 190, 241]
     },
 
     // Status bar label
@@ -1029,49 +1029,49 @@
         "class": "tree_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_blue"],
-        "layer0.tint": [102, 153, 204],
+        "layer0.tint": [151, 202, 255],
         "layer0.opacity": 1.0
     },
     {
         "class": "tree_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_green"],
-        "layer0.tint": [153, 204, 153],
+        "layer0.tint": [190, 242, 190],
         "layer0.opacity": 1.0
     },
     {
         "class": "tree_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_orange"],
-        "layer0.tint": [249, 145, 87],
+        "layer0.tint": [255, 198, 167],
         "layer0.opacity": 1.0
     },
     {
         "class": "tree_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_purple"],
-        "layer0.tint": [204, 153, 204],
+        "layer0.tint": [242, 190, 241],
         "layer0.opacity": 1.0
     },
     {
         "class": "tree_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_red"],
-        "layer0.tint": [242, 119, 122],
+        "layer0.tint": [255, 179, 181],
         "layer0.opacity": 1.0
     },
     {
         "class": "tree_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_aqua"],
-        "layer0.tint": [102, 204, 204],
+        "layer0.tint": [151, 254, 255],
         "layer0.opacity": 1.0
     },
     {
         "class": "tree_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_yellow"],
-        "layer0.tint": [255, 204, 102],
+        "layer0.tint": [255, 228, 177],
         "layer0.opacity": 1.0
     },
 
@@ -1159,44 +1159,44 @@
         "class": "close_button",
         "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_blue"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_green"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_orange"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_purple"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row"}],
         "settings": ["faceless_light_dirty_red"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_aqua"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_yellow"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     },
     {
         "class": "close_button",
@@ -1238,37 +1238,37 @@
     {
         "class": "disclosure_button_control",
         "settings": ["faceless_light_blue"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "disclosure_button_control",
         "settings": ["faceless_light_green"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "disclosure_button_control",
         "settings": ["faceless_light_orange"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "disclosure_button_control",
         "settings": ["faceless_light_purple"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
     {
         "class": "disclosure_button_control",
         "settings": ["faceless_light_red"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "disclosure_button_control",
         "settings": ["faceless_light_aqua"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "disclosure_button_control",
         "settings": ["faceless_light_yellow"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     },
     {
         "class": "disclosure_button_control",
@@ -1302,37 +1302,37 @@
     // {
     //     "class": "icon_file_type",
     //     "settings": ["faceless_dark_blue"],
-    //     "layer0.tint": [102, 153, 204]
+    //     "layer0.tint": [151, 202, 255]
     // },
     // {
     //     "class": "icon_file_type",
     //     "settings": ["faceless_dark_green"],
-    //     "layer0.tint": [153, 204, 153]
+    //     "layer0.tint": [190, 242, 190]
     // },
     // {
     //     "class": "icon_file_type",
     //     "settings": ["faceless_dark_orange"],
-    //     "layer0.tint": [249, 145, 87]
+    //     "layer0.tint": [255, 198, 167]
     // },
     // {
     //     "class": "icon_file_type",
     //     "settings": ["faceless_dark_purple"],
-    //     "layer0.tint": [204, 153, 204]
+    //     "layer0.tint": [242, 190, 241]
     // },
     // {
     //     "class": "icon_file_type",
     //     "settings": ["faceless_dark_red"],
-    //     "layer0.tint": [242, 119, 122]
+    //     "layer0.tint": [255, 179, 181]
     // },
     // {
     //     "class": "icon_file_type",
     //     "settings": ["faceless_dark_aqua"],
-    //     "layer0.tint": [102, 204, 204]
+    //     "layer0.tint": [151, 254, 255]
     // },
     // {
     //     "class": "icon_file_type",
     //     "settings": ["faceless_dark_yellow"],
-    //     "layer0.tint": [255, 204, 102]
+    //     "layer0.tint": [255, 228, 177]
     // },
     // {
     //     "class": "icon_file_type",
@@ -1402,7 +1402,6 @@
         "content_margin": [8, 8],
         "layer0.texture": "Theme - Faceless/Light/down_arrow_inv.png",
         "layer0.opacity": 0.5,
-        "layer0.tint": [180, 183, 185],
         "layer0.inner_margin": [4, 4]
     },
     {
@@ -1453,7 +1452,7 @@
     },
     {
         "class": "quick_panel_row",
-        "layer0.tint": [250, 250, 250],
+        "layer0.tint": [98, 101, 102],
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
         "layer1.texture": "Theme - Faceless/Light/row_select.png",
@@ -1477,47 +1476,47 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_blue"],
-        "layer1.tint": [102, 153, 204]
+        "layer1.tint": [151, 202, 255]
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_green"],
-        "layer1.tint": [153, 204, 153]
+        "layer1.tint": [190, 242, 190]
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_orange"],
-        "layer1.tint": [249, 145, 87]
+        "layer1.tint": [255, 198, 167]
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_purple"],
-        "layer1.tint": [204, 153, 204]
+        "layer1.tint": [242, 190, 241]
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_red"],
-        "layer1.tint": [242, 119, 122]
+        "layer1.tint": [255, 179, 181]
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_aqua"],
-        "layer1.tint": [102, 204, 204]
+        "layer1.tint": [151, 254, 255]
     },
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_yellow"],
-        "layer1.tint": [255, 204, 102]
+        "layer1.tint": [255, 228, 177]
     },
     {
         "class": "quick_panel_label",
-        "fg": [30, 33, 35],
+        "fg": [255, 255, 255],
         "selected_fg": [255, 255, 255, 255]
     },
     // Quickpanel label match colors
@@ -1530,44 +1529,44 @@
     {
         "class": "quick_panel_label",
         "settings": ["faceless_light_blue"],
-        "match_fg": [102, 153, 204],
-        "selected_match_fg": [102, 153, 204]
+        "match_fg": [151, 202, 255],
+        "selected_match_fg": [151, 202, 255]
     },
     {
         "class": "quick_panel_label",
         "settings": ["faceless_light_green"],
-        "match_fg": [153, 204, 153],
-        "selected_match_fg": [153, 204, 153]
+        "match_fg": [190, 242, 190],
+        "selected_match_fg": [190, 242, 190]
     },
     {
         "class": "quick_panel_label",
         "settings": ["faceless_light_orange"],
-        "match_fg": [249, 145, 87],
-        "selected_match_fg": [249, 145, 87]
+        "match_fg": [255, 198, 167],
+        "selected_match_fg": [255, 198, 167]
     },
     {
         "class": "quick_panel_label",
         "settings": ["faceless_light_purple"],
-        "match_fg": [204, 153, 204],
-        "selected_match_fg": [204, 153, 204]
+        "match_fg": [242, 190, 241],
+        "selected_match_fg": [242, 190, 241]
     },
     {
         "class": "quick_panel_label",
         "settings": ["faceless_light_red"],
-        "match_fg": [242, 119, 122],
-        "selected_match_fg": [242, 119, 122]
+        "match_fg": [255, 179, 181],
+        "selected_match_fg": [255, 179, 181]
     },
     {
         "class": "quick_panel_label",
         "settings": ["faceless_light_aqua"],
-        "match_fg": [102, 204, 204],
-        "selected_match_fg": [102, 204, 204]
+        "match_fg": [151, 254, 255],
+        "selected_match_fg": [151, 254, 255]
     },
     {
         "class": "quick_panel_label",
         "settings": ["faceless_light_yellow"],
-        "match_fg": [255, 204, 102],
-        "selected_match_fg": [255, 204, 102]
+        "match_fg": [255, 228, 177],
+        "selected_match_fg": [255, 228, 177]
     },
 
     {
@@ -1587,44 +1586,44 @@
     {
         "class": "quick_panel_path_label",
         "settings": ["faceless_light_blue"],
-        "match_fg": [102, 153, 204],
-        "selected_match_fg": [102, 153, 204]
+        "match_fg": [151, 202, 255],
+        "selected_match_fg": [151, 202, 255]
     },
     {
         "class": "quick_panel_path_label",
         "settings": ["faceless_light_green"],
-        "match_fg": [153, 204, 153],
-        "selected_match_fg": [153, 204, 153]
+        "match_fg": [190, 242, 190],
+        "selected_match_fg": [190, 242, 190]
     },
     {
         "class": "quick_panel_path_label",
         "settings": ["faceless_light_orange"],
-        "match_fg": [249, 145, 87],
-        "selected_match_fg": [249, 145, 87]
+        "match_fg": [255, 198, 167],
+        "selected_match_fg": [255, 198, 167]
     },
     {
         "class": "quick_panel_path_label",
         "settings": ["faceless_light_purple"],
-        "match_fg": [204, 153, 204],
-        "selected_match_fg": [204, 153, 204]
+        "match_fg": [242, 190, 241],
+        "selected_match_fg": [242, 190, 241]
     },
     {
         "class": "quick_panel_path_label",
         "settings": ["faceless_light_red"],
-        "match_fg": [242, 119, 122],
-        "selected_match_fg": [242, 119, 122]
+        "match_fg": [255, 179, 181],
+        "selected_match_fg": [255, 179, 181]
     },
     {
         "class": "quick_panel_path_label",
         "settings": ["faceless_light_aqua"],
-        "match_fg": [102, 204, 204],
-        "selected_match_fg": [102, 204, 204]
+        "match_fg": [151, 254, 255],
+        "selected_match_fg": [151, 254, 255]
     },
     {
         "class": "quick_panel_path_label",
         "settings": ["faceless_light_yellow"],
-        "match_fg": [255, 204, 102],
-        "selected_match_fg": [255, 204, 102]
+        "match_fg": [255, 228, 177],
+        "selected_match_fg": [255, 228, 177]
     },
 
     {
@@ -1642,44 +1641,44 @@
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_light_blue"],
-        "fg": [102, 153, 204],
-        "selected_fg": [102, 153, 204]
+        "fg": [151, 202, 255],
+        "selected_fg": [151, 202, 255]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_light_green"],
-        "fg": [153, 204, 153],
-        "selected_fg": [153, 204, 153]
+        "fg": [190, 242, 190],
+        "selected_fg": [190, 242, 190]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_light_orange"],
-        "fg": [249, 145, 87],
-        "selected_fg": [249, 145, 87]
+        "fg": [255, 198, 167],
+        "selected_fg": [255, 198, 167]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_light_purple"],
-        "fg": [204, 153, 204],
-        "selected_fg": [204, 153, 204]
+        "fg": [242, 190, 241],
+        "selected_fg": [242, 190, 241]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_light_red"],
-        "fg": [242, 119, 122],
-        "selected_fg": [242, 119, 122]
+        "fg": [255, 179, 181],
+        "selected_fg": [255, 179, 181]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_light_aqua"],
-        "fg": [102, 204, 204],
-        "selected_fg": [102, 204, 204]
+        "fg": [151, 254, 255],
+        "selected_fg": [151, 254, 255]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_light_yellow"],
-        "fg": [255, 204, 102],
-        "selected_fg": [255, 204, 102]
+        "fg": [255, 228, 177],
+        "selected_fg": [255, 228, 177]
     },
 
 ////////////////////////////////////
@@ -1710,43 +1709,43 @@
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_blue"],
-        "layer1.tint": [102, 153, 204]
+        "layer1.tint": [151, 202, 255]
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_green"],
-        "layer1.tint": [153, 204, 153]
+        "layer1.tint": [190, 242, 190]
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_orange"],
-        "layer1.tint": [249, 145, 87]
+        "layer1.tint": [255, 198, 167]
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_purple"],
-        "layer1.tint": [204, 153, 204]
+        "layer1.tint": [242, 190, 241]
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_red"],
-        "layer1.tint": [242, 119, 122]
+        "layer1.tint": [255, 179, 181]
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_aqua"],
-        "layer1.tint": [102, 204, 204]
+        "layer1.tint": [151, 254, 255]
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_yellow"],
-        "layer1.tint": [255, 204, 102]
+        "layer1.tint": [255, 228, 177]
     },
 
 ////////////////////////////////////
@@ -1780,44 +1779,44 @@
     {
         "class": "auto_complete_label",
         "settings": ["faceless_light_blue"],
-        "match_fg": [102, 153, 204],
-        "selected_match_fg": [102, 153, 204]
+        "match_fg": [151, 202, 255],
+        "selected_match_fg": [151, 202, 255]
     },
     {
         "class": "auto_complete_label",
         "settings": ["faceless_light_green"],
-        "match_fg": [153, 204, 153],
-        "selected_match_fg": [153, 204, 153]
+        "match_fg": [190, 242, 190],
+        "selected_match_fg": [190, 242, 190]
     },
     {
         "class": "auto_complete_label",
         "settings": ["faceless_light_orange"],
-        "match_fg": [249, 145, 87],
-        "selected_match_fg": [249, 145, 87]
+        "match_fg": [255, 198, 167],
+        "selected_match_fg": [255, 198, 167]
     },
     {
         "class": "auto_complete_label",
         "settings": ["faceless_light_purple"],
-        "match_fg": [204, 153, 204],
-        "selected_match_fg": [204, 153, 204]
+        "match_fg": [242, 190, 241],
+        "selected_match_fg": [242, 190, 241]
     },
     {
         "class": "auto_complete_label",
         "settings": ["faceless_light_red"],
-        "match_fg": [242, 119, 122],
-        "selected_match_fg": [242, 119, 122]
+        "match_fg": [255, 179, 181],
+        "selected_match_fg": [255, 179, 181]
     },
     {
         "class": "auto_complete_label",
         "settings": ["faceless_light_aqua"],
-        "match_fg": [102, 204, 204],
-        "selected_match_fg": [102, 204, 204]
+        "match_fg": [151, 254, 255],
+        "selected_match_fg": [151, 254, 255]
     },
     {
         "class": "auto_complete_label",
         "settings": ["faceless_light_yellow"],
-        "match_fg": [255, 204, 102],
-        "selected_match_fg": [255, 204, 102]
+        "match_fg": [255, 228, 177],
+        "selected_match_fg": [255, 228, 177]
     },
     {
         "class": "table_row",
@@ -1841,43 +1840,43 @@
         "class": "table_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_blue"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "table_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_green"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "table_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_orange"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "table_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_purple"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
     {
         "class": "table_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_red"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "table_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_aqua"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "table_row",
         "attributes": ["selected"],
         "settings": ["faceless_light_yellow"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     },
 
 ////////////////////////////////////
@@ -1953,43 +1952,43 @@
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_blue"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_green"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_orange"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_purple"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_red"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_aqua"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "icon_regex",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_yellow"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     },
 
     // Case sensitive search button
@@ -2012,43 +2011,43 @@
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_blue"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_green"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_orange"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_purple"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_red"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_aqua"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "icon_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_yellow"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     },
 
     // Match whole word search button
@@ -2071,43 +2070,43 @@
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_blue"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_green"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_orange"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_purple"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_red"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_aqua"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "icon_whole_word",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_yellow"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     },
 
 ////////////////////////////////////
@@ -2133,43 +2132,43 @@
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_blue"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_green"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_orange"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_purple"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_red"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_aqua"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "icon_context",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_yellow"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     },
 
     // Use search buffer
@@ -2191,43 +2190,43 @@
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_blue"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_green"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_orange"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_purple"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_red"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_aqua"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "icon_use_buffer",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_yellow"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     },
 
 ////////////////////////////////////
@@ -2252,43 +2251,43 @@
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_blue"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_green"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_orange"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_purple"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_red"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_aqua"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "icon_reverse",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_yellow"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     },
 
     // Search wrap button
@@ -2310,43 +2309,43 @@
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_blue"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_green"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_orange"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_purple"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_red"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_aqua"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "icon_wrap",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_yellow"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     },
 
     // Search in selection button
@@ -2368,43 +2367,43 @@
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_blue"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_green"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_orange"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_purple"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_red"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_aqua"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "icon_in_selection",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_yellow"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     },
 
 ////////////////////////////////////
@@ -2429,43 +2428,43 @@
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_blue"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_green"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_orange"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_purple"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_red"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_aqua"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "icon_preserve_case",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_yellow"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     },
 
 ////////////////////////////////////
@@ -2490,42 +2489,42 @@
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_blue"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [151, 202, 255]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_green"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [190, 242, 190]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_orange"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [255, 198, 167]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_purple"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [242, 190, 241]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_red"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [255, 179, 181]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_aqua"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [151, 254, 255]
     },
     {
         "class": "icon_highlight",
         "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
         "settings": ["faceless_light_yellow"],
-        "layer0.tint": [255, 204, 102]
+        "layer0.tint": [255, 228, 177]
     }
 ]

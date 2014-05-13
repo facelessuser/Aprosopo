@@ -12,11 +12,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#fafafa</string>
+				<string>#626566</string>
 				<key>caret</key>
 				<string>#CCCCCC</string>
 				<key>foreground</key>
-				<string>#1E2123</string>
+				<string>#CCCCCC</string>
 				<key>gutterForeground</key>
 				<string>#1E2123</string>
 				<key>invisibles</key>

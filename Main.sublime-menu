@@ -161,147 +161,147 @@
                                     }
                                 ]
                             },
-                            // {"caption": "-"},
-                            // {
-                            //     "caption": "Set Light Theme",
-                            //     "children":
-                            //     [
-                            //         {
-                            //             "command": "set_faceless_theme", "args":
-                            //             {
-                            //                 "theme": "light",
-                            //                 "color": "aqua"
-                            //             },
-                            //             "caption": "Aqua"
-                            //         },
-                            //         {
-                            //             "command": "set_faceless_theme", "args":
-                            //             {
-                            //                 "theme": "light",
-                            //                 "color": "blue"
-                            //             },
-                            //             "caption": "Blue"
-                            //         },
-                            //         {
-                            //             "command": "set_faceless_theme", "args":
-                            //             {
-                            //                 "theme": "light",
-                            //                 "color": "gray"
-                            //             },
-                            //             "caption": "Gray"
-                            //         },
-                            //         {
-                            //             "command": "set_faceless_theme", "args":
-                            //             {
-                            //                 "theme": "light",
-                            //                 "color": "green"
-                            //             },
-                            //             "caption": "Green"
-                            //         },
-                            //         {
-                            //             "command": "set_faceless_theme", "args":
-                            //             {
-                            //                 "theme": "light",
-                            //                 "color": "orange"
-                            //             },
-                            //             "caption": "Orange"
-                            //         },
-                            //         {
-                            //             "command": "set_faceless_theme", "args":
-                            //             {
-                            //                 "theme": "light",
-                            //                 "color": "purple"
-                            //             },
-                            //             "caption": "Purple"
-                            //         },
-                            //         {
-                            //             "command": "set_faceless_theme", "args":
-                            //             {
-                            //                 "theme": "light",
-                            //                 "color": "red"
-                            //             },
-                            //             "caption": "Red"
-                            //         },
-                            //         {
-                            //             "command": "set_faceless_theme", "args":
-                            //             {
-                            //                 "theme": "light",
-                            //                 "color": "yellow"
-                            //             },
-                            //             "caption": "Yellow"
-                            //         }
-                            //     ]
-                            // },
-                            // {
-                            //     "caption": "Set Light Dirty Indicator Color",
-                            //     "children":
-                            //     [
-                            //         {
-                            //             "command": "set_faceless_theme_dirty", "args":
-                            //             {
-                            //                 "theme": "light",
-                            //                 "color": "aqua"
-                            //             },
-                            //             "caption": "Aqua"
-                            //         },
-                            //         {
-                            //             "command": "set_faceless_theme_dirty", "args":
-                            //             {
-                            //                 "theme": "light",
-                            //                 "color": "blue"
-                            //             },
-                            //             "caption": "Blue"
-                            //         },
-                            //         {
-                            //             "command": "set_faceless_theme_dirty", "args":
-                            //             {
-                            //                 "theme": "light",
-                            //                 "color": "green"
-                            //             },
-                            //             "caption": "Green"
-                            //         },
-                            //         {
-                            //             "command": "set_faceless_theme_dirty", "args":
-                            //             {
-                            //                 "theme": "light",
-                            //                 "color": "gray"
-                            //             },
-                            //             "caption": "Gray"
-                            //         },
-                            //         {
-                            //             "command": "set_faceless_theme_dirty", "args":
-                            //             {
-                            //                 "theme": "light",
-                            //                 "color": "orange"
-                            //             },
-                            //             "caption": "Orange"
-                            //         },
-                            //         {
-                            //             "command": "set_faceless_theme_dirty", "args":
-                            //             {
-                            //                 "theme": "light",
-                            //                 "color": "purple"
-                            //             },
-                            //             "caption": "Purple"
-                            //         },
-                            //         {
-                            //             "command": "set_faceless_theme_dirty", "args":
-                            //             {
-                            //                 "theme": "light",
-                            //                 "color": "red"
-                            //             },
-                            //             "caption": "Red"
-                            //         },
-                            //         {
-                            //             "command": "set_faceless_theme_dirty", "args":
-                            //             {
-                            //                 "theme": "light",
-                            //                 "color": "yellow"
-                            //             },
-                            //             "caption": "Yellow"
-                            //         }
-                            //     ]
-                            // },
+                            {"caption": "-"},
+                            {
+                                "caption": "Set Light Theme",
+                                "children":
+                                [
+                                    {
+                                        "command": "set_faceless_theme", "args":
+                                        {
+                                            "theme": "light",
+                                            "color": "aqua"
+                                        },
+                                        "caption": "Aqua"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme", "args":
+                                        {
+                                            "theme": "light",
+                                            "color": "blue"
+                                        },
+                                        "caption": "Blue"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme", "args":
+                                        {
+                                            "theme": "light",
+                                            "color": "gray"
+                                        },
+                                        "caption": "Gray"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme", "args":
+                                        {
+                                            "theme": "light",
+                                            "color": "green"
+                                        },
+                                        "caption": "Green"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme", "args":
+                                        {
+                                            "theme": "light",
+                                            "color": "orange"
+                                        },
+                                        "caption": "Orange"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme", "args":
+                                        {
+                                            "theme": "light",
+                                            "color": "purple"
+                                        },
+                                        "caption": "Purple"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme", "args":
+                                        {
+                                            "theme": "light",
+                                            "color": "red"
+                                        },
+                                        "caption": "Red"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme", "args":
+                                        {
+                                            "theme": "light",
+                                            "color": "yellow"
+                                        },
+                                        "caption": "Yellow"
+                                    }
+                                ]
+                            },
+                            {
+                                "caption": "Set Light Dirty Indicator Color",
+                                "children":
+                                [
+                                    {
+                                        "command": "set_faceless_theme_dirty", "args":
+                                        {
+                                            "theme": "light",
+                                            "color": "aqua"
+                                        },
+                                        "caption": "Aqua"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dirty", "args":
+                                        {
+                                            "theme": "light",
+                                            "color": "blue"
+                                        },
+                                        "caption": "Blue"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dirty", "args":
+                                        {
+                                            "theme": "light",
+                                            "color": "green"
+                                        },
+                                        "caption": "Green"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dirty", "args":
+                                        {
+                                            "theme": "light",
+                                            "color": "gray"
+                                        },
+                                        "caption": "Gray"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dirty", "args":
+                                        {
+                                            "theme": "light",
+                                            "color": "orange"
+                                        },
+                                        "caption": "Orange"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dirty", "args":
+                                        {
+                                            "theme": "light",
+                                            "color": "purple"
+                                        },
+                                        "caption": "Purple"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dirty", "args":
+                                        {
+                                            "theme": "light",
+                                            "color": "red"
+                                        },
+                                        "caption": "Red"
+                                    },
+                                    {
+                                        "command": "set_faceless_theme_dirty", "args":
+                                        {
+                                            "theme": "light",
+                                            "color": "yellow"
+                                        },
+                                        "caption": "Yellow"
+                                    }
+                                ]
+                            },
                             { "caption": "-" },
                             {
                                 "caption": "Set Sidebar Tree Size",
