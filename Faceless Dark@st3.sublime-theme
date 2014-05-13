@@ -1294,9 +1294,6 @@
         "layer0.tint": [255, 255, 255]
     },
 
-    // Hide folder icons since disclosure does the same thing
-    // No need to have to icons representing a folder
-
     // File icons
     {
         "class": "icon_file_type",

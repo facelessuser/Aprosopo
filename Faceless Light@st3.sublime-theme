@@ -1216,8 +1216,9 @@
     // Sidebar group closed
     {
         "class": "disclosure_button_control",
-        "content_margin": [0, 6, 18, 7],
-        "layer0.texture": "Theme - Faceless/Light/group_close.png",
+        "content_margin": [0, 0],
+        // "content_margin": [0, 6, 18, 7],
+        "layer0.texture": "Theme - Faceless/Light/arrow_right.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
@@ -1226,63 +1227,72 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
+        "layer0.texture": "Theme - Faceless/Light/arrow_down.png"
+    },
+
+    // Sidebar group closed
+    {
+        "class": "icon_folder",
+        "layer0.texture": "Theme - Faceless/Light/group_close.png",
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0,
+        "content_margin": [0, 6, 18, 7]
+    },
+    // Sidebar group opened
+    {
+        "class": "icon_folder",
+        "parents":
+        [
+            { "class": "tree_row", "attributes": ["expanded"] }
+        ],
         "layer0.texture": "Theme - Faceless/Light/group_open.png"
     },
 
     // Sidebar group Colors
     {
-        "class": "disclosure_button_control",
+        "class": "icon_folder",
         "settings": ["faceless_light_gray"],
         "layer0.tint": [153, 153, 153]
     },
     {
-        "class": "disclosure_button_control",
+        "class": "icon_folder",
         "settings": ["faceless_light_blue"],
         "layer0.tint": [151, 202, 255]
     },
     {
-        "class": "disclosure_button_control",
+        "class": "icon_folder",
         "settings": ["faceless_light_green"],
         "layer0.tint": [190, 242, 190]
     },
     {
-        "class": "disclosure_button_control",
+        "class": "icon_folder",
         "settings": ["faceless_light_orange"],
         "layer0.tint": [255, 198, 167]
     },
     {
-        "class": "disclosure_button_control",
+        "class": "icon_folder",
         "settings": ["faceless_light_purple"],
         "layer0.tint": [242, 190, 241]
     },
     {
-        "class": "disclosure_button_control",
+        "class": "icon_folder",
         "settings": ["faceless_light_red"],
         "layer0.tint": [255, 179, 181]
     },
     {
-        "class": "disclosure_button_control",
+        "class": "icon_folder",
         "settings": ["faceless_light_aqua"],
         "layer0.tint": [151, 254, 255]
     },
     {
-        "class": "disclosure_button_control",
+        "class": "icon_folder",
         "settings": ["faceless_light_yellow"],
         "layer0.tint": [255, 228, 177]
     },
     {
-        "class": "disclosure_button_control",
+        "class": "icon_folder",
         "parents": [{"class": "tree_row", "attributes": ["selected"]}],
         "layer0.tint": [255, 255, 255]
-    },
-
-    // Hide folder icons since disclosure does the same thing
-    // No need to have to icons representing a folder
-
-    // Sidebar group closed
-    {
-        "class": "icon_folder",
-        "content_margin": [0, 0]
     },
 
     // File icons
