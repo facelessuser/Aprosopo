@@ -1233,10 +1233,10 @@
     // Sidebar group closed
     {
         "class": "icon_folder",
-        "layer0.texture": "Theme - Faceless/Light/group_close.png",
+        "layer0.texture": "Theme - Faceless/icons/folder_close.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "content_margin": [0, 6, 18, 7]
+        "content_margin": [8, 8]
     },
     // Sidebar group opened
     {
@@ -1245,7 +1245,7 @@
         [
             { "class": "tree_row", "attributes": ["expanded"] }
         ],
-        "layer0.texture": "Theme - Faceless/Light/group_open.png"
+        "layer0.texture": "Theme - Faceless/icons/folder_open.png"
     },
 
     // Sidebar group Colors
