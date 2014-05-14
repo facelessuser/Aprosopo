@@ -1797,7 +1797,8 @@
         "layer0.texture": "Theme - Faceless/Dark/btn_middle.png",
         "layer0.opacity": 1.0,
         "content_margin": [4,5,4,5],
-        "layer0.tint": [255, 255, 255]
+        "layer0.tint": [255, 255, 255],
+        "layer0.inner_margin": 1
     },
 
     // Button group left
