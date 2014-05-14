@@ -29,7 +29,7 @@ def get_theme(obj, default=None):
     theme = obj.get("theme", None)
     if theme is None:
         theme = default
-    else:
+    elif ST3:
         parts = os.path.splitext(theme)
         special_theme = parts[0] + special + parts[1]
         resources = sublime.find_resources(special_theme)
@@ -37,6 +37,14 @@ def get_theme(obj, default=None):
             if r == "Packages/Theme - Faceless/%s" % special_theme:
                 theme = special_theme
                 break
+    else:
+        parts = os.path.splitext(theme)
+        special_theme = parts[0] + special + parts[1]
+        pkgs = sublime.packages_path()
+        resource = os.path.join(pkgs, "Theme - Faceless", special_theme)
+        if os.path.exists(resource):
+            theme = special_theme
+
     return theme
 
 
