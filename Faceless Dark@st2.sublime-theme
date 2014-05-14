@@ -1213,8 +1213,8 @@
     // Sidebar group closed
     {
         "class": "disclosure_button_control",
-        "content_margin": [0, 6, 18, 7],
-        "layer0.texture": "Theme - Faceless/Common/group_close.png",
+        "content_margin": [8, 8],
+        "layer0.texture": "Theme - Faceless/icons/folder_close.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
@@ -1223,7 +1223,7 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Faceless/Common/group_open.png"
+        "layer0.texture": "Theme - Faceless/icons/folder_open.png"
     },
 
     // Sidebar group Colors
