@@ -24,7 +24,7 @@
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Theme - Faceless/Light/arrow_left.png",
+        "layer0.texture": "Theme - Faceless/Common/arrow_left.png",
         "layer0.tint": [230, 233, 235],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
@@ -81,7 +81,7 @@
     {
         "class": "scroll_tabs_right_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Theme - Faceless/Light/arrow_right.png",
+        "layer0.texture": "Theme - Faceless/Common/arrow_right.png",
         "layer0.tint": [230, 233, 235],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
@@ -138,7 +138,7 @@
     {
         "class": "show_tabs_dropdown_button",
         "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Theme - Faceless/Light/arrow_down.png",
+        "layer0.texture": "Theme - Faceless/Common/arrow_down.png",
         "layer0.tint": [230, 233, 235],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
@@ -265,7 +265,7 @@
         "settings": ["faceless_active_bar"],
 
         // Tab select overlay
-        "layer1.texture": "Theme - Faceless/Light/tab_overlay_bar_bottom.png",
+        "layer1.texture": "Theme - Faceless/Common/tab_overlay_bar_bottom.png",
         "layer1.inner_margin": [15, 4],
         "layer1.opacity": 1.0
     },
@@ -327,7 +327,7 @@
         "settings": ["faceless_dirty_bar"],
         "max_margin_trim": 0,
         "hit_test_level": 0.5,
-        "layer3.texture": "Theme - Faceless/Light/tab_overlay_bar_bottom.png",
+        "layer3.texture": "Theme - Faceless/Common/tab_overlay_bar_bottom.png",
         "layer3.inner_margin": [15, 4],
         "layer3.opacity": 1.0
     },
@@ -337,7 +337,7 @@
         "class": "tab_control",
         "attributes": ["dirty", "selected"],
         "settings": ["faceless_dirty_bar", "faceless_active_bar"],
-        "layer3.texture": "Theme - Faceless/Light/tab_overlay_bar_top.png"
+        "layer3.texture": "Theme - Faceless/Common/tab_overlay_bar_top.png"
     },
 
     // Tab dirty overlay (when active overlay is disabled)
@@ -345,7 +345,7 @@
         "class": "tab_control",
         "attributes": ["dirty"],
         "settings": ["faceless_dirty_bar", "!faceless_active_bar"],
-        "layer3.texture": "Theme - Faceless/Light/tab_overlay_bar_bottom.png"
+        "layer3.texture": "Theme - Faceless/Common/tab_overlay_bar_bottom.png"
     },
 
     // Dirty overlay colors
@@ -488,7 +488,7 @@
     {
         "class": "tab_close_button",
         "content_margin": [0, 0],
-        "layer0.texture": "Theme - Faceless/Light/file_close.png",
+        "layer0.texture": "Theme - Faceless/Common/file_close.png",
         // "layer0.tint": [40, 43, 45],
         "layer0.opacity": 0.5,
         "layer0.inner_margin": [0, 0]
@@ -589,7 +589,7 @@
 ////////////////////////////////////
     {
         "class": "fold_button_control",
-        "layer0.texture": "Theme - Faceless/Light/arrow_right.png",
+        "layer0.texture": "Theme - Faceless/Common/arrow_right.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         "layer0.tint": [180, 183, 185],
@@ -598,7 +598,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Faceless/Light/arrow_down.png",
+        "layer0.texture": "Theme - Faceless/Common/arrow_down.png",
         "layer0.tint": [180, 183, 185]
     },
     // Fold button colors
@@ -657,7 +657,7 @@
     // Standard vertical scroll bar
     {
         "class": "scroll_bar_control",
-        "layer0.texture": "Theme - Faceless/Light/standard_scrollbar_vertical.png",
+        "layer0.texture": "Theme - Faceless/Common/standard_scrollbar_vertical.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 5],
         "blur": false
@@ -667,7 +667,7 @@
     {
         "class": "scroll_bar_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Faceless/Light/standard_scrollbar_horizontal.png",
+        "layer0.texture": "Theme - Faceless/Common/standard_scrollbar_horizontal.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [5, 0],
         "blur": false
@@ -676,7 +676,7 @@
     // Standard scroll bar corner
     {
         "class": "scroll_corner_control",
-        "layer0.texture": "Theme - Faceless/Light/standard_scrollbar_corner.png",
+        "layer0.texture": "Theme - Faceless/Common/standard_scrollbar_corner.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [1, 1]
     },
@@ -684,7 +684,7 @@
     // Standard vertical scroll puck
     {
         "class": "puck_control",
-        "layer0.texture": "Theme - Faceless/Light/standard_puck_vertical.png",
+        "layer0.texture": "Theme - Faceless/Common/standard_puck_vertical.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [0, 5],
         "content_margin": [5, 20],
@@ -695,7 +695,7 @@
     {
         "class": "puck_control",
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Faceless/Light/standard_puck_horizontal.png",
+        "layer0.texture": "Theme - Faceless/Common/standard_puck_horizontal.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [5, 0],
         "content_margin": [20, 5],
@@ -721,7 +721,7 @@
     {
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "Theme - Faceless/Light/overlay_scrollbar_vertical.png",
+        "layer0.texture": "Theme - Faceless/Common/overlay_scrollbar_vertical.png",
         "layer0.inner_margin": [0, 5],
         "blur": true
     },
@@ -731,7 +731,7 @@
         "class": "scroll_bar_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Faceless/Light/overlay_scrollbar_horizontal.png",
+        "layer0.texture": "Theme - Faceless/Common/overlay_scrollbar_horizontal.png",
         "layer0.inner_margin": [5, 0],
         "blur": true
     },
@@ -740,7 +740,7 @@
     {
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
-        "layer0.texture": "Theme - Faceless/Light/overlay_puck_vertical.png",
+        "layer0.texture": "Theme - Faceless/Common/overlay_puck_vertical.png",
         "layer0.inner_margin": [0, 5],
         "content_margin": [5, 20],
         "blur": true
@@ -751,7 +751,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal"],
-        "layer0.texture": "Theme - Faceless/Light/overlay_puck_horizontal.png",
+        "layer0.texture": "Theme - Faceless/Common/overlay_puck_horizontal.png",
         "layer0.inner_margin": [5, 0],
         "content_margin": [20, 5],
         "blur": true
@@ -762,7 +762,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["dark"],
-        "layer0.texture": "Theme - Faceless/Light/overlay_dark_puck_vertical.png"
+        "layer0.texture": "Theme - Faceless/Common/overlay_dark_puck_vertical.png"
     },
 
     // Overlay light horizontal puck (for dark content)
@@ -770,7 +770,7 @@
         "class": "puck_control",
         "settings": ["overlay_scroll_bars"],
         "attributes": ["horizontal", "dark"],
-        "layer0.texture": "Theme - Faceless/Light/overlay_dark_puck_horizontal.png"
+        "layer0.texture": "Theme - Faceless/Common/overlay_dark_puck_horizontal.png"
     },
 
 ////////////////////////////////////
@@ -929,7 +929,7 @@
     // Tooltip container
     {
         "class": "tool_tip_control",
-        "layer0.texture": "Theme - Faceless/Light/tooltip.png",
+        "layer0.texture": "Theme - Faceless/Common/tooltip.png",
         "layer0.inner_margin": [1, 1],
         "layer0.opacity": 1.0,
         "content_margin": [3, 3]
@@ -1128,7 +1128,7 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Theme - Faceless/Light/file_close.png",
+        "layer0.texture": "Theme - Faceless/Common/file_close.png",
         "layer0.opacity": 0.0,
         // "layer0.tint": [60, 63, 65],
         "layer0.inner_margin": 0,
@@ -1144,14 +1144,14 @@
     {
         "class": "close_button",
         "attributes": ["dirty"],
-        "layer0.texture": "Theme - Faceless/Light/file_dirty.png",
+        "layer0.texture": "Theme - Faceless/Common/file_dirty.png",
         "layer0.opacity": 0.5
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Faceless/Light/file_close.png"
+        "layer0.texture": "Theme - Faceless/Common/file_close.png"
     },
 
     // Sidebar file dirty Colors
@@ -1209,7 +1209,7 @@
     {
         "class": "close_button",
         "attributes": ["hover"],
-        "layer0.texture": "Theme - Faceless/Light/file_close.png",
+        "layer0.texture": "Theme - Faceless/Common/file_close.png",
         "layer0.opacity": 1.0
     },
 
@@ -1217,7 +1217,7 @@
     {
         "class": "disclosure_button_control",
         "content_margin": [0, 6, 18, 7],
-        "layer0.texture": "Theme - Faceless/Light/group_close.png",
+        "layer0.texture": "Theme - Faceless/Common/group_close.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
     },
@@ -1226,7 +1226,7 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Faceless/Light/group_open.png"
+        "layer0.texture": "Theme - Faceless/Common/group_open.png"
     },
 
     // Sidebar group Colors
@@ -1312,7 +1312,7 @@
     {
         "class": "dropdown_button_control",
         "content_margin": [8, 8],
-        "layer0.texture": "Theme - Faceless/Light/down_arrow_inv.png",
+        "layer0.texture": "Theme - Faceless/Common/down_arrow_inv.png",
         "layer0.opacity": 0.5,
         "layer0.tint": [180, 183, 185],
         "layer0.inner_margin": [4, 4]
@@ -1335,7 +1335,7 @@
     },
     {
         "class": "panel_close_button",
-        "layer0.texture": "Theme - Faceless/Light/file_close.png",
+        "layer0.texture": "Theme - Faceless/Common/file_close.png",
         "layer0.opacity": 0.5,
         "content_margin": [8, 8]
     },
@@ -1848,7 +1848,7 @@
     // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - Faceless/Light/icon-regex-on.png",
+        "layer0.texture": "Theme - Faceless/Common/icon-regex-on.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [201, 202, 203],
         "content_margin": [8, 8]
@@ -1907,7 +1907,7 @@
     // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - Faceless/Light/icon-case-on.png",
+        "layer0.texture": "Theme - Faceless/Common/icon-case-on.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [201, 202, 203],
         "content_margin": [8, 8]
@@ -1966,7 +1966,7 @@
     // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - Faceless/Light/icon-word-on.png",
+        "layer0.texture": "Theme - Faceless/Common/icon-word-on.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [201, 202, 203],
         "content_margin": [8, 8]
@@ -2029,7 +2029,7 @@
     // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - Faceless/Light/icon-context-on.png",
+        "layer0.texture": "Theme - Faceless/Common/icon-context-on.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [201, 202, 203],
         "content_margin": [8, 8]
@@ -2087,7 +2087,7 @@
     // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - Faceless/Light/icon-buffer-on.png",
+        "layer0.texture": "Theme - Faceless/Common/icon-buffer-on.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [201, 202, 203],
         "content_margin": [8, 8]
@@ -2148,7 +2148,7 @@
     // Reverse search direction button
     {
         "class": "icon_reverse",
-        "layer0.texture": "Theme - Faceless/Light/icon-reverse-on.png",
+        "layer0.texture": "Theme - Faceless/Common/icon-reverse-on.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [201, 202, 203],
         "content_margin": [8, 8]
@@ -2206,7 +2206,7 @@
     // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - Faceless/Light/icon-wrap-on.png",
+        "layer0.texture": "Theme - Faceless/Common/icon-wrap-on.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [201, 202, 203],
         "content_margin": [8, 8]
@@ -2264,7 +2264,7 @@
     // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - Faceless/Light/icon-selection-on.png",
+        "layer0.texture": "Theme - Faceless/Common/icon-selection-on.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [201, 202, 203],
         "content_margin": [8, 8]
@@ -2325,7 +2325,7 @@
     // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - Faceless/Light/icon-preserve-on.png",
+        "layer0.texture": "Theme - Faceless/Common/icon-preserve-on.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [201, 202, 203],
         "content_margin": [8, 8]
@@ -2386,7 +2386,7 @@
     // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - Faceless/Light/icon-highlight-on.png",
+        "layer0.texture": "Theme - Faceless/Common/icon-highlight-on.png",
         "layer0.opacity": 1.0,
         "layer0.tint": [201, 202, 203],
         "content_margin": [8, 8]
