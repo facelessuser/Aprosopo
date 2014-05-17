@@ -191,7 +191,7 @@ class SetFacelessThemeCommand(sublime_plugin.ApplicationCommand):
         pref = sublime.load_settings(PREFERENCES)
         if color_key is None or color not in colors:
             return False
-        return pref.get(color_key % color, False) == True
+        return pref.get(color_key % color, False) is True
 
 
 class SetFacelessThemeDirtyCommand(sublime_plugin.ApplicationCommand):
@@ -231,7 +231,7 @@ class SetFacelessThemeDirtyCommand(sublime_plugin.ApplicationCommand):
         if color not in colors:
             return False
         pref = sublime.load_settings(PREFERENCES)
-        return pref.get(dirty_key % color, False) == True
+        return pref.get(dirty_key % color, False) is True
 
 
 class SetFacelessThemeSidbarSizeCommand(sublime_plugin.ApplicationCommand):
@@ -257,7 +257,7 @@ class SetFacelessThemeSidbarSizeCommand(sublime_plugin.ApplicationCommand):
         if size not in self.sidebar_sizes:
             return False
         pref = sublime.load_settings(PREFERENCES)
-        return pref.get(self.size_key % size, False) == True
+        return pref.get(self.size_key % size, False) is True
 
 
 class ToggleFacelessThemeFeatureCommand(sublime_plugin.ApplicationCommand):
@@ -279,4 +279,4 @@ class ToggleFacelessThemeFeatureCommand(sublime_plugin.ApplicationCommand):
         Should menu option be check marked?
         """
         pref = sublime.load_settings(PREFERENCES)
-        return pref.get(feature, False) == True
+        return pref.get(feature, False) is True
