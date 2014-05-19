@@ -36,6 +36,9 @@ I don't know.  I really did this just for personal use, but I usually open up pe
 ## ST3 and ST2?
 As far as I know.
 
+## I am using ST3 version < 3062 and I don't have sidebar icons?
+ST3 version 3062 introduced new sidebar file icons.  With this new addition, the theme displays the icons differently.  If you are using an ST3 version < 3062, you can use the menu option `Disable Sidebar File Icons` to revert to the old way of displaying folder icons to restore them.
+
 ## Retina?
 Theoretically, but I don't have a retina display to test on.
 
