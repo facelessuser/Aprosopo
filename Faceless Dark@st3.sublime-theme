@@ -1216,6 +1216,7 @@
         "content_margin": [0, 0],
         // "content_margin": [0, 6, 18, 7],
         "layer0.texture": "Theme - Faceless/Common/arrow_right.png",
+        "settings": ["!faceless_no_file_icons"],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         "layer0.tint": [153, 153, 153]
@@ -1226,6 +1227,7 @@
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "layer0.texture": "Theme - Faceless/Common/arrow_down.png",
+        "settings": ["!faceless_no_file_icons"],
         "layer0.tint": [153, 153, 153]
     },
 
@@ -1233,6 +1235,7 @@
     {
         "class": "icon_folder",
         "layer0.texture": "Theme - Faceless/icons/folder_close.png",
+        "settings": ["!faceless_no_file_icons"],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
@@ -1297,6 +1300,7 @@
     // File icons
     {
         "class": "icon_file_type",
+        "settings": ["!faceless_no_file_icons"],
         // layer0.texture is filled in by code with the relevant icon name
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
@@ -1371,6 +1375,92 @@
 
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
+    },
+
+    // Roll back to legacy side bar icon methodology
+    // Sidebar group closed
+    {
+        "class": "disclosure_button_control",
+        "content_margin": [8, 8],
+        "layer0.texture": "Theme - Faceless/icons/folder_close.png",
+        "settings": ["faceless_no_file_icons"],
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0
+    },
+
+    // Sidebar group open
+    {
+        "class": "disclosure_button_control",
+        "attributes": ["expanded"],
+        "settings": ["faceless_no_file_icons"],
+        "layer0.texture": "Theme - Faceless/icons/folder_open.png"
+    },
+
+    // Sidebar group Colors
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_dark_gray", "faceless_no_file_icons"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_dark_blue", "faceless_no_file_icons"],
+        "layer0.tint": [102, 153, 204]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_dark_green", "faceless_no_file_icons"],
+        "layer0.tint": [153, 204, 153]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_dark_orange", "faceless_no_file_icons"],
+        "layer0.tint": [249, 145, 87]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_dark_purple", "faceless_no_file_icons"],
+        "layer0.tint": [204, 153, 204]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_dark_red", "faceless_no_file_icons"],
+        "layer0.tint": [242, 119, 122]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_dark_aqua", "faceless_no_file_icons"],
+        "layer0.tint": [102, 204, 204]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_dark_yellow", "faceless_no_file_icons"],
+        "layer0.tint": [255, 204, 102]
+    },
+    {
+        "class": "disclosure_button_control",
+        "settings": ["faceless_no_file_icons"],
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.tint": [255, 255, 255]
+    },
+
+    // Sidebar group closed
+    {
+        "class": "icon_folder",
+        "layer0.texture": "Theme - Faceless/icons/folder_close.png",
+        "settings": ["faceless_no_file_icons"],
+        "layer0.opacity": 1.0,
+        "layer0.inner_margin": 0,
+        "content_margin": [0, 0]
+    },
+
+    // File icons
+    {
+        "class": "icon_file_type",
+        "settings": ["faceless_no_file_icons"],
+        // layer0.texture is filled in by code with the relevant icon name
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 0]
     },
 
 ////////////////////////////////////
