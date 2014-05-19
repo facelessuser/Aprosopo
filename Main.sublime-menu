@@ -380,6 +380,15 @@
                                     "feature": "faceless_dirty_button"
                                 },
                                 "caption": "Dirty Tab Close Button Indicator"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "toggle_faceless_theme_feature", "args":
+                                {
+                                    "feature": "faceless_no_file_icons",
+                                    "st_version": 3
+                                },
+                                "caption": "Disable Sidebar File Icons"
                             }
                         ]
                     }

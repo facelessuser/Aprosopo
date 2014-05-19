@@ -13,7 +13,8 @@ COMMON_FEATURES = [
     "faceless_solid_tab",
     "faceless_active_text",
     "faceless_dirty_bar",
-    "faceless_dirty_button"
+    "faceless_dirty_button",
+    "faceless_no_file_icons"
 ]
 SIDEBAR_SIZES = ["xsmall", "small", "medium", "large", "xlarge"]
 SIDEBAR_COMMON_FEATURE = "faceless_sidebar_tree_%s"
@@ -261,7 +262,7 @@ class SetFacelessThemeSidbarSizeCommand(sublime_plugin.ApplicationCommand):
 
 
 class ToggleFacelessThemeFeatureCommand(sublime_plugin.ApplicationCommand):
-    def run(self, feature):
+    def run(self, feature, st_version=0):
         """
         Toggle feature true or false (when false, the setting is erased)
         """
@@ -274,9 +275,17 @@ class ToggleFacelessThemeFeatureCommand(sublime_plugin.ApplicationCommand):
                 pref.erase(feature)
             sublime.save_settings(PREFERENCES)
 
-    def is_checked(self, feature):
+    def is_visible(self, feature, st_version=0):
+        """
+        Show option if ST version matches
+        """
+
+        return st_version == 0 or (st_version == 3 and ST3) or (st_version == 2 and ST2)
+
+    def is_checked(self, feature, st_version=0):
         """
         Should menu option be check marked?
         """
+
         pref = sublime.load_settings(PREFERENCES)
         return pref.get(feature, False) is True
