@@ -4,6 +4,7 @@ import os
 
 # General settings
 ST3 = int(sublime.version()) >= 3000
+ST2 = 3000 < int(sublime.version()) >= 2000
 PREFERENCES = "Preferences.sublime-settings"
 
 # Theme specific settings
@@ -14,7 +15,8 @@ COMMON_FEATURES = [
     "faceless_active_text",
     "faceless_dirty_bar",
     "faceless_dirty_button",
-    "faceless_no_file_icons"
+    "faceless_no_file_icons",
+    "faceless_show_tab_close_on_hover"
 ]
 SIDEBAR_SIZES = ["xsmall", "small", "medium", "large", "xlarge"]
 SIDEBAR_COMMON_FEATURE = "faceless_sidebar_tree_%s"

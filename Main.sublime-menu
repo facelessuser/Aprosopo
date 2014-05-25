@@ -389,6 +389,20 @@
                                     "st_version": 3
                                 },
                                 "caption": "Disable Sidebar File Icons"
+                            },
+                            {
+                                "command": "toggle_faceless_theme_feature", "args":
+                                {
+                                    "feature": "show_tab_close_buttons"
+                                },
+                                "caption": "Show Tab Close Button"
+                            },
+                            {
+                                "command": "toggle_faceless_theme_feature", "args":
+                                {
+                                    "feature": "faceless_show_tab_close_on_hover"
+                                },
+                                "caption": "Hide Tab Close Button Except on Hover"
                             }
                         ]
                     }

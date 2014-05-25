@@ -497,7 +497,15 @@
     // Tab close button (enabled)
     {
         "class": "tab_close_button",
-        "settings": ["show_tab_close_buttons"],
+        "settings": ["show_tab_close_buttons", "!faceless_show_tab_close_on_hover"],
+        "content_margin": [8, 8]
+    },
+
+    // Tab close button (enabled on hover only)
+    {
+        "class": "tab_close_button",
+        "settings": ["show_tab_close_buttons", "faceless_show_tab_close_on_hover"],
+        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "content_margin": [8, 8]
     },
 
