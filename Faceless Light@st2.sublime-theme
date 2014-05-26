@@ -488,7 +488,7 @@
     {
         "class": "tab_close_button",
         "content_margin": [0, 0],
-        "layer0.texture": "Theme - Faceless/Common/file_close.png",
+        "layer0.texture": "Theme - Faceless/Light/file_close.png",
         // "layer0.tint": [40, 43, 45],
         "layer0.opacity": 0.5,
         "layer0.inner_margin": [0, 0]
@@ -563,8 +563,7 @@
     // Tab close hover button
     {
         "class": "tab_close_button",
-        "settings": ["show_tab_close_buttons"],
-        "attributes": ["hover"],
+        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "layer0.opacity": 1.0
     },
 
@@ -1136,89 +1135,78 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Theme - Faceless/Common/file_close.png",
-        "layer0.opacity": 0.0,
+        "layer1.texture": "Theme - Faceless/Light/file_close.png",
+        "layer1.opacity": 0.0,
+        "layer0.texture": "Theme - Faceless/icons/file_type_default.png",
+        "layer0.opacity": 1.0,
         // "layer0.tint": [60, 63, 65],
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
     },
-    {
-        "class": "close_button",
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.opacity": 0.5
-    },
 
-    // Sidebar file dirty
     {
         "class": "close_button",
-        "attributes": ["dirty"],
-        "layer0.texture": "Theme - Faceless/Common/file_dirty.png",
-        "layer0.opacity": 0.5
-    },
-    {
-        "class": "close_button",
-        "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Faceless/Common/file_close.png"
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 1.0
     },
 
     // Sidebar file dirty Colors
     {
         "class": "close_button",
         "attributes": ["dirty"],
+        "layer0.tint": [153, 153, 153],
+        "layer1.tint": [153, 153, 153]
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_blue"],
-        "layer0.tint": [151, 202, 255]
+        "layer0.tint": [151, 202, 255],
+        "layer1.tint": [151, 202, 255]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_green"],
-        "layer0.tint": [190, 242, 190]
+        "layer0.tint": [190, 242, 190],
+        "layer1.tint": [190, 242, 190]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_orange"],
-        "layer0.tint": [255, 198, 167]
+        "layer0.tint": [255, 198, 167],
+        "layer1.tint": [255, 198, 167]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_purple"],
-        "layer0.tint": [242, 190, 241]
+        "layer0.tint": [242, 190, 241],
+        "layer1.tint": [242, 190, 241]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row"}],
         "settings": ["faceless_light_dirty_red"],
-        "layer0.tint": [255, 179, 181]
+        "layer0.tint": [255, 179, 181],
+        "layer1.tint": [255, 179, 181]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_aqua"],
-        "layer0.tint": [151, 254, 255]
+        "layer0.tint": [151, 254, 255],
+        "layer1.tint": [151, 254, 255]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "settings": ["faceless_light_dirty_yellow"],
-        "layer0.tint": [255, 228, 177]
-    },
-    {
-        "class": "close_button",
-        "attributes": ["dirty"],
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.tint": [255, 255, 255]
-    },
-
-    // Sidebar file close hover
-    {
-        "class": "close_button",
-        "attributes": ["hover"],
-        "layer0.texture": "Theme - Faceless/Common/file_close.png",
-        "layer0.opacity": 1.0
+        "layer0.tint": [255, 228, 177],
+        "layer1.tint": [255, 228, 177]
     },
 
     // Sidebar group closed
@@ -1343,14 +1331,9 @@
     },
     {
         "class": "panel_close_button",
-        "layer0.texture": "Theme - Faceless/Common/file_close.png",
-        "layer0.opacity": 0.5,
+        "layer0.texture": "Theme - Faceless/Light/file_close.png",
+        "layer0.opacity": 1.0,
         "content_margin": [8, 8]
-    },
-    {
-        "class": "panel_close_button",
-        "attributes": ["hover"],
-        "layer0.opacity": 1.0
     },
 
 ////////////////////////////////////

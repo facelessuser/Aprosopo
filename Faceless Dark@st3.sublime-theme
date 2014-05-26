@@ -486,8 +486,8 @@
     {
         "class": "tab_close_button",
         "content_margin": [0, 0],
-        "layer0.texture": "Theme - Faceless/Common/file_close.png",
-        "layer0.tint": [150, 153, 155],
+        "layer0.texture": "Theme - Faceless/Dark/file_close.png",
+        // "layer0.tint": [150, 153, 155],
         "layer0.opacity": 0.5,
         "layer0.inner_margin": [0, 0]
     },
@@ -557,12 +557,9 @@
         "settings": ["faceless_dark_dirty_purple", "faceless_dirty_button"],
         "layer0.tint": [204, 153, 204]
     },
-
-    // Tab close hover button
     {
         "class": "tab_close_button",
-        "settings": ["show_tab_close_buttons"],
-        "attributes": ["hover"],
+        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
         "layer0.opacity": 1.0
     },
 
@@ -1133,101 +1130,88 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Theme - Faceless/Common/file_close.png",
-        "layer0.opacity": 0.0,
-        "layer0.tint": [150, 153, 155],
+        "layer1.texture": "Theme - Faceless/Dark/file_close.png",
+        "layer1.opacity": 0.0,
+        "layer0.texture": "Theme - Faceless/icons/file_type_default.png",
+        "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
     },
-    {
-        "class": "close_button",
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.opacity": 0.5
-    },
 
-    // Sidebar file dirty
     {
         "class": "close_button",
-        "attributes": ["dirty"],
-        "layer0.texture": "Theme - Faceless/Common/file_dirty.png",
-        "layer0.opacity": 0.5
-    },
-    {
-        "class": "close_button",
-        "attributes": ["dirty"],
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "layer0.texture": "Theme - Faceless/Common/file_close.png"
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 1.0
     },
 
     // Sidebar file dirty Colors
     {
         "class": "close_button",
         "attributes": ["dirty"],
+        "layer0.tint": [153, 153, 153],
+        "layer1.tint": [153, 153, 153]
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
         "settings": ["faceless_dark_dirty_blue"],
-        "layer0.tint": [102, 153, 204]
+        "layer0.tint": [102, 153, 204],
+        "layer1.tint": [102, 153, 204]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "settings": ["faceless_dark_dirty_green"],
-        "layer0.tint": [153, 204, 153]
+        "layer0.tint": [153, 204, 153],
+        "layer1.tint": [153, 204, 153]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "settings": ["faceless_dark_dirty_orange"],
-        "layer0.tint": [249, 145, 87]
+        "layer0.tint": [249, 145, 87],
+        "layer1.tint": [249, 145, 87]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "settings": ["faceless_dark_dirty_purple"],
-        "layer0.tint": [204, 153, 204]
+        "layer0.tint": [204, 153, 204],
+        "layer1.tint": [204, 153, 204]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "parents": [{"class": "tree_row"}],
         "settings": ["faceless_dark_dirty_red"],
-        "layer0.tint": [242, 119, 122]
+        "layer0.tint": [242, 119, 122],
+        "layer1.tint": [242, 119, 122]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "settings": ["faceless_dark_dirty_aqua"],
-        "layer0.tint": [102, 204, 204]
+        "layer0.tint": [102, 204, 204],
+        "layer1.tint": [102, 204, 204]
     },
     {
         "class": "close_button",
         "attributes": ["dirty"],
         "settings": ["faceless_dark_dirty_yellow"],
-        "layer0.tint": [255, 204, 102]
-    },
-    {
-        "class": "close_button",
-        "attributes": ["dirty"],
-        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-        "layer0.tint": [255, 255, 255]
-    },
-
-    // Sidebar file close hover
-    {
-        "class": "close_button",
-        "attributes": ["hover"],
-        "layer0.texture": "Theme - Faceless/Common/file_close.png",
-        "layer0.opacity": 1.0
+        "layer0.tint": [255, 204, 102],
+        "layer1.tint": [255, 204, 102]
     },
 
     // Sidebar group closed
     {
         "class": "disclosure_button_control",
-        "content_margin": [0, 0],
-        // "content_margin": [0, 6, 18, 7],
+        "content_margin": [0, 6, 18, 7],
         "layer0.texture": "Theme - Faceless/Common/arrow_right.png",
         "settings": ["!faceless_no_file_icons"],
-        "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer0.tint": [153, 153, 153]
+        "layer0.tint": [200, 200, 200],
+        "layer0.opacity": 1.0
     },
 
     // Sidebar group open
@@ -1235,8 +1219,7 @@
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
         "layer0.texture": "Theme - Faceless/Common/arrow_down.png",
-        "settings": ["!faceless_no_file_icons"],
-        "layer0.tint": [153, 153, 153]
+        "settings": ["!faceless_no_file_icons"]
     },
 
     // Sidebar group closed
@@ -1529,14 +1512,9 @@
     },
     {
         "class": "panel_close_button",
-        "layer0.texture": "Theme - Faceless/Common/file_close.png",
-        "layer0.opacity": 0.5,
+        "layer0.texture": "Theme - Faceless/Dark/file_close.png",
+        "layer0.opacity": 0.75,
         "content_margin": [8, 8]
-    },
-    {
-        "class": "panel_close_button",
-        "attributes": ["hover"],
-        "layer0.opacity": 1.0
     },
 
 ////////////////////////////////////
