@@ -2,29 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>comment</key>
-	<string>http://chriskempson.com</string>
 	<key>name</key>
-	<string>Tomorrow Night - Eighties (Faceless Mod)</string>
+	<string>Aprosopo</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#626566</string>
+				<string>#FAFDFF</string>
 				<key>caret</key>
-				<string>#CCCCCC</string>
+				<string>#505355</string>
 				<key>foreground</key>
-				<string>#CCCCCC</string>
+				<string>#505355</string>
 				<key>gutterForeground</key>
-				<string>#1E2123</string>
-				<key>invisibles</key>
 				<string>#888888</string>
+				<key>invisibles</key>
+				<string>#3C3F41</string>
+				<key>lineHighlight</key>
+				<string>#88888820</string>
 				<key>selection</key>
-				<string>#ffcc66bb</string>
+				<string>#BEA983bb</string>
 				<key>selectionForeground</key>
-				<string>#FFFFFF</string>
+				<string>#505355</string>
 			</dict>
 		</dict>
 		<dict>
@@ -46,7 +46,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#CC99CC</string>
+				<string>#B991B8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -57,7 +57,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#66CCCC</string>
+				<string>#7ABDBE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -68,7 +68,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FFCC66</string>
+				<string>#BEA983</string>
 			</dict>
 		</dict>
 		<dict>
@@ -79,7 +79,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#99CC99</string>
+				<string>#8BB28B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -88,7 +88,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F99157</string>
+				<string>#BC927B</string>
 			</dict>
 		</dict>
 	</array>

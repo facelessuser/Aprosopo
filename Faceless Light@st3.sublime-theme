@@ -5,7 +5,7 @@
     // Tab set
     {
         "class": "tabset_control",
-        "layer0.tint": [98, 101, 102],
+        "layer0.tint": [182, 185, 187],
         "layer0.opacity": 1.0,
         "content_margin": [0, 0, 0, 0],
         "tab_overlap": 2,
@@ -559,6 +559,8 @@
         "settings": ["faceless_light_dirty_purple", "faceless_dirty_button"],
         "layer0.tint": [242, 190, 241]
     },
+
+    // Tab close hover button
     {
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["hover"]}],
@@ -846,7 +848,7 @@
     // General labels
     {
         "class": "label_control",
-        "color": [201, 202, 203],
+        "color": [60, 63, 65],
         "shadow_color": [201, 202, 203],
         "shadow_offset": [0, 0],
         "font.bold" : true,
@@ -865,8 +867,9 @@
     {
         "class": "label_control",
         "parents": [{"class": "button_control"}],
-        "shadow_color": [201, 202, 203],
-        "shadow_offset": [0, 0]
+        "color": [250, 253, 255],
+        "shadow_color": [80, 83, 85],
+        "shadow_offset": [1, 1]
     },
     // Button label color
     {
@@ -1140,6 +1143,7 @@
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
     },
+
     {
         "class": "close_button",
         "parents": [{"class": "tree_row", "attributes": ["hover"]}],
@@ -1213,7 +1217,7 @@
         "layer0.texture": "Theme - Faceless/Common/arrow_right.png",
         "settings": ["!faceless_no_file_icons"],
         "layer0.opacity": 1.0,
-        "layer0.tint": [153, 153, 153],
+        "layer0.tint": [182, 185, 187],
         "layer0.inner_margin": 0
     },
 
@@ -1535,12 +1539,12 @@
         "class": "quick_panel",
         "row_padding": [5, 2],
         "layer0.opacity": 1.0,
-        "layer0.tint": [98, 101, 102],
-        "dark_content": true
+        "layer0.tint": [250, 253, 255],
+        "dark_content": false
     },
     {
         "class": "quick_panel_row",
-        "layer0.tint": [98, 101, 102],
+        "layer0.tint": [250, 253, 255],
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
         "layer1.texture": "Theme - Faceless/Light/row_select.png",
@@ -1604,7 +1608,7 @@
     },
     {
         "class": "quick_panel_label",
-        "fg": [255, 255, 255],
+        "fg": [80, 83, 85],
         "selected_fg": [255, 255, 255, 255]
     },
     // Quickpanel label match colors
@@ -1617,43 +1621,43 @@
     {
         "class": "quick_panel_label",
         "settings": ["faceless_light_blue"],
-        "match_fg": [151, 202, 255],
+        "match_fg": [114, 152, 193],
         "selected_match_fg": [151, 202, 255]
     },
     {
         "class": "quick_panel_label",
         "settings": ["faceless_light_green"],
-        "match_fg": [190, 242, 190],
+        "match_fg": [139, 178, 139],
         "selected_match_fg": [190, 242, 190]
     },
     {
         "class": "quick_panel_label",
         "settings": ["faceless_light_orange"],
-        "match_fg": [255, 198, 167],
+        "match_fg": [188, 146, 123],
         "selected_match_fg": [255, 198, 167]
     },
     {
         "class": "quick_panel_label",
         "settings": ["faceless_light_purple"],
-        "match_fg": [242, 190, 241],
+        "match_fg": [185, 145, 184],
         "selected_match_fg": [242, 190, 241]
     },
     {
         "class": "quick_panel_label",
         "settings": ["faceless_light_red"],
-        "match_fg": [255, 179, 181],
+        "match_fg": [192, 134, 136],
         "selected_match_fg": [255, 179, 181]
     },
     {
         "class": "quick_panel_label",
         "settings": ["faceless_light_aqua"],
-        "match_fg": [151, 254, 255],
+        "match_fg": [112, 189, 190],
         "selected_match_fg": [151, 254, 255]
     },
     {
         "class": "quick_panel_label",
         "settings": ["faceless_light_yellow"],
-        "match_fg": [255, 228, 177],
+        "match_fg": [190, 169, 131],
         "selected_match_fg": [255, 228, 177]
     },
 
@@ -1674,43 +1678,43 @@
     {
         "class": "quick_panel_path_label",
         "settings": ["faceless_light_blue"],
-        "match_fg": [151, 202, 255],
+        "match_fg": [114, 152, 193],
         "selected_match_fg": [151, 202, 255]
     },
     {
         "class": "quick_panel_path_label",
         "settings": ["faceless_light_green"],
-        "match_fg": [190, 242, 190],
+        "match_fg": [139, 178, 139],
         "selected_match_fg": [190, 242, 190]
     },
     {
         "class": "quick_panel_path_label",
         "settings": ["faceless_light_orange"],
-        "match_fg": [255, 198, 167],
+        "match_fg": [188, 146, 123],
         "selected_match_fg": [255, 198, 167]
     },
     {
         "class": "quick_panel_path_label",
         "settings": ["faceless_light_purple"],
-        "match_fg": [242, 190, 241],
+        "match_fg": [185, 145, 184],
         "selected_match_fg": [242, 190, 241]
     },
     {
         "class": "quick_panel_path_label",
         "settings": ["faceless_light_red"],
-        "match_fg": [255, 179, 181],
+        "match_fg": [192, 134, 136],
         "selected_match_fg": [255, 179, 181]
     },
     {
         "class": "quick_panel_path_label",
         "settings": ["faceless_light_aqua"],
-        "match_fg": [151, 254, 255],
+        "match_fg": [112, 189, 190],
         "selected_match_fg": [151, 254, 255]
     },
     {
         "class": "quick_panel_path_label",
         "settings": ["faceless_light_yellow"],
-        "match_fg": [255, 228, 177],
+        "match_fg": [190, 169, 131],
         "selected_match_fg": [255, 228, 177]
     },
 
@@ -1729,43 +1733,43 @@
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_light_blue"],
-        "fg": [151, 202, 255],
+        "fg": [114, 152, 193],
         "selected_fg": [151, 202, 255]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_light_green"],
-        "fg": [190, 242, 190],
+        "fg": [139, 178, 139],
         "selected_fg": [190, 242, 190]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_light_orange"],
-        "fg": [255, 198, 167],
+        "fg": [188, 146, 123],
         "selected_fg": [255, 198, 167]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_light_purple"],
-        "fg": [242, 190, 241],
+        "fg": [185, 145, 184],
         "selected_fg": [242, 190, 241]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_light_red"],
-        "fg": [255, 179, 181],
+        "fg": [192, 134, 136],
         "selected_fg": [255, 179, 181]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_light_aqua"],
-        "fg": [151, 254, 255],
+        "fg": [112, 189, 190],
         "selected_fg": [151, 254, 255]
     },
     {
         "class": "quick_panel_score_label",
         "settings": ["faceless_light_yellow"],
-        "fg": [255, 228, 177],
+        "fg": [190, 169, 131],
         "selected_fg": [255, 228, 177]
     },
 
@@ -1774,7 +1778,7 @@
 ////////////////////////////////////
     {
         "class": "mini_quick_panel_row",
-        "layer0.tint": [98, 101, 102],
+        "layer0.tint": [250, 253, 255],
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
         "layer1.texture": "Theme - Faceless/Light/row_select.png",
@@ -1846,13 +1850,13 @@
     {
         "class": "auto_complete",
         "row_padding": [2, 2],
-        "layer0.tint": [98, 101, 102],
+        "layer0.tint": [250, 253, 255],
         "layer0.opacity": 1.0,
-        "dark_content": true
+        "dark_content": false
     },
     {
         "class": "auto_complete_label",
-        "fg": [255, 255, 255],
+        "fg": [80, 83, 85],
         "match_fg": [255, 255, 255],
         "selected_fg": [255, 255, 255],
         "selected_match_fg": [255, 255, 255]
@@ -1867,43 +1871,43 @@
     {
         "class": "auto_complete_label",
         "settings": ["faceless_light_blue"],
-        "match_fg": [151, 202, 255],
+        "match_fg": [114, 152, 193],
         "selected_match_fg": [151, 202, 255]
     },
     {
         "class": "auto_complete_label",
         "settings": ["faceless_light_green"],
-        "match_fg": [190, 242, 190],
+        "match_fg": [139, 178, 139],
         "selected_match_fg": [190, 242, 190]
     },
     {
         "class": "auto_complete_label",
         "settings": ["faceless_light_orange"],
-        "match_fg": [255, 198, 167],
+        "match_fg": [188, 146, 123],
         "selected_match_fg": [255, 198, 167]
     },
     {
         "class": "auto_complete_label",
         "settings": ["faceless_light_purple"],
-        "match_fg": [242, 190, 241],
+        "match_fg": [185, 145, 184],
         "selected_match_fg": [242, 190, 241]
     },
     {
         "class": "auto_complete_label",
         "settings": ["faceless_light_red"],
-        "match_fg": [255, 179, 181],
+        "match_fg": [192, 134, 136],
         "selected_match_fg": [255, 179, 181]
     },
     {
         "class": "auto_complete_label",
         "settings": ["faceless_light_aqua"],
-        "match_fg": [151, 254, 255],
+        "match_fg": [112, 189, 190],
         "selected_match_fg": [151, 254, 255]
     },
     {
         "class": "auto_complete_label",
         "settings": ["faceless_light_yellow"],
-        "match_fg": [255, 228, 177],
+        "match_fg": [190, 169, 131],
         "selected_match_fg": [255, 228, 177]
     },
     {
@@ -2025,7 +2029,7 @@
         "class": "icon_regex",
         "layer0.texture": "Theme - Faceless/Common/icon-regex-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [201, 202, 203],
+        "layer0.tint": [250, 253, 255],
         "content_margin": [8, 8]
     },
 
@@ -2084,7 +2088,7 @@
         "class": "icon_case",
         "layer0.texture": "Theme - Faceless/Common/icon-case-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [201, 202, 203],
+        "layer0.tint": [250, 253, 255],
         "content_margin": [8, 8]
     },
 
@@ -2143,7 +2147,7 @@
         "class": "icon_whole_word",
         "layer0.texture": "Theme - Faceless/Common/icon-word-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [201, 202, 203],
+        "layer0.tint": [250, 253, 255],
         "content_margin": [8, 8]
     },
 
@@ -2206,7 +2210,7 @@
         "class": "icon_context",
         "layer0.texture": "Theme - Faceless/Common/icon-context-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [201, 202, 203],
+        "layer0.tint": [250, 253, 255],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
@@ -2264,7 +2268,7 @@
         "class": "icon_use_buffer",
         "layer0.texture": "Theme - Faceless/Common/icon-buffer-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [201, 202, 203],
+        "layer0.tint": [250, 253, 255],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
@@ -2325,7 +2329,7 @@
         "class": "icon_reverse",
         "layer0.texture": "Theme - Faceless/Common/icon-reverse-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [201, 202, 203],
+        "layer0.tint": [250, 253, 255],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
@@ -2383,7 +2387,7 @@
         "class": "icon_wrap",
         "layer0.texture": "Theme - Faceless/Common/icon-wrap-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [201, 202, 203],
+        "layer0.tint": [250, 253, 255],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
@@ -2441,7 +2445,7 @@
         "class": "icon_in_selection",
         "layer0.texture": "Theme - Faceless/Common/icon-selection-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [201, 202, 203],
+        "layer0.tint": [250, 253, 255],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
@@ -2502,7 +2506,7 @@
         "class": "icon_preserve_case",
         "layer0.texture": "Theme - Faceless/Common/icon-preserve-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [201, 202, 203],
+        "layer0.tint": [250, 253, 255],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
@@ -2563,7 +2567,7 @@
         "class": "icon_highlight",
         "layer0.texture": "Theme - Faceless/Common/icon-highlight-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [201, 202, 203],
+        "layer0.tint": [250, 253, 255],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
