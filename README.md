@@ -46,7 +46,7 @@ Theoretically, but I don't have a retina display to test on.
 Clone as `Theme - Aprosopo` in Sublime's `Packages` folder.  If I can ever think of a good name, this will change.
 
 ```bash
-git clone https://github.com/facelessuser/UnnamedTheme2/ "Theme - Aprosopo"
+git clone https://github.com/facelessuser/Aprosopo/ "Theme - Aprosopo"
 ```
 
 # Setup
