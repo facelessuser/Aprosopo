@@ -1,4 +1,4 @@
-# Unnamed Theme #2 (until I come up with a better name)
+# Aprosopo
 A personal theme based loosely on Soda Theme by Ian Hill (http://buymeasoda.com/).
 
 <img src="https://dl.dropboxusercontent.com/u/342698/UnnamedTheme2/Screenshot_Dark.png" border="0">
@@ -7,12 +7,12 @@ A personal theme based loosely on Soda Theme by Ian Hill (http://buymeasoda.com/
 
 Except for the blatant reuse of the soda icons, all of the other graphics have been created from scratch, though styling takes inspiration from themes mentioned below.  Eventually I will get around to creating search icons...probably...
 
-Unnamed Theme 2 takes inspiration from:
+Aprosopo takes inspiration from:
 
 - Phoenix Theme: https://github.com/netatoo/phoenix-theme
 - Nil Theme: https://github.com/nilium/st2-nil-theme
 - Flatland Theme: https://github.com/thinkpixellab/flatland
-- Tommorrow Night Eighties Color Scheme: https://github.com/chriskempson/tomorrow-theme
+- Tommorrow Color Schemes: https://github.com/chriskempson/tomorrow-theme
 
 # Overview
 It is highly configurable in regards to to setting colors and styles of `active` and `dirty` indicators.
@@ -43,14 +43,14 @@ ST3 version 3062 introduced new sidebar file icons.  With this new addition, the
 Theoretically, but I don't have a retina display to test on.
 
 # Installation
-Clone as `Theme - Faceless` in Sublime's `Packages` folder.  If I can ever think of a good name, this will change.
+Clone as `Theme - Aprosopo` in Sublime's `Packages` folder.  If I can ever think of a good name, this will change.
 
 ```bash
-git clone https://github.com/facelessuser/UnnamedTheme2/ "Theme - Faceless"
+git clone https://github.com/facelessuser/UnnamedTheme2/ "Theme - Aprosopo"
 ```
 
 # Setup
-Everything is driven via the menu.  Go to `Preferences > Package Settings > Theme - Faceless` and set the theme with the color of your choice (a restart may be required after initially setting the theme, but subsequent color and feature changes shouldn't require a restart).  Themes can be unset from the menu as well which should completely cleanup all settings etc.
+Everything is driven via the menu.  Go to `Preferences > Package Settings > Theme - Aprosopo` and set the theme with the color of your choice (a restart may be required after initially setting the theme, but subsequent color and feature changes shouldn't require a restart).  Themes can be unset from the menu as well which should completely cleanup all settings etc.
 
 <img src="https://dl.dropboxusercontent.com/u/342698/UnnamedTheme2/Theme%20Menu.png" border="0">
 

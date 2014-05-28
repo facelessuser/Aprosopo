@@ -12,11 +12,11 @@
                 "children":
                 [
                     {
-                        "caption": "Theme - Faceless",
+                        "caption": "Theme - Aprosopo",
                         "children":
                         [
                             {
-                                "command": "clear_faceless_theme",
+                                "command": "clear_aprosopo_theme",
                                 "caption": "Unset Theme"
                             },
                             { "caption": "-" },
@@ -25,7 +25,7 @@
                                 "children":
                                 [
                                     {
-                                        "command": "set_faceless_theme", "args":
+                                        "command": "set_aprosopo_theme", "args":
                                         {
                                             "theme": "dark",
                                             "color": "aqua"
@@ -33,7 +33,7 @@
                                         "caption": "Aqua"
                                     },
                                     {
-                                        "command": "set_faceless_theme", "args":
+                                        "command": "set_aprosopo_theme", "args":
                                         {
                                             "theme": "dark",
                                             "color": "blue"
@@ -41,7 +41,7 @@
                                         "caption": "Blue"
                                     },
                                     {
-                                        "command": "set_faceless_theme", "args":
+                                        "command": "set_aprosopo_theme", "args":
                                         {
                                             "theme": "dark",
                                             "color": "gray"
@@ -49,7 +49,7 @@
                                         "caption": "Gray"
                                     },
                                     {
-                                        "command": "set_faceless_theme", "args":
+                                        "command": "set_aprosopo_theme", "args":
                                         {
                                             "theme": "dark",
                                             "color": "green"
@@ -57,7 +57,7 @@
                                         "caption": "Green"
                                     },
                                     {
-                                        "command": "set_faceless_theme", "args":
+                                        "command": "set_aprosopo_theme", "args":
                                         {
                                             "theme": "dark",
                                             "color": "orange"
@@ -65,7 +65,7 @@
                                         "caption": "Orange"
                                     },
                                     {
-                                        "command": "set_faceless_theme", "args":
+                                        "command": "set_aprosopo_theme", "args":
                                         {
                                             "theme": "dark",
                                             "color": "purple"
@@ -73,7 +73,7 @@
                                         "caption": "Purple"
                                     },
                                     {
-                                        "command": "set_faceless_theme", "args":
+                                        "command": "set_aprosopo_theme", "args":
                                         {
                                             "theme": "dark",
                                             "color": "red"
@@ -81,7 +81,7 @@
                                         "caption": "Red"
                                     },
                                     {
-                                        "command": "set_faceless_theme", "args":
+                                        "command": "set_aprosopo_theme", "args":
                                         {
                                             "theme": "dark",
                                             "color": "yellow"
@@ -95,7 +95,7 @@
                                 "children":
                                 [
                                     {
-                                        "command": "set_faceless_theme_dirty", "args":
+                                        "command": "set_aprosopo_theme_dirty", "args":
                                         {
                                             "theme": "dark",
                                             "color": "aqua"
@@ -103,7 +103,7 @@
                                         "caption": "Aqua"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dirty", "args":
+                                        "command": "set_aprosopo_theme_dirty", "args":
                                         {
                                             "theme": "dark",
                                             "color": "blue"
@@ -111,7 +111,7 @@
                                         "caption": "Blue"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dirty", "args":
+                                        "command": "set_aprosopo_theme_dirty", "args":
                                         {
                                             "theme": "dark",
                                             "color": "green"
@@ -119,7 +119,7 @@
                                         "caption": "Green"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dirty", "args":
+                                        "command": "set_aprosopo_theme_dirty", "args":
                                         {
                                             "theme": "dark",
                                             "color": "gray"
@@ -127,7 +127,7 @@
                                         "caption": "Gray"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dirty", "args":
+                                        "command": "set_aprosopo_theme_dirty", "args":
                                         {
                                             "theme": "dark",
                                             "color": "orange"
@@ -135,7 +135,7 @@
                                         "caption": "Orange"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dirty", "args":
+                                        "command": "set_aprosopo_theme_dirty", "args":
                                         {
                                             "theme": "dark",
                                             "color": "purple"
@@ -143,7 +143,7 @@
                                         "caption": "Purple"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dirty", "args":
+                                        "command": "set_aprosopo_theme_dirty", "args":
                                         {
                                             "theme": "dark",
                                             "color": "red"
@@ -152,7 +152,7 @@
                                     },
 
                                     {
-                                        "command": "set_faceless_theme_dirty", "args":
+                                        "command": "set_aprosopo_theme_dirty", "args":
                                         {
                                             "theme": "dark",
                                             "color": "yellow"
@@ -167,7 +167,7 @@
                                 "children":
                                 [
                                     {
-                                        "command": "set_faceless_theme", "args":
+                                        "command": "set_aprosopo_theme", "args":
                                         {
                                             "theme": "light",
                                             "color": "aqua"
@@ -175,7 +175,7 @@
                                         "caption": "Aqua"
                                     },
                                     {
-                                        "command": "set_faceless_theme", "args":
+                                        "command": "set_aprosopo_theme", "args":
                                         {
                                             "theme": "light",
                                             "color": "blue"
@@ -183,7 +183,7 @@
                                         "caption": "Blue"
                                     },
                                     {
-                                        "command": "set_faceless_theme", "args":
+                                        "command": "set_aprosopo_theme", "args":
                                         {
                                             "theme": "light",
                                             "color": "gray"
@@ -191,7 +191,7 @@
                                         "caption": "Gray"
                                     },
                                     {
-                                        "command": "set_faceless_theme", "args":
+                                        "command": "set_aprosopo_theme", "args":
                                         {
                                             "theme": "light",
                                             "color": "green"
@@ -199,7 +199,7 @@
                                         "caption": "Green"
                                     },
                                     {
-                                        "command": "set_faceless_theme", "args":
+                                        "command": "set_aprosopo_theme", "args":
                                         {
                                             "theme": "light",
                                             "color": "orange"
@@ -207,7 +207,7 @@
                                         "caption": "Orange"
                                     },
                                     {
-                                        "command": "set_faceless_theme", "args":
+                                        "command": "set_aprosopo_theme", "args":
                                         {
                                             "theme": "light",
                                             "color": "purple"
@@ -215,7 +215,7 @@
                                         "caption": "Purple"
                                     },
                                     {
-                                        "command": "set_faceless_theme", "args":
+                                        "command": "set_aprosopo_theme", "args":
                                         {
                                             "theme": "light",
                                             "color": "red"
@@ -223,7 +223,7 @@
                                         "caption": "Red"
                                     },
                                     {
-                                        "command": "set_faceless_theme", "args":
+                                        "command": "set_aprosopo_theme", "args":
                                         {
                                             "theme": "light",
                                             "color": "yellow"
@@ -237,7 +237,7 @@
                                 "children":
                                 [
                                     {
-                                        "command": "set_faceless_theme_dirty", "args":
+                                        "command": "set_aprosopo_theme_dirty", "args":
                                         {
                                             "theme": "light",
                                             "color": "aqua"
@@ -245,7 +245,7 @@
                                         "caption": "Aqua"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dirty", "args":
+                                        "command": "set_aprosopo_theme_dirty", "args":
                                         {
                                             "theme": "light",
                                             "color": "blue"
@@ -253,7 +253,7 @@
                                         "caption": "Blue"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dirty", "args":
+                                        "command": "set_aprosopo_theme_dirty", "args":
                                         {
                                             "theme": "light",
                                             "color": "green"
@@ -261,7 +261,7 @@
                                         "caption": "Green"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dirty", "args":
+                                        "command": "set_aprosopo_theme_dirty", "args":
                                         {
                                             "theme": "light",
                                             "color": "gray"
@@ -269,7 +269,7 @@
                                         "caption": "Gray"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dirty", "args":
+                                        "command": "set_aprosopo_theme_dirty", "args":
                                         {
                                             "theme": "light",
                                             "color": "orange"
@@ -277,7 +277,7 @@
                                         "caption": "Orange"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dirty", "args":
+                                        "command": "set_aprosopo_theme_dirty", "args":
                                         {
                                             "theme": "light",
                                             "color": "purple"
@@ -285,7 +285,7 @@
                                         "caption": "Purple"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dirty", "args":
+                                        "command": "set_aprosopo_theme_dirty", "args":
                                         {
                                             "theme": "light",
                                             "color": "red"
@@ -293,7 +293,7 @@
                                         "caption": "Red"
                                     },
                                     {
-                                        "command": "set_faceless_theme_dirty", "args":
+                                        "command": "set_aprosopo_theme_dirty", "args":
                                         {
                                             "theme": "light",
                                             "color": "yellow"
@@ -308,35 +308,35 @@
                                 "children":
                                 [
                                     {
-                                        "command": "set_faceless_theme_sidbar_size", "args":
+                                        "command": "set_aprosopo_theme_sidbar_size", "args":
                                         {
                                             "size": "xsmall"
                                         },
                                         "caption": "Extra Small"
                                     },
                                     {
-                                        "command": "set_faceless_theme_sidbar_size", "args":
+                                        "command": "set_aprosopo_theme_sidbar_size", "args":
                                         {
                                             "size": "small"
                                         },
                                         "caption": "Small"
                                     },
                                     {
-                                        "command": "set_faceless_theme_sidbar_size", "args":
+                                        "command": "set_aprosopo_theme_sidbar_size", "args":
                                         {
                                             "size": "medium"
                                         },
                                         "caption": "Medium"
                                     },
                                     {
-                                        "command": "set_faceless_theme_sidbar_size", "args":
+                                        "command": "set_aprosopo_theme_sidbar_size", "args":
                                         {
                                             "size": "large"
                                         },
                                         "caption": "Large"
                                     },
                                     {
-                                        "command": "set_faceless_theme_sidbar_size", "args":
+                                        "command": "set_aprosopo_theme_sidbar_size", "args":
                                         {
                                             "size": "xlarge"
                                         },
@@ -346,61 +346,61 @@
                             },
                             { "caption": "-" },
                             {
-                                "command": "toggle_faceless_theme_feature", "args":
+                                "command": "toggle_aprosopo_theme_feature", "args":
                                 {
-                                    "feature": "faceless_active_bar"
+                                    "feature": "aprosopo_active_bar"
                                 },
                                 "caption": "Active Tab Bar Indicator"
                             },
                             {
-                                "command": "toggle_faceless_theme_feature", "args":
+                                "command": "toggle_aprosopo_theme_feature", "args":
                                 {
-                                    "feature": "faceless_solid_tab"
+                                    "feature": "aprosopo_solid_tab"
                                 },
                                 "caption": "Active Tab Solid Indicator"
                             },
                             {
-                                "command": "toggle_faceless_theme_feature", "args":
+                                "command": "toggle_aprosopo_theme_feature", "args":
                                 {
-                                    "feature": "faceless_active_text"
+                                    "feature": "aprosopo_active_text"
                                 },
                                 "caption": "Active Tab Text Indicator"
                             },
                             { "caption": "-" },
                             {
-                                "command": "toggle_faceless_theme_feature", "args":
+                                "command": "toggle_aprosopo_theme_feature", "args":
                                 {
-                                    "feature": "faceless_dirty_bar"
+                                    "feature": "aprosopo_dirty_bar"
                                 },
                                 "caption": "Dirty Tab Bar Indicator"
                             },
                             {
-                                "command": "toggle_faceless_theme_feature", "args":
+                                "command": "toggle_aprosopo_theme_feature", "args":
                                 {
-                                    "feature": "faceless_dirty_button"
+                                    "feature": "aprosopo_dirty_button"
                                 },
                                 "caption": "Dirty Tab Close Button Indicator"
                             },
                             { "caption": "-" },
                             {
-                                "command": "toggle_faceless_theme_feature", "args":
+                                "command": "toggle_aprosopo_theme_feature", "args":
                                 {
-                                    "feature": "faceless_no_file_icons",
+                                    "feature": "aprosopo_no_file_icons",
                                     "st_version": 3
                                 },
                                 "caption": "Disable Sidebar File Icons"
                             },
                             {
-                                "command": "toggle_faceless_theme_feature", "args":
+                                "command": "toggle_aprosopo_theme_feature", "args":
                                 {
-                                    "feature": "show_tab_close_buttons"
+                                    "feature": "aprosopo_show_tab_close_buttons"
                                 },
                                 "caption": "Show Tab Close Button"
                             },
                             {
-                                "command": "toggle_faceless_theme_feature", "args":
+                                "command": "toggle_aprosopo_theme_feature", "args":
                                 {
-                                    "feature": "faceless_show_tab_close_on_hover"
+                                    "feature": "aprosopo_show_tab_close_on_hover"
                                 },
                                 "caption": "Hide Tab Close Button Except on Hover"
                             }

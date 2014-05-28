@@ -1,0 +1,24 @@
+{
+    "themes": {
+        "dark": {
+            "colors": ["aqua", "blue", "green", "gray", "orange", "purple", "red", "yellow"],
+            "dirty_colors": ["aqua", "blue", "green", "gray", "orange", "purple", "red", "yellow"],
+            "widget_scheme": "Packages/Theme - Aprosopo/Dark/Widget - %s.stTheme",
+            "widget_settings": "Widget - Aprosopo Dark.sublime-settings",
+            "theme": "Aprosopo Dark.sublime-theme",
+            "color_key": "aprosopo_dark_%s",
+            "dirty_color_key": "aprosopo_dark_dirty_%s",
+            "theme_specific_keys": []
+        },
+        "light": {
+            "colors": ["aqua", "blue", "green", "gray", "orange", "purple", "red", "yellow"],
+            "dirty_colors": ["aqua", "blue", "green", "gray", "orange", "purple", "red", "yellow"],
+            "widget_scheme": "Packages/Theme - Aprosopo/Light/Widget - %s.stTheme",
+            "widget_settings": "Widget - Aprosopo Light.sublime-settings",
+            "theme": "Aprosopo Light.sublime-theme",
+            "color_key": "aprosopo_light_%s",
+            "dirty_color_key": "aprosopo_light_dirty_%s",
+            "theme_specific_keys": []
+        }
+    }
+}

@@ -8,18 +8,19 @@ ST2 = 3000 < int(sublime.version()) >= 2000
 PREFERENCES = "Preferences.sublime-settings"
 
 # Theme specific settings
-PLUGIN_SETTINGS = "Theme - Faceless.sublime-settings"
+PLUGIN_SETTINGS = "Theme - Aprosopo.sublime-settings"
 COMMON_FEATURES = [
-    "faceless_active_bar",
-    "faceless_solid_tab",
-    "faceless_active_text",
-    "faceless_dirty_bar",
-    "faceless_dirty_button",
-    "faceless_no_file_icons",
-    "faceless_show_tab_close_on_hover"
+    "aprosopo_active_bar",
+    "aprosopo_solid_tab",
+    "aprosopo_active_text",
+    "aprosopo_dirty_bar",
+    "aprosopo_dirty_button",
+    "aprosopo_no_file_icons",
+    "aprosopo_show_tab_close_buttons",
+    "aprosopo_show_tab_close_on_hover"
 ]
 SIDEBAR_SIZES = ["xsmall", "small", "medium", "large", "xlarge"]
-SIDEBAR_COMMON_FEATURE = "faceless_sidebar_tree_%s"
+SIDEBAR_COMMON_FEATURE = "aprosopo_sidebar_tree_%s"
 
 
 def get_theme(obj, default=None):
@@ -37,14 +38,14 @@ def get_theme(obj, default=None):
         special_theme = parts[0] + special + parts[1]
         resources = sublime.find_resources(special_theme)
         for r in resources:
-            if r == "Packages/Theme - Faceless/%s" % special_theme:
+            if r == "Packages/Theme - Aprosopo/%s" % special_theme:
                 theme = special_theme
                 break
     else:
         parts = os.path.splitext(theme)
         special_theme = parts[0] + special + parts[1]
         pkgs = sublime.packages_path()
-        resource = os.path.join(pkgs, "Theme - Faceless", special_theme)
+        resource = os.path.join(pkgs, "Theme - Aprosopo", special_theme)
         if os.path.exists(resource):
             theme = special_theme
 
@@ -127,7 +128,7 @@ def clear_all_features(pref, themes):
             pref.erase(feat)
 
 
-class ClearFacelessThemeCommand(sublime_plugin.ApplicationCommand):
+class ClearAprosopoThemeCommand(sublime_plugin.ApplicationCommand):
     def run(self):
         """
         Clear all settings
@@ -144,7 +145,7 @@ class ClearFacelessThemeCommand(sublime_plugin.ApplicationCommand):
         sublime.save_settings(PREFERENCES)
 
 
-class SetFacelessThemeCommand(sublime_plugin.ApplicationCommand):
+class SetAprosopoThemeCommand(sublime_plugin.ApplicationCommand):
     def run(self, color, theme):
         """
         Setup and set the specified theme
@@ -197,7 +198,7 @@ class SetFacelessThemeCommand(sublime_plugin.ApplicationCommand):
         return pref.get(color_key % color, False) is True
 
 
-class SetFacelessThemeDirtyCommand(sublime_plugin.ApplicationCommand):
+class SetAprosopoThemeDirtyCommand(sublime_plugin.ApplicationCommand):
     def run(self, color, theme):
         # Get needed theme attributes etc.
         pref = sublime.load_settings(PREFERENCES)
@@ -237,7 +238,7 @@ class SetFacelessThemeDirtyCommand(sublime_plugin.ApplicationCommand):
         return pref.get(dirty_key % color, False) is True
 
 
-class SetFacelessThemeSidbarSizeCommand(sublime_plugin.ApplicationCommand):
+class SetAprosopoThemeSidbarSizeCommand(sublime_plugin.ApplicationCommand):
     sidebar_sizes = SIDEBAR_SIZES
     size_key = SIDEBAR_COMMON_FEATURE
 
@@ -263,7 +264,7 @@ class SetFacelessThemeSidbarSizeCommand(sublime_plugin.ApplicationCommand):
         return pref.get(self.size_key % size, False) is True
 
 
-class ToggleFacelessThemeFeatureCommand(sublime_plugin.ApplicationCommand):
+class ToggleAprosopoThemeFeatureCommand(sublime_plugin.ApplicationCommand):
     def run(self, feature, st_version=0):
         """
         Toggle feature true or false (when false, the setting is erased)

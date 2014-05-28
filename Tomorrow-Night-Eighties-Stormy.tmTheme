@@ -5,21 +5,18 @@
 	<key>comment</key>
 	<string>http://chriskempson.com</string>
 	<key>name</key>
-	<string>Tomorrow Night - Eighties (Faceless Mod)</string>
+	<string>Tomorrow Night - Eighties (Aprosopo Mod)</string>
 	<key>settings</key>
 	<array>
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<!-- <string>#3D4045</string> -->
 				<string>#232628</string>
 				<key>caret</key>
 				<string>#CCCCCC</string>
 				<key>foreground</key>
 				<string>#CCCCCC</string>
-				<!-- <key>gutter</key>
-				<string>#232628</string> -->
 				<key>gutterForeground</key>
 				<string>#888888</string>
 				<key>invisibles</key>
@@ -150,7 +147,7 @@
 				<key>background</key>
 				<string>#F2777A</string>
 				<key>foreground</key>
-				<string>#CDCDCD</string>
+				<string>#FAFDFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -163,7 +160,7 @@
 				<key>background</key>
 				<string>#99CCCC</string>
 				<key>foreground</key>
-				<string>#CDCDCD</string>
+				<string>#FAFDFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -176,7 +173,7 @@
 				<key>background</key>
 				<string>#CC99CC</string>
 				<key>foreground</key>
-				<string>#CDCDCD</string>
+				<string>#FAFDFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -512,3 +509,4 @@
 	<string>DE477E5B-BD4D-46B0-BF80-2EA32A2814D5</string>
 </dict>
 </plist>
+
