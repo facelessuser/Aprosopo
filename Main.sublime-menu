@@ -348,6 +348,21 @@
                             {
                                 "command": "toggle_aprosopo_theme_feature", "args":
                                 {
+                                    "feature": "aprosopo_show_tab_close_buttons"
+                                },
+                                "caption": "Enable Tab Close Button"
+                            },
+                            {
+                                "command": "toggle_aprosopo_theme_feature", "args":
+                                {
+                                    "feature": "aprosopo_show_tab_close_on_hover"
+                                },
+                                "caption": "Hide Tab Close Button Except on Hover"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "toggle_aprosopo_theme_feature", "args":
+                                {
                                     "feature": "aprosopo_active_bar"
                                 },
                                 "caption": "Active Tab Bar Indicator"
@@ -389,20 +404,6 @@
                                     "st_version": 3
                                 },
                                 "caption": "Disable Sidebar File Icons"
-                            },
-                            {
-                                "command": "toggle_aprosopo_theme_feature", "args":
-                                {
-                                    "feature": "aprosopo_show_tab_close_buttons"
-                                },
-                                "caption": "Show Tab Close Button"
-                            },
-                            {
-                                "command": "toggle_aprosopo_theme_feature", "args":
-                                {
-                                    "feature": "aprosopo_show_tab_close_on_hover"
-                                },
-                                "caption": "Hide Tab Close Button Except on Hover"
                             }
                         ]
                     }
