@@ -939,7 +939,50 @@
     // Tooltip content
     {
         "class": "tool_tip_label_control",
-        "color": [0, 0, 0]
+        "color": [255, 255, 255],
+        "shadow_offset": [1, 1]
+    },
+
+    // Tooltip color
+    {
+        "class": "tool_tip_control",
+        "settings": ["aprosopo_light_red"],
+        "layer0.tint": [255, 179, 181]
+    },
+    {
+        "class": "tool_tip_control",
+        "settings": ["aprosopo_light_aqua"],
+        "layer0.tint": [151, 254, 255]
+    },
+    {
+        "class": "tool_tip_control",
+        "settings": ["aprosopo_light_gray"],
+        "layer0.tint": [153, 153, 153]
+    },
+    {
+        "class": "tool_tip_control",
+        "settings": ["aprosopo_light_blue"],
+        "layer0.tint": [151, 202, 255]
+    },
+    {
+        "class": "tool_tip_control",
+        "settings": ["aprosopo_light_green"],
+        "layer0.tint": [190, 242, 190]
+    },
+    {
+        "class": "tool_tip_control",
+        "settings": ["aprosopo_light_yellow"],
+        "layer0.tint": [255, 228, 177]
+    },
+    {
+        "class": "tool_tip_control",
+        "settings": ["aprosopo_light_orange"],
+        "layer0.tint": [255, 198, 167]
+    },
+    {
+        "class": "tool_tip_control",
+        "settings": ["aprosopo_light_purple"],
+        "layer0.tint": [242, 190, 241]
     },
 
 ////////////////////////////////////
