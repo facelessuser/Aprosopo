@@ -43,7 +43,10 @@ ST3 version 3062 introduced new sidebar file icons.  With this new addition, the
 Theoretically, but I don't have a retina display to test on.
 
 # Installation
-Clone as `Theme - Aprosopo` in Sublime's `Packages` folder.  If I can ever think of a good name, this will change.
+Package Control is the preferred method: https://sublime.wbond.net/installation
+
+# Manual Installation
+Clone as `Theme - Aprosopo` in Sublime's `Packages` folder.
 
 ```bash
 git clone https://github.com/facelessuser/Aprosopo/ "Theme - Aprosopo"
