@@ -254,7 +254,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#99CCCC</string>
+				<string>#3e999f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -509,3 +509,4 @@
 	<string>DE477E5B-BD4D-46B0-BF80-2EA32A2814D5</string>
 </dict>
 </plist>
+
