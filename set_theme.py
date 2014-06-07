@@ -20,7 +20,8 @@ COMMON_FEATURES = [
     "aprosopo_show_tab_close_buttons",
     "aprosopo_show_tab_close_on_hover",
     "aprosopo_hide_folder_expand_icon",
-    "aprosopo_hide_open_file_icons"
+    "aprosopo_hide_open_file_icons",
+    "aprosopo_combined_dirty_active_bar"
 ]
 SIDEBAR_SIZES = ["xsmall", "small", "medium", "large", "xlarge"]
 SIDEBAR_COMMON_FEATURE = "aprosopo_sidebar_tree_%s"
@@ -268,20 +269,70 @@ class SetAprosopoThemeSidbarSizeCommand(sublime_plugin.ApplicationCommand):
 
 
 class ToggleAprosopoThemeFeatureCommand(sublime_plugin.ApplicationCommand):
-    def run(self, feature, st_version=0):
+    def run(
+        self, feature,
+        set_when_true=[], set_when_false=[],
+        unset_when_true=[], unset_when_false=[],
+        st_version=0
+    ):
         """
         Toggle feature true or false (when false, the setting is erased)
         """
+
+        self.pref = sublime.load_settings(PREFERENCES)
+        self.modified = False
         if feature is not None:
-            pref = sublime.load_settings(PREFERENCES)
-            state = pref.get(feature, None)
-            if state is None or state is False:
-                pref.set(feature, True)
-            else:
-                pref.erase(feature)
+            state = self.pref.get(feature, None)
+            self.handle_dependants(
+                set_when_true, set_when_false,
+                unset_when_true, unset_when_false, state
+            )
+            self.toggle_feature(feature, state)
+
+        if self.modified:
             sublime.save_settings(PREFERENCES)
 
-    def is_visible(self, feature, st_version=0):
+    def toggle_feature(self, feature, state):
+        if state is None or state is False:
+            self.pref.set(feature, True)
+            self.modified = True
+        elif state is not None:
+            self.pref.erase(feature)
+            self.modified = True
+
+    def set_feature(self, feature, value):
+        state = self.pref.get(feature, None)
+        if value:
+            if state is None or state is False:
+                self.pref.set(feature, True)
+                self.modified = True
+        elif state is not None:
+                self.pref.erase(feature)
+                self.modified = True
+
+    def handle_dependants(
+        self, set_when_true, set_when_false,
+        unset_when_true, unset_when_false, state
+    ):
+        if state is None or state is False:
+            for feature in set_when_true:
+                self.set_feature(feature, True)
+
+            for feature in unset_when_true:
+                self.set_feature(feature, False)
+        elif state is not None:
+            for feature in set_when_false:
+                self.set_feature(feature, True)
+
+            for feature in unset_when_false:
+                self.set_feature(feature, False)
+
+    def is_visible(
+        self, feature,
+        set_when_true=[], set_when_false=[],
+        unset_when_true=[], unset_when_false=[],
+        st_version=0
+    ):
         """
         Show option if ST version matches
         """
@@ -307,7 +358,12 @@ class ToggleAprosopoThemeFeatureCommand(sublime_plugin.ApplicationCommand):
             )
         )
 
-    def is_checked(self, feature, st_version=0):
+    def is_checked(
+        self, feature,
+        set_when_true=[], set_when_false=[],
+        unset_when_true=[], unset_when_false=[],
+        st_version=0
+    ):
         """
         Should menu option be check marked?
         """

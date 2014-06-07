@@ -348,14 +348,16 @@
                             {
                                 "command": "toggle_aprosopo_theme_feature", "args":
                                 {
-                                    "feature": "aprosopo_show_tab_close_buttons"
+                                    "feature": "aprosopo_show_tab_close_buttons",
+                                    "unset_when_false": ["aprosopo_show_tab_close_on_hover"]
                                 },
                                 "caption": "Enable Tab Close Button"
                             },
                             {
                                 "command": "toggle_aprosopo_theme_feature", "args":
                                 {
-                                    "feature": "aprosopo_show_tab_close_on_hover"
+                                    "feature": "aprosopo_show_tab_close_on_hover",
+                                    "set_when_true": ["aprosopo_show_tab_close_buttons"]
                                 },
                                 "caption": "Hide Tab Close Button Except on Hover"
                             },
@@ -363,7 +365,8 @@
                             {
                                 "command": "toggle_aprosopo_theme_feature", "args":
                                 {
-                                    "feature": "aprosopo_active_bar"
+                                    "feature": "aprosopo_active_bar",
+                                    "unset_when_false": ["aprosopo_combined_dirty_active_bar"]
                                 },
                                 "caption": "Active Tab Bar Indicator"
                             },
@@ -385,7 +388,8 @@
                             {
                                 "command": "toggle_aprosopo_theme_feature", "args":
                                 {
-                                    "feature": "aprosopo_dirty_bar"
+                                    "feature": "aprosopo_dirty_bar",
+                                    "unset_when_false": ["aprosopo_combined_dirty_active_bar"]
                                 },
                                 "caption": "Dirty Tab Bar Indicator"
                             },
@@ -395,6 +399,14 @@
                                     "feature": "aprosopo_dirty_button"
                                 },
                                 "caption": "Dirty Tab Close Button Indicator"
+                            },
+                            {
+                                "command": "toggle_aprosopo_theme_feature", "args":
+                                {
+                                    "feature": "aprosopo_combined_dirty_active_bar",
+                                    "set_when_true": ["aprosopo_dirty_bar", "aprosopo_active_bar"]
+                                },
+                                "caption": "Combined Dirty/Active Bar"
                             },
                             { "caption": "-" },
                             {

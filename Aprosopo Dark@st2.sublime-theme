@@ -328,7 +328,7 @@
         "max_margin_trim": 0,
         "hit_test_level": 0.5,
         "layer3.texture": "Theme - Aprosopo/Common/tab_overlay_bar_bottom.png",
-        "layer3.inner_margin": [15, 4],
+        "layer3.inner_margin": [4, 4],
         "layer3.opacity": 1.0
     },
 
@@ -336,8 +336,16 @@
     {
         "class": "tab_control",
         "attributes": ["dirty", "selected"],
-        "settings": ["aprosopo_dirty_bar", "aprosopo_active_bar"],
+        "settings": ["aprosopo_dirty_bar", "aprosopo_active_bar", "!aprosopo_combined_dirty_active_bar"],
         "layer3.texture": "Theme - Aprosopo/Common/tab_overlay_bar_top.png"
+    },
+
+    // Tab dirty overlay (when active overlay is enabled)
+    {
+        "class": "tab_control",
+        "attributes": ["dirty", "selected"],
+        "settings": ["aprosopo_dirty_bar", "aprosopo_active_bar", "aprosopo_combined_dirty_active_bar"],
+        "layer3.texture": "Theme - Aprosopo/Common/tab_overlay_bar_bottom_part.png"
     },
 
     // Tab dirty overlay (when active overlay is disabled)
@@ -399,7 +407,7 @@
     },
     {
         "class": "tab_control",
-        "settings": ["aprosopo_dirty_bar", "aprosopo_active_bar"],
+        "settings": ["aprosopo_dirty_bar", "aprosopo_active_bar", "!aprosopo_combined_dirty_active_bar"],
         "content_margin": [12, -4, 4, 4]
     },
 
