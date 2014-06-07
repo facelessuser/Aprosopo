@@ -401,9 +401,24 @@
                                 "command": "toggle_aprosopo_theme_feature", "args":
                                 {
                                     "feature": "aprosopo_no_file_icons",
-                                    "st_version": 3
+                                    "st_version": [3000, 3061]
                                 },
-                                "caption": "Disable Sidebar File Icons"
+                                "caption": "Disable Sidebar File Icons (ST3 < 3062)"
+                            },
+                            {
+                                "command": "toggle_aprosopo_theme_feature", "args":
+                                {
+                                    "feature": "aprosopo_hide_folder_expand_icon",
+                                    "st_version": 3000
+                                },
+                                "caption": "Hide Folder Expand Icons"
+                            },
+                            {
+                                "command": "toggle_aprosopo_theme_feature", "args":
+                                {
+                                    "feature": "aprosopo_hide_open_file_icons"
+                                },
+                                "caption": "Hide Open File Icons"
                             }
                         ]
                     }

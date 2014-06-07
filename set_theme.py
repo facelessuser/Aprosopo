@@ -3,8 +3,9 @@ import sublime_plugin
 import os
 
 # General settings
-ST3 = int(sublime.version()) >= 3000
-ST2 = 3000 < int(sublime.version()) >= 2000
+STV = int(sublime.version())
+ST3 = int(STV) >= 3000
+ST2 = 3000 < int(STV) >= 2000
 PREFERENCES = "Preferences.sublime-settings"
 
 # Theme specific settings
@@ -17,7 +18,9 @@ COMMON_FEATURES = [
     "aprosopo_dirty_button",
     "aprosopo_no_file_icons",
     "aprosopo_show_tab_close_buttons",
-    "aprosopo_show_tab_close_on_hover"
+    "aprosopo_show_tab_close_on_hover",
+    "aprosopo_hide_folder_expand_icon",
+    "aprosopo_hide_open_file_icons"
 ]
 SIDEBAR_SIZES = ["xsmall", "small", "medium", "large", "xlarge"]
 SIDEBAR_COMMON_FEATURE = "aprosopo_sidebar_tree_%s"
@@ -283,7 +286,26 @@ class ToggleAprosopoThemeFeatureCommand(sublime_plugin.ApplicationCommand):
         Show option if ST version matches
         """
 
-        return st_version == 0 or (st_version == 3 and ST3) or (st_version == 2 and ST2)
+        if isinstance(st_version, list):
+            size = len(st_version)
+            if size > 2:
+                st_version = st_version[:2]
+            elif size < 2:
+                st_version += [None] * (2 - size)
+            minimum, maximum = st_version
+        else:
+            minimum = st_version
+            maximum = None
+
+        return (
+            STV == 0 or
+            (
+                minimum <= STV and
+                (
+                    maximum is None or STV <= maximum
+                )
+            )
+        )
 
     def is_checked(self, feature, st_version=0):
         """

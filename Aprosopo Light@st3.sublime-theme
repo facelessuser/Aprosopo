@@ -137,8 +137,8 @@
     },
     {
         "class": "show_tabs_dropdown_button",
-        "content_margin": [9, 7, 8, 6],
-        "layer0.texture": "Theme - Aprosopo/Common/arrow_down.png",
+        "content_margin": [8, 8],
+        "layer0.texture": "Theme - Aprosopo/Common/hamburger.png",
         "layer0.tint": [230, 233, 235],
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0
@@ -488,7 +488,7 @@
     {
         "class": "tab_close_button",
         "content_margin": [2, 0],
-        "layer0.texture": "Theme - Aprosopo/Light/file_close.png",
+        "layer0.texture": "Theme - Aprosopo/Light/cross.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [0, 0]
     },
@@ -590,17 +590,17 @@
 ////////////////////////////////////
     {
         "class": "fold_button_control",
-        "layer0.texture": "Theme - Aprosopo/Common/arrow_right.png",
+        "layer0.texture": "Theme - Aprosopo/Common/plus_bordered.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
-        "layer0.tint": [180, 183, 185],
-        "content_margin": [9, 7, 8, 6]
+        "layer0.tint": [201, 202, 203],
+        "content_margin": [8, 8]
     },
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Aprosopo/Common/arrow_down.png",
-        "layer0.tint": [180, 183, 185]
+        "layer0.texture": "Theme - Aprosopo/Common/minus_bordered.png",
+        "layer0.tint": [201, 202, 203]
     },
     // Fold button colors
     {
@@ -1059,7 +1059,6 @@
         "layer0.texture": "Theme - Aprosopo/Light/row_select.png",
         "layer0.opacity": 0.0,
         "layer0.inner_margin": [3,1]
-
     },
 
     // Sidebar row selection colors
@@ -1173,12 +1172,26 @@
     // Sidebar file close
     {
         "class": "close_button",
-        "layer1.texture": "Theme - Aprosopo/Light/file_close.png",
+        "layer1.texture": "Theme - Aprosopo/Light/cross.png",
         "layer1.opacity": 0.0,
         "layer0.texture": "Theme - Aprosopo/icons/file_type_default.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
+    },
+
+    {
+        "class": "close_button",
+        "layer0.texture": "Theme - Aprosopo/Common/minus_bordered.png",
+        "settings": ["aprosopo_hide_open_file_icons"],
+        "layer0.opacity": 0.0
+    },
+
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "settings": ["aprosopo_hide_open_file_icons"],
+        "layer0.opacity": 1.0
     },
 
     {
@@ -1249,12 +1262,11 @@
     // Sidebar group closed
     {
         "class": "disclosure_button_control",
-        // "content_margin": [0, 0],
-        "content_margin": [0, 6, 18, 7],
-        "layer0.texture": "Theme - Aprosopo/Common/arrow_right.png",
+        "content_margin": [6, 6],
+        "layer0.tint": [80, 83, 85],
+        "layer0.texture": "Theme - Aprosopo/Common/plus.png",
         "settings": ["!aprosopo_no_file_icons"],
         "layer0.opacity": 1.0,
-        "layer0.tint": [182, 185, 187],
         "layer0.inner_margin": 0
     },
 
@@ -1262,8 +1274,14 @@
     {
         "class": "disclosure_button_control",
         "attributes": ["expanded"],
-        "layer0.texture": "Theme - Aprosopo/Common/arrow_down.png",
+        "layer0.texture": "Theme - Aprosopo/Common/minus.png",
         "settings": ["!aprosopo_no_file_icons"]
+    },
+
+    {
+        "class": "disclosure_button_control",
+        "content_margin": [0, 0],
+        "settings": ["aprosopo_hide_folder_expand_icon", "!aprosopo_no_file_icons"]
     },
 
     // Sidebar group closed
@@ -1556,7 +1574,7 @@
     },
     {
         "class": "panel_close_button",
-        "layer0.texture": "Theme - Aprosopo/Light/file_close.png",
+        "layer0.texture": "Theme - Aprosopo/Light/cross.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
