@@ -65,8 +65,6 @@ def is_valid_theme(theme, theme_file, check_all=False):
         special = "@st3" if ST3 else "@st2"
         parts = os.path.splitext(theme_file)
         valid_themes = [theme_file, parts[0] + special + parts[1]]
-        print(valid_themes)
-        print(theme)
         if check_all:
             valid_themes.append(parts[0] + ("@st3" if not ST3 else "@st2") + parts[1])
         if theme in valid_themes:
@@ -94,6 +92,18 @@ def clear_all_themes(pref, themes):
         if theme is not None:
             if is_valid_theme(pref.get("theme", None), theme):
                 pref.erase("theme")
+
+
+def detect_current_theme(pref, themes):
+    detected = None
+    for k, v in themes.items():
+        theme = v.get("theme")
+        if theme is not None:
+            theme_name = pref.get("theme", None)
+            if is_valid_theme(theme_name, theme):
+                detected = k
+                break
+    return detected
 
 
 def clear_all_sizes(pref, themes):
@@ -158,7 +168,12 @@ class SetAprosopoThemeCommand(sublime_plugin.ApplicationCommand):
         # Get needed theme attributes etc.
         pref = sublime.load_settings(PREFERENCES)
         plug = sublime.load_settings(PLUGIN_SETTINGS)
+
         themes = plug.get("themes", {})
+
+        # Inherit color from alternate theme if possible
+        current = detect_current_theme(pref, themes)
+
         colors = themes.get(theme, {}).get("colors", [])
         theme_file = get_theme(themes.get(theme, {}), None)
         widget_settings = themes.get(theme, {}).get("widget_settings", None)
@@ -188,6 +203,20 @@ class SetAprosopoThemeCommand(sublime_plugin.ApplicationCommand):
         widget.set("draw_shadows", False)
         sublime.save_settings(widget_settings)
 
+        self.set_theme_color(current, theme)
+
+    def set_theme_color(self, current_theme, new_theme):
+        if current_theme is not None and current_theme != new_theme:
+            sublime.run_command(
+                "inherhit_aprosopo_dirty_color",
+                {"old_theme": current_theme, "new_theme": new_theme}
+            )
+        elif current_theme is None:
+            sublime.run_command(
+                "set_aprosopo_theme_dirty",
+                {"color": "red", "theme": new_theme}
+            )
+
     def is_checked(self, color, theme):
         """
         Should menu option be check marked?
@@ -200,6 +229,26 @@ class SetAprosopoThemeCommand(sublime_plugin.ApplicationCommand):
         if color_key is None or color not in colors:
             return False
         return pref.get(color_key % color, False) is True
+
+
+class InherhitAprosopoDirtyColorCommand(sublime_plugin.ApplicationCommand):
+    def run(self, old_theme, new_theme):
+        # Get needed theme attributes etc.
+        pref = sublime.load_settings(PREFERENCES)
+        plug = sublime.load_settings(PLUGIN_SETTINGS)
+        themes = plug.get("themes", {})
+        old_colors = themes.get(old_theme, {}).get("dirty_colors", [])
+        new_colors = themes.get(new_theme, {}).get("dirty_colors", [])
+        old_dirty_key = themes.get(old_theme, {}).get("dirty_color_key", None)
+        new_dirty_key = themes.get(new_theme, {}).get("dirty_color_key", None)
+
+        for color in old_colors:
+            if pref.get(old_dirty_key % color, False):
+                if color in new_colors:
+                    pref.erase(old_dirty_key % color)
+                    pref.set(new_dirty_key % color, True)
+                    sublime.save_settings(PREFERENCES)
+                break
 
 
 class SetAprosopoThemeDirtyCommand(sublime_plugin.ApplicationCommand):
