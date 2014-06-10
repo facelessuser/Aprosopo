@@ -1038,7 +1038,7 @@
     {
         "class": "sidebar_tree",
         "settings": ["aprosopo_sidebar_tree_xsmall"],
-        "row_padding": [8, 0]
+        "row_padding": [8, 1]
     },
     {
         "class": "sidebar_tree",
