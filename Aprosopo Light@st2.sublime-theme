@@ -23,7 +23,7 @@
     // Tab set scroll left scroll right and dropdown
     {
         "class": "scroll_tabs_left_button",
-        "content_margin": [9, 7, 8, 6],
+        "content_margin": [8, 8],
         "layer0.texture": "Theme - Aprosopo/Common/arrow_left.png",
         "layer0.tint": [230, 233, 235],
         "layer0.opacity": 1.0,
@@ -80,7 +80,7 @@
     },
     {
         "class": "scroll_tabs_right_button",
-        "content_margin": [9, 7, 8, 6],
+        "content_margin": [8, 8],
         "layer0.texture": "Theme - Aprosopo/Common/arrow_right.png",
         "layer0.tint": [230, 233, 235],
         "layer0.opacity": 1.0,
