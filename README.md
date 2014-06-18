@@ -1,11 +1,11 @@
 # Aprosopo
-A personal theme based loosely on Soda Theme by Ian Hill (http://buymeasoda.com/).
+A highly customizable dark and light theme.
 
 <img src="https://dl.dropboxusercontent.com/u/342698/UnnamedTheme2/Screenshot_Dark.png" border="0">
 
 <img src="https://dl.dropboxusercontent.com/u/342698/UnnamedTheme2/Screenshot_Light.png" border="0">
 
-Except for the blatant reuse of the soda icons, all of the other graphics have been created from scratch, though styling takes inspiration from themes mentioned below.  Eventually I will get around to creating search icons...probably...
+All graphics have been created from scratch, though styling takes inspiration from themes mentioned below.
 
 Aprosopo takes inspiration from:
 
@@ -13,6 +13,7 @@ Aprosopo takes inspiration from:
 - Nil Theme: https://github.com/nilium/st2-nil-theme
 - Flatland Theme: https://github.com/thinkpixellab/flatland
 - Tommorrow Color Schemes: https://github.com/chriskempson/tomorrow-theme
+- Soda Theme http://buymeasoda.com
 
 # Overview
 It is highly configurable in regards to to setting colors and styles of `active` and `dirty` indicators.
