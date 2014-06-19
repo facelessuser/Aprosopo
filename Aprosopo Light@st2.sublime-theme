@@ -1367,8 +1367,9 @@
         "class": "dropdown_button_control",
         "content_margin": [8, 8],
         "layer0.texture": "Theme - Aprosopo/Common/down_arrow_inv.png",
+        "layer0.tint": [60, 63, 65],
         "layer0.opacity": 0.5,
-        "layer0.inner_margin": [4, 4]
+        "layer0.inner_margin": [0, 0]
     },
     {
         "class": "dropdown_button_control",
