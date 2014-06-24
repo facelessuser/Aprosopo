@@ -248,7 +248,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown: List</string>
+			<string>Markup: List</string>
 			<key>scope</key>
 			<string>markup.list</string>
 			<key>settings</key>
@@ -292,6 +292,21 @@
 				<string>italic</string>
 				<key>foreground</key>
 				<string>#CC99CC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markup: Emoji</string>
+			<key>scope</key>
+			<string>markup.emoji</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#F2777A</string>
 			</dict>
 		</dict>
 		<dict>

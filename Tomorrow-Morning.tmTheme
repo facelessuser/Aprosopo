@@ -296,6 +296,21 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Markup: Emoji</string>
+			<key>scope</key>
+			<string>markup.emoji</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string></string>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#c82829</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Markdown: Blockquote</string>
 			<key>scope</key>
 			<string>markup.quote, punctuation.definition.blockquote.markdown</string>
