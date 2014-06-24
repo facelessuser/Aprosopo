@@ -259,6 +259,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Markup: Strikethrough</string>
+			<key>scope</key>
+			<string>markup.strikethrough</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8959a8</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Markdown: Bold</string>
 			<key>scope</key>
 			<string>markup.bold</string>
@@ -509,4 +520,3 @@
 	<string>DE477E5B-BD4D-46B0-BF80-2EA32A2814D5</string>
 </dict>
 </plist>
-
