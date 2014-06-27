@@ -301,10 +301,6 @@
 			<string>markup.emoji</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string></string>
-				<key>fontStyle</key>
-				<string></string>
 				<key>foreground</key>
 				<string>#c82829</string>
 			</dict>
