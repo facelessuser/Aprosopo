@@ -1046,7 +1046,7 @@
     {
         "class": "sidebar_tree",
         "settings": ["aprosopo_sidebar_tree_medium"],
-        "row_padding": [8, 3]
+        "row_padding": [8, 4]
     },
     {
         "class": "sidebar_tree",
@@ -1147,6 +1147,31 @@
         "color": [255, 255, 255],
         "shadow_color": [0, 0, 0],
         "shadow_offset": [1, 1]
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["aprosopo_sidebar_font_xsmall"],
+        "font.size": 10
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["aprosopo_sidebar_font_small"],
+        "font.size": 11
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["aprosopo_sidebar_font_medium"],
+        "font.size": 12
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["aprosopo_sidebar_font_large"],
+        "font.size": 13
+    },
+    {
+        "class": "sidebar_label",
+        "settings": ["aprosopo_sidebar_font_xlarge"],
+        "font.size": 14
     },
 
     // Sidebar folder labels

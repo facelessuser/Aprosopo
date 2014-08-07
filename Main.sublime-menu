@@ -308,35 +308,76 @@
                                 "children":
                                 [
                                     {
-                                        "command": "set_aprosopo_theme_sidbar_size", "args":
+                                        "command": "set_aprosopo_theme_sidebar_size", "args":
                                         {
                                             "size": "xsmall"
                                         },
                                         "caption": "Extra Small"
                                     },
                                     {
-                                        "command": "set_aprosopo_theme_sidbar_size", "args":
+                                        "command": "set_aprosopo_theme_sidebar_size", "args":
                                         {
                                             "size": "small"
                                         },
                                         "caption": "Small"
                                     },
                                     {
-                                        "command": "set_aprosopo_theme_sidbar_size", "args":
+                                        "command": "set_aprosopo_theme_sidebar_size", "args":
                                         {
                                             "size": "medium"
                                         },
                                         "caption": "Medium"
                                     },
                                     {
-                                        "command": "set_aprosopo_theme_sidbar_size", "args":
+                                        "command": "set_aprosopo_theme_sidebar_size", "args":
                                         {
                                             "size": "large"
                                         },
                                         "caption": "Large"
                                     },
                                     {
-                                        "command": "set_aprosopo_theme_sidbar_size", "args":
+                                        "command": "set_aprosopo_theme_sidebar_size", "args":
+                                        {
+                                            "size": "xlarge"
+                                        },
+                                        "caption": "Extra Large"
+                                    }
+                                ]
+                            },
+                            {
+                                "caption": "Set Sidebar Font Size",
+                                "children":
+                                [
+                                    {
+                                        "command": "set_aprosopo_theme_sidebar_font_size", "args":
+                                        {
+                                            "size": "xsmall"
+                                        },
+                                        "caption": "Extra Small"
+                                    },
+                                    {
+                                        "command": "set_aprosopo_theme_sidebar_font_size", "args":
+                                        {
+                                            "size": "small"
+                                        },
+                                        "caption": "Small"
+                                    },
+                                    {
+                                        "command": "set_aprosopo_theme_sidebar_font_size", "args":
+                                        {
+                                            "size": "medium"
+                                        },
+                                        "caption": "Medium"
+                                    },
+                                    {
+                                        "command": "set_aprosopo_theme_sidebar_font_size", "args":
+                                        {
+                                            "size": "large"
+                                        },
+                                        "caption": "Large"
+                                    },
+                                    {
+                                        "command": "set_aprosopo_theme_sidebar_font_size", "args":
                                         {
                                             "size": "xlarge"
                                         },
