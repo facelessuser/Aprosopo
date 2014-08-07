@@ -24,7 +24,9 @@ COMMON_FEATURES = [
     "aprosopo_combined_dirty_active_bar"
 ]
 SIDEBAR_SIZES = ["xsmall", "small", "medium", "large", "xlarge"]
+SIDEBAR_FONT_SIZES = ["xsmall", "small", "medium", "large", "xlarge"]
 SIDEBAR_COMMON_FEATURE = "aprosopo_sidebar_tree_%s"
+SIDEBAR_FONT_COMMON_FEATURE = "aprosopo_sidebar_font_%s"
 
 
 def get_theme(obj, default=None):
@@ -106,12 +108,12 @@ def detect_current_theme(pref, themes):
     return detected
 
 
-def clear_all_sizes(pref, themes):
+def clear_all_sizes(pref, themes, sizes, feature):
     """
-    Clear theme sidebar settings
+    Clear all sizes for feature
     """
-    for s in SIDEBAR_SIZES:
-        pref.erase(SIDEBAR_COMMON_FEATURE % s)
+    for s in sizes:
+        pref.erase(feature % s)
 
 
 def clear_all_widgets(themes):
@@ -153,7 +155,8 @@ class ClearAprosopoThemeCommand(sublime_plugin.ApplicationCommand):
         clear_all_themes(pref, themes)
         clear_all_theme_colors(pref, themes, "colors", "color_key")
         clear_all_theme_colors(pref, themes, "dirty_colors", "dirty_color_key")
-        clear_all_sizes(pref, themes)
+        clear_all_sizes(pref, themes, SIDEBAR_SIZES, SIDEBAR_COMMON_FEATURE)
+        clear_all_sizes(pref, themes, SIDEBAR_FONT_SIZES, SIDEBAR_FONT_COMMON_FEATURE)
         clear_all_features(pref, themes)
         clear_all_widgets(themes)
         sublime.save_settings(PREFERENCES)
@@ -291,18 +294,18 @@ class SetAprosopoThemeDirtyCommand(sublime_plugin.ApplicationCommand):
         return pref.get(dirty_key % color, False) is True
 
 
-class SetAprosopoThemeSidbarSizeCommand(sublime_plugin.ApplicationCommand):
-    sidebar_sizes = SIDEBAR_SIZES
-    size_key = SIDEBAR_COMMON_FEATURE
+class _SetAprosopoSizeFeature(sublime_plugin.ApplicationCommand):
+    sizes = []
+    size_key = "%s"
 
     def run(self, size):
         """
-        Set sidebar spacing
+        Set size
         """
         pref = sublime.load_settings(PREFERENCES)
-        if size not in self.sidebar_sizes:
+        if size not in self.sizes:
             return
-        for s in self.sidebar_sizes:
+        for s in self.sizes:
             pref.erase(self.size_key % s)
         pref.set(self.size_key % size, True)
         sublime.save_settings(PREFERENCES)
@@ -311,10 +314,20 @@ class SetAprosopoThemeSidbarSizeCommand(sublime_plugin.ApplicationCommand):
         """
         Should menu option be check marked?
         """
-        if size not in self.sidebar_sizes:
+        if size not in self.sizes:
             return False
         pref = sublime.load_settings(PREFERENCES)
         return pref.get(self.size_key % size, False) is True
+
+
+class SetAprosopoThemeSidebarSizeCommand(_SetAprosopoSizeFeature):
+    sizes = SIDEBAR_SIZES
+    size_key = SIDEBAR_COMMON_FEATURE
+
+
+class SetAprosopoThemeSidebarFontSizeCommand(_SetAprosopoSizeFeature):
+    sizes = SIDEBAR_FONT_SIZES
+    size_key = SIDEBAR_FONT_COMMON_FEATURE
 
 
 class ToggleAprosopoThemeFeatureCommand(sublime_plugin.ApplicationCommand):
