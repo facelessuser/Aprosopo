@@ -24,7 +24,13 @@
 				<key>lineHighlight</key>
 				<string>#3C3F4180</string>
 				<key>selection</key>
-				<string>#3C3F4190</string>
+				<string>#3C3F41</string>
+				<key>activeGuide</key>
+				<string>#CCCCCC</string>
+				<key>stackGuide</key>
+				<string>#CCCCCC88</string>
+				<key>guide</key>
+				<string>#CCCCCC22</string>
 			</dict>
 		</dict>
 		<dict>

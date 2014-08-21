@@ -25,6 +25,12 @@
 				<string>#EAEDEE20</string>
 				<key>selection</key>
 				<string>#88888840</string>
+				<key>activeGuide</key>
+				<string>#4d4d4c</string>
+				<key>stackGuide</key>
+				<string>#4d4d4c88</string>
+				<key>guide</key>
+				<string>#4d4d4c22</string>
 			</dict>
 		</dict>
 		<dict>
