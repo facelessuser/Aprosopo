@@ -454,9 +454,9 @@
                                 "command": "toggle_aprosopo_theme_feature", "args":
                                 {
                                     "feature": "aprosopo_no_file_icons",
-                                    "st_version": [3000, 3061]
+                                    "st_version": 3000
                                 },
-                                "caption": "Disable Sidebar File Icons (ST3 < 3062)"
+                                "caption": "Disable Sidebar File Icons (ST2 Style Sidebar)"
                             },
                             {
                                 "command": "toggle_aprosopo_theme_feature", "args":
