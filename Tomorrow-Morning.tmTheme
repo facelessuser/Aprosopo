@@ -254,9 +254,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown: List</string>
+			<string>Markdown: Url</string>
 			<key>scope</key>
-			<string>markup.list</string>
+			<string>markup.underline.link, constant.other.reference.link.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -315,26 +315,11 @@
 			<key>name</key>
 			<string>Markdown: Blockquote</string>
 			<key>scope</key>
-			<string>markup.quote, punctuation.definition.blockquote.markdown</string>
+			<string>punctuation.definition.blockquote.markdown</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
-				<string>#8e908c</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markup: Quote</string>
-			<key>scope</key>
-			<string>markup.quote</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-				<key>foreground</key>
-				<string>#8e908c</string>
+				<string>#8959a8</string>
 			</dict>
 		</dict>
 		<dict>
