@@ -186,7 +186,7 @@
 			<key>name</key>
 			<string>Diff foreground</string>
 			<key>scope</key>
-			<string>markup.inserted.diff, markup.deleted.diff, meta.diff.header.to-file, meta.diff.header.from-file</string>
+			<string>meta.diff.header.to-file, meta.diff.header.from-file</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
