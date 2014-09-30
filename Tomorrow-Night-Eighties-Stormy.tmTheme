@@ -70,7 +70,8 @@
 			<key>name</key>
 			<string>Variable, String Link, Tag Name</string>
 			<key>scope</key>
-			<string>string.other.link, entity.name.tag, entity.other.attribute-name, meta.tag, declaration.tag</string>
+			<string>string.other.link, entity.name.tag, punctuation.definition.tag.begin, punctuation.definition.tag.end,
+					entity.other.attribute-name, declaration.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -186,7 +187,7 @@
 			<key>name</key>
 			<string>Diff foreground</string>
 			<key>scope</key>
-			<string>markup.inserted.diff, markup.deleted.diff, meta.diff.header.to-file, meta.diff.header.from-file</string>
+			<string>meta.diff.header.to-file, meta.diff.header.from-file</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -254,9 +255,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markup: List</string>
+			<string>Markup: Url</string>
 			<key>scope</key>
-			<string>markup.list</string>
+			<string>markup.underline.link, constant.other.reference.link.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -315,26 +316,11 @@
 			<key>name</key>
 			<string>Markdown: Blockquote</string>
 			<key>scope</key>
-			<string>markup.quote, punctuation.definition.blockquote.markdown</string>
+			<string>punctuation.definition.blockquote.markdown</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
-				<string>#888888</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markup: Quote</string>
-			<key>scope</key>
-			<string>markup.quote</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string> italic</string>
-				<key>foreground</key>
-				<string>#888888</string>
+				<string>#CC99CC</string>
 			</dict>
 		</dict>
 		<dict>
