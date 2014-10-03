@@ -70,8 +70,7 @@
 			<key>name</key>
 			<string>Variable, String Link, Tag Name</string>
 			<key>scope</key>
-			<string>string.other.link, entity.name.tag, punctuation.definition.tag.begin, punctuation.definition.tag.end,
-					entity.other.attribute-name, declaration.tag</string>
+			<string>string.other.link, entity.name.tag, entity.other.attribute-name, declaration.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
