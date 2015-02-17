@@ -590,6 +590,62 @@
         "layer0.opacity": 1.0,
         "content_margin": [0, 6]
     },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_dark_red"],
+        "layer0.tint": [242, 119, 122],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_dark_aqua"],
+        "layer0.tint": [102, 204, 204],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_dark_gray"],
+        "layer0.tint": [153, 153, 153],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_dark_blue"],
+        "layer0.tint": [102, 153, 204],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_dark_green"],
+        "layer0.tint": [153, 204, 153],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_dark_yellow"],
+        "layer0.tint": [255, 204, 102],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_dark_orange"],
+        "layer0.tint": [249, 145, 87],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_dark_purple"],
+        "layer0.tint": [204, 153, 204],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
 
 ////////////////////////////////////
 // Fold Buttons
@@ -613,7 +669,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
-        "settings": ["aprosopo_dark_dirty_red"],
+        "settings": ["aprosopo_dark_red"],
         "layer0.tint": [242, 119, 122]
     },
     {

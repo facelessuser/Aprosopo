@@ -574,7 +574,7 @@
 ////////////////////////////////////
     {
         "class": "dialog",
-        "layer0.tint": [40, 43, 45],
+        "layer0.tint": [222, 225, 227],
         "layer0.opacity": 1.0
     },
 
@@ -583,12 +583,62 @@
 ////////////////////////////////////
     {
         "class": "progress_bar_control",
-        "layer0.tint": [30, 30, 30],
+        "layer0.tint": [201, 202, 203],
         "layer0.opacity": 1.0
     },
     {
         "class": "progress_gauge_control",
-        "layer0.tint": [144, 144, 144],
+        "settings": ["aprosopo_light_red"],
+        "layer0.tint": [255, 179, 181],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_light_aqua"],
+        "layer0.tint": [151, 254, 255],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_light_gray"],
+        "layer0.tint": [153, 153, 153],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_light_blue"],
+        "layer0.tint": [151, 202, 255],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_light_green"],
+        "layer0.tint": [190, 242, 190],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_light_yellow"],
+        "layer0.tint": [255, 228, 177],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_light_orange"],
+        "layer0.tint": [255, 198, 167],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_light_purple"],
+        "layer0.tint": [242, 190, 241],
         "layer0.opacity": 1.0,
         "content_margin": [0, 6]
     },
@@ -614,7 +664,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
-        "settings": ["aprosopo_light_dirty_red"],
+        "settings": ["aprosopo_light_red"],
         "layer0.tint": [255, 179, 181]
     },
     {
