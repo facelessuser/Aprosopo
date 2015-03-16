@@ -22,7 +22,7 @@
 				<key>invisibles</key>
 				<string>#4d4d4c</string>
 				<key>lineHighlight</key>
-				<string>#EAEDEE20</string>
+				<string>#EAEDEE80</string>
 				<key>selection</key>
 				<string>#88888840</string>
 				<key>activeGuide</key>
