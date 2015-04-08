@@ -201,7 +201,7 @@
 
         "layer0.texture": "Theme - Aprosopo/Light/tab.png",
         "layer0.inner_margin": [15, 4],
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0,
         "layer3.opacity": 0.0,
@@ -919,7 +919,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "button_control"}],
-        "color": [250, 253, 255],
+        "color": [252, 252, 252],
         "shadow_color": [80, 83, 85],
         "shadow_offset": [1, 1]
     },
@@ -1678,12 +1678,12 @@
         "class": "quick_panel",
         "row_padding": [5, 2],
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "dark_content": false
     },
     {
         "class": "quick_panel_row",
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
         "layer1.texture": "Theme - Aprosopo/Light/row_select.png",
@@ -1917,7 +1917,7 @@
 ////////////////////////////////////
     {
         "class": "mini_quick_panel_row",
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
         "layer1.texture": "Theme - Aprosopo/Light/row_select.png",
@@ -1989,7 +1989,7 @@
     {
         "class": "auto_complete",
         "row_padding": [2, 2],
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "layer0.opacity": 1.0,
         "dark_content": false
     },
@@ -2168,7 +2168,7 @@
         "class": "icon_regex",
         "layer0.texture": "Theme - Aprosopo/Common/icon-regex-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
 
@@ -2227,7 +2227,7 @@
         "class": "icon_case",
         "layer0.texture": "Theme - Aprosopo/Common/icon-case-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
 
@@ -2286,7 +2286,7 @@
         "class": "icon_whole_word",
         "layer0.texture": "Theme - Aprosopo/Common/icon-word-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
 
@@ -2349,7 +2349,7 @@
         "class": "icon_context",
         "layer0.texture": "Theme - Aprosopo/Common/icon-context-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
@@ -2407,7 +2407,7 @@
         "class": "icon_use_buffer",
         "layer0.texture": "Theme - Aprosopo/Common/icon-buffer-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
@@ -2468,7 +2468,7 @@
         "class": "icon_reverse",
         "layer0.texture": "Theme - Aprosopo/Common/icon-reverse-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
@@ -2526,7 +2526,7 @@
         "class": "icon_wrap",
         "layer0.texture": "Theme - Aprosopo/Common/icon-wrap-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
@@ -2584,7 +2584,7 @@
         "class": "icon_in_selection",
         "layer0.texture": "Theme - Aprosopo/Common/icon-selection-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
@@ -2645,7 +2645,7 @@
         "class": "icon_preserve_case",
         "layer0.texture": "Theme - Aprosopo/Common/icon-preserve-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
@@ -2706,7 +2706,7 @@
         "class": "icon_highlight",
         "layer0.texture": "Theme - Aprosopo/Common/icon-highlight-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
