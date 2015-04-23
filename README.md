@@ -27,4 +27,4 @@ Aprosopo takes inspiration from:
 Package Control is the preferred method: https://sublime.wbond.net/installation
 
 # Documentation
-https://github.com/facelessuser/Aprosopo
+http://facelessuser.github.io/Aprosopo/
