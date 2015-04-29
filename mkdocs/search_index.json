@@ -1,0 +1,74 @@
+{
+    "docs": [
+        {
+            "location": "/", 
+            "text": "Aprosopo\n\n\nA highly customizable dark and light theme.\n\n\n\n\nOverview\n\n\n\n\n\n\nAll graphics have been created from scratch, though styling takes inspiration from themes mentioned below.\n\n\nAprosopo takes inspiration from:\n\n\n\n\nPhoenix Theme: \nhttps://github.com/netatoo/phoenix-theme\n\n\nNil Theme: \nhttps://github.com/nilium/st2-nil-theme\n\n\nFlatland Theme: \nhttps://github.com/thinkpixellab/flatland\n\n\nTomorrow Color Schemes: \nhttps://github.com/chriskempson/tomorrow-theme\n\n\nSoda Theme \nhttp://buymeasoda.com\n\n\n\n\nFeatures\n\n\n\n\nTheme and theme settings can all be set via the menu\n\n\nSelect different theme color variations\n\n\nSelect different dirty indicator colors\n\n\nCustomize the tab styling\n\n\nCustomize the sidebar styling\n\n\n2 included color schemes\n\n\n\n\nInstallation\n\n\nPackage Control is the preferred method: \nhttps://sublime.wbond.net/installation", 
+            "title": "Home"
+        }, 
+        {
+            "location": "/#aprosopo", 
+            "text": "A highly customizable dark and light theme.", 
+            "title": "Aprosopo"
+        }, 
+        {
+            "location": "/#overview", 
+            "text": "All graphics have been created from scratch, though styling takes inspiration from themes mentioned below.  Aprosopo takes inspiration from:   Phoenix Theme:  https://github.com/netatoo/phoenix-theme  Nil Theme:  https://github.com/nilium/st2-nil-theme  Flatland Theme:  https://github.com/thinkpixellab/flatland  Tomorrow Color Schemes:  https://github.com/chriskempson/tomorrow-theme  Soda Theme  http://buymeasoda.com", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/#features", 
+            "text": "Theme and theme settings can all be set via the menu  Select different theme color variations  Select different dirty indicator colors  Customize the tab styling  Customize the sidebar styling  2 included color schemes", 
+            "title": "Features"
+        }, 
+        {
+            "location": "/#installation", 
+            "text": "Package Control is the preferred method:  https://sublime.wbond.net/installation", 
+            "title": "Installation"
+        }, 
+        {
+            "location": "/usage/", 
+            "text": "User Guide\n\n\nConfiguration of the Aprosopo theme.\n\n\n\n\nOverview\n\n\nIt is highly configurable in regards to to setting colors and styles of \nactive\n and \ndirty\n indicators.\n\n\nBoth the dark and light theme have the following colors that can be used as the base color or dirty color:\n\n\n\n\naqua\n\n\nblue\n\n\ngray\n\n\ngreen\n\n\norange\n\n\npurple\n\n\nred\n\n\nyellow\n\n\n\n\nTabs can be configured in a variety of ways:\n\n\n\n\nThe sidebar also has a number of configuration options:\n\n\n\n\nEven the color scheme for the search bar inputs respond to color changes by altering their highlight color:\n\n\n\n\nTheme is easily selected and configured from the menu:\n\n\n\n\nSetup\n\n\nEverything is driven via the menu.  Go to \nPreferences \n Package Settings \n Theme - Aprosopo\n and set the theme with the color of your choice (a restart may be required after initially setting the theme; when changing features, resizing your window or restarting may be required to refresh the theme elements).  Themes can be unset from the menu as well which should completely cleanup all settings etc.\n\n\nCustomizing\n\n\nFor personal tweaking, feel free to do whatever; fork it, mod it, and share it.  \nThere is no promise I will accept variations on the official branch\n.\n\n\nQuestions\n\n\nST3 and ST2?\n\n\nAs far as I know.\n\n\nI am using ST3 version \n 3062 and I don\nt have sidebar icons?\n\n\nST3 version 3062 introduced new sidebar file icons.  With this new addition, the theme displays the icons differently.  If you are using an ST3 version \n 3062, you can use the menu option \nDisable Sidebar File Icons\n to revert to the old way of displaying folder icons to restore them.\n\n\nRetina?\n\n\nTheoretically, but I don\nt have a retina display to test on.", 
+            "title": "User Guide"
+        }, 
+        {
+            "location": "/usage/#user-guide", 
+            "text": "Configuration of the Aprosopo theme.", 
+            "title": "User Guide"
+        }, 
+        {
+            "location": "/usage/#overview", 
+            "text": "It is highly configurable in regards to to setting colors and styles of  active  and  dirty  indicators.  Both the dark and light theme have the following colors that can be used as the base color or dirty color:   aqua  blue  gray  green  orange  purple  red  yellow   Tabs can be configured in a variety of ways:   The sidebar also has a number of configuration options:   Even the color scheme for the search bar inputs respond to color changes by altering their highlight color:   Theme is easily selected and configured from the menu:", 
+            "title": "Overview"
+        }, 
+        {
+            "location": "/usage/#setup", 
+            "text": "Everything is driven via the menu.  Go to  Preferences   Package Settings   Theme - Aprosopo  and set the theme with the color of your choice (a restart may be required after initially setting the theme; when changing features, resizing your window or restarting may be required to refresh the theme elements).  Themes can be unset from the menu as well which should completely cleanup all settings etc.", 
+            "title": "Setup"
+        }, 
+        {
+            "location": "/usage/#customizing", 
+            "text": "For personal tweaking, feel free to do whatever; fork it, mod it, and share it.   There is no promise I will accept variations on the official branch .", 
+            "title": "Customizing"
+        }, 
+        {
+            "location": "/usage/#questions", 
+            "text": "", 
+            "title": "Questions"
+        }, 
+        {
+            "location": "/usage/#st3-and-st2", 
+            "text": "As far as I know.", 
+            "title": "ST3 and ST2?"
+        }, 
+        {
+            "location": "/usage/#i-am-using-st3-version-3062-and-i-dont-have-sidebar-icons", 
+            "text": "ST3 version 3062 introduced new sidebar file icons.  With this new addition, the theme displays the icons differently.  If you are using an ST3 version   3062, you can use the menu option  Disable Sidebar File Icons  to revert to the old way of displaying folder icons to restore them.", 
+            "title": "I am using ST3 version  3062 and I don't have sidebar icons?"
+        }, 
+        {
+            "location": "/usage/#retina", 
+            "text": "Theoretically, but I don t have a retina display to test on.", 
+            "title": "Retina?"
+        }
+    ]
+}
