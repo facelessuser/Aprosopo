@@ -12,7 +12,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FAFDFF</string>
+				<string>#fcfcfc</string>
 				<key>caret</key>
 				<string>#4d4d4c</string>
 				<key>foreground</key>
@@ -22,9 +22,10 @@
 				<key>invisibles</key>
 				<string>#4d4d4c</string>
 				<key>lineHighlight</key>
-				<string>#EAEDEE20</string>
+				<string>#e3e3e360</string>
 				<key>selection</key>
-				<string>#88888840</string>
+				<!-- <string>#e3e3e3</string> -->
+				<string>#ffffe6</string>
 				<key>activeGuide</key>
 				<string>#4d4d4c</string>
 				<key>stackGuide</key>
@@ -41,7 +42,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#EAEDEE</string>
+				<string>#F6F6F6</string>
 			</dict>
 		</dict>
 		<dict>

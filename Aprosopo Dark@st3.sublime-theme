@@ -861,42 +861,42 @@
     {
         "class": "minimap_control",
         "settings": ["aprosopo_dark_red"],
-        "viewport_color": [242, 119, 122, 30]
+        "viewport_color": [242, 119, 122, 60]
     },
     {
         "class": "minimap_control",
         "settings": ["aprosopo_dark_aqua"],
-        "viewport_color": [102, 204, 204, 30]
+        "viewport_color": [102, 204, 204, 60]
     },
     {
         "class": "minimap_control",
         "settings": ["aprosopo_dark_gray"],
-        "viewport_color": [153, 153, 153, 30]
+        "viewport_color": [153, 153, 153, 60]
     },
     {
         "class": "minimap_control",
         "settings": ["aprosopo_dark_blue"],
-        "viewport_color": [102, 153, 204, 30]
+        "viewport_color": [102, 153, 204, 60]
     },
     {
         "class": "minimap_control",
         "settings": ["aprosopo_dark_green"],
-        "viewport_color": [153, 204, 153, 30]
+        "viewport_color": [153, 204, 153, 60]
     },
     {
         "class": "minimap_control",
         "settings": ["aprosopo_dark_yellow"],
-        "viewport_color": [255, 204, 102, 30]
+        "viewport_color": [255, 204, 102, 60]
     },
     {
         "class": "minimap_control",
         "settings": ["aprosopo_dark_orange"],
-        "viewport_color": [249, 145, 87, 30]
+        "viewport_color": [249, 145, 87, 60]
     },
     {
         "class": "minimap_control",
         "settings": ["aprosopo_dark_purple"],
-        "viewport_color": [204, 153, 204, 30]
+        "viewport_color": [204, 153, 204, 60]
     },
 
 ////////////////////////////////////

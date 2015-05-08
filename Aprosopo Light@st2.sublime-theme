@@ -201,7 +201,7 @@
 
         "layer0.texture": "Theme - Aprosopo/Light/tab.png",
         "layer0.inner_margin": [15, 4],
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0,
         "layer3.opacity": 0.0,
@@ -574,7 +574,7 @@
 ////////////////////////////////////
     {
         "class": "dialog",
-        "layer0.tint": [40, 43, 45],
+        "layer0.tint": [222, 225, 227],
         "layer0.opacity": 1.0
     },
 
@@ -583,12 +583,62 @@
 ////////////////////////////////////
     {
         "class": "progress_bar_control",
-        "layer0.tint": [30, 30, 30],
+        "layer0.tint": [201, 202, 203],
         "layer0.opacity": 1.0
     },
     {
         "class": "progress_gauge_control",
-        "layer0.tint": [144, 144, 144],
+        "settings": ["aprosopo_light_red"],
+        "layer0.tint": [255, 179, 181],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_light_aqua"],
+        "layer0.tint": [151, 254, 255],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_light_gray"],
+        "layer0.tint": [153, 153, 153],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_light_blue"],
+        "layer0.tint": [151, 202, 255],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_light_green"],
+        "layer0.tint": [190, 242, 190],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_light_yellow"],
+        "layer0.tint": [255, 228, 177],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_light_orange"],
+        "layer0.tint": [255, 198, 167],
+        "layer0.opacity": 1.0,
+        "content_margin": [0, 6]
+    },
+    {
+        "class": "progress_gauge_control",
+        "settings": ["aprosopo_light_purple"],
+        "layer0.tint": [242, 190, 241],
         "layer0.opacity": 1.0,
         "content_margin": [0, 6]
     },
@@ -614,7 +664,7 @@
     {
         "class": "fold_button_control",
         "attributes": ["hover"],
-        "settings": ["aprosopo_light_dirty_red"],
+        "settings": ["aprosopo_light_red"],
         "layer0.tint": [255, 179, 181]
     },
     {
@@ -806,42 +856,42 @@
     {
         "class": "minimap_control",
         "settings": ["aprosopo_light_red"],
-        "viewport_color": [255, 179, 181, 30]
+        "viewport_color": [255, 179, 181, 60]
     },
     {
         "class": "minimap_control",
         "settings": ["aprosopo_light_aqua"],
-        "viewport_color": [151, 254, 255, 30]
+        "viewport_color": [151, 254, 255, 60]
     },
     {
         "class": "minimap_control",
         "settings": ["aprosopo_light_gray"],
-        "viewport_color": [153, 153, 153, 30]
+        "viewport_color": [153, 153, 153, 60]
     },
     {
         "class": "minimap_control",
         "settings": ["aprosopo_light_blue"],
-        "viewport_color": [151, 202, 255, 30]
+        "viewport_color": [151, 202, 255, 60]
     },
     {
         "class": "minimap_control",
         "settings": ["aprosopo_light_green"],
-        "viewport_color": [190, 242, 190, 30]
+        "viewport_color": [190, 242, 190, 60]
     },
     {
         "class": "minimap_control",
         "settings": ["aprosopo_light_yellow"],
-        "viewport_color": [255, 228, 177, 30]
+        "viewport_color": [255, 228, 177, 60]
     },
     {
         "class": "minimap_control",
         "settings": ["aprosopo_light_orange"],
-        "viewport_color": [255, 198, 167, 30]
+        "viewport_color": [255, 198, 167, 60]
     },
     {
         "class": "minimap_control",
         "settings": ["aprosopo_light_purple"],
-        "viewport_color": [242, 190, 241, 30]
+        "viewport_color": [242, 190, 241, 60]
     },
 
 ////////////////////////////////////
@@ -869,7 +919,7 @@
     {
         "class": "label_control",
         "parents": [{"class": "button_control"}],
-        "color": [250, 253, 255],
+        "color": [252, 252, 252],
         "shadow_color": [80, 83, 85],
         "shadow_offset": [1, 1]
     },
@@ -1434,12 +1484,12 @@
         "class": "quick_panel",
         "row_padding": [5, 2],
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "dark_content": false
     },
     {
         "class": "quick_panel_row",
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
         "layer1.texture": "Theme - Aprosopo/Light/row_select.png",
@@ -1673,7 +1723,7 @@
 ////////////////////////////////////
     {
         "class": "mini_quick_panel_row",
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "layer0.inner_margin": [2, 2, 2, 2],
         "layer0.opacity": 1.0,
         "layer1.texture": "Theme - Aprosopo/Light/row_select.png",
@@ -1745,7 +1795,7 @@
     {
         "class": "auto_complete",
         "row_padding": [2, 2],
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "layer0.opacity": 1.0,
         "dark_content": false
     },
@@ -1925,7 +1975,7 @@
         "class": "icon_regex",
         "layer0.texture": "Theme - Aprosopo/Common/icon-regex-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
 
@@ -1984,7 +2034,7 @@
         "class": "icon_case",
         "layer0.texture": "Theme - Aprosopo/Common/icon-case-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
 
@@ -2043,7 +2093,7 @@
         "class": "icon_whole_word",
         "layer0.texture": "Theme - Aprosopo/Common/icon-word-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
 
@@ -2106,7 +2156,7 @@
         "class": "icon_context",
         "layer0.texture": "Theme - Aprosopo/Common/icon-context-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
@@ -2164,7 +2214,7 @@
         "class": "icon_use_buffer",
         "layer0.texture": "Theme - Aprosopo/Common/icon-buffer-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
@@ -2225,7 +2275,7 @@
         "class": "icon_reverse",
         "layer0.texture": "Theme - Aprosopo/Common/icon-reverse-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
@@ -2283,7 +2333,7 @@
         "class": "icon_wrap",
         "layer0.texture": "Theme - Aprosopo/Common/icon-wrap-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
@@ -2341,7 +2391,7 @@
         "class": "icon_in_selection",
         "layer0.texture": "Theme - Aprosopo/Common/icon-selection-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
@@ -2402,7 +2452,7 @@
         "class": "icon_preserve_case",
         "layer0.texture": "Theme - Aprosopo/Common/icon-preserve-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
@@ -2463,7 +2513,7 @@
         "class": "icon_highlight",
         "layer0.texture": "Theme - Aprosopo/Common/icon-highlight-on.png",
         "layer0.opacity": 1.0,
-        "layer0.tint": [250, 253, 255],
+        "layer0.tint": [252, 252, 252],
         "content_margin": [8, 8]
     },
     // Button Selectd Colors
