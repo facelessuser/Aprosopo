@@ -1,3 +1,4 @@
+[![Unix Build Status][travis-image]][travis-link]
 # Aprosopo
 A highly customizable dark and light theme.
 
@@ -25,3 +26,6 @@ Aprosopo takes inspiration from:
 
 # Documentation
 http://facelessuser.github.io/Aprosopo/
+
+[travis-image]: https://img.shields.io/travis/facelessuser/ThemeScheduler.svg
+[travis-link]: https://travis-ci.org/facelessuser/ThemeScheduler
