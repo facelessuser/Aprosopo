@@ -1,6 +1,5 @@
 # User Guide {: .doctitle}
 Configuration of the Aprosopo theme.
-{: .doctitle-info}
 
 ---
 

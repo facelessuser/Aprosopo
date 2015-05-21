@@ -1,6 +1,5 @@
 # Aprosopo {: .doctitle}
 A highly customizable dark and light theme.
-{: .doctitle-info}
 
 ---
 
@@ -26,6 +25,3 @@ Aprosopo takes inspiration from:
 - Customize the tab styling
 - Customize the sidebar styling
 - 2 included color schemes
-
-# Installation
-Package Control is the preferred method: https://sublime.wbond.net/installation

@@ -1,3 +1,9 @@
+"""
+Module for setting theme options.
+
+Copyright (c) 2014 - 2015 Isaac Muse <isaacmuse@gmail.com>
+License: MIT
+"""
 import sublime
 import sublime_plugin
 import os
@@ -32,9 +38,11 @@ SIDEBAR_FONT_COMMON_FEATURE = "aprosopo_sidebar_font_%s"
 def get_theme(obj, default=None):
     """
     Get the theme for the theme object.
+
     See if ST2 or ST3 variant is avaliable,
     if not use the standard theme format.
     """
+
     special = "@st3" if ST3 else "@st2"
     theme = obj.get("theme", None)
     if theme is None:
@@ -59,9 +67,8 @@ def get_theme(obj, default=None):
 
 
 def is_valid_theme(theme, theme_file, check_all=False):
-    """
-    Check if the theme is a valid variant (st2 or st3 specfic, and default format)
-    """
+    """Check if the theme is a valid variant (st2 or st3 specfic, and default format)."""
+
     valid = False
     if theme is not None and theme_file is not None:
         special = "@st3" if ST3 else "@st2"
@@ -75,10 +82,9 @@ def is_valid_theme(theme, theme_file, check_all=False):
 
 
 def clear_all_theme_colors(pref, themes, color_list_key, color_key):
-    """
-    Clear theme color variant settings
-    """
-    for k, v in themes.items():
+    """Clear theme color variant settings."""
+
+    for v in themes.values():
         for c in v.get(color_list_key, []):
             key = v.get(color_key, None)
             if key is not None:
@@ -86,10 +92,9 @@ def clear_all_theme_colors(pref, themes, color_list_key, color_key):
 
 
 def clear_all_themes(pref, themes):
-    """
-    Clear theme from settings
-    """
-    for k, v in themes.items():
+    """Clear theme from settings."""
+
+    for v in themes.values():
         theme = v.get("theme")
         if theme is not None:
             if is_valid_theme(pref.get("theme", None), theme):
@@ -97,6 +102,8 @@ def clear_all_themes(pref, themes):
 
 
 def detect_current_theme(pref, themes):
+    """Detect the current theme."""
+
     detected = None
     for k, v in themes.items():
         theme = v.get("theme")
@@ -108,20 +115,18 @@ def detect_current_theme(pref, themes):
     return detected
 
 
-def clear_all_sizes(pref, themes, sizes, feature):
-    """
-    Clear all sizes for feature
-    """
+def clear_all_sizes(pref, sizes, feature):
+    """Clear all sizes for feature."""
+
     for s in sizes:
         pref.erase(feature % s)
 
 
 def clear_all_widgets(themes):
-    """
-    Remove theme widget settings
-    """
+    """Remove theme widget settings."""
+
     widget_path = os.path.join(sublime.packages_path(), "User")
-    for k, v in themes.items():
+    for v in themes.values():
         widget = v.get("widget_settings")
         if widget is not None:
             special = "@st3" if ST3 else "@st2"
@@ -134,39 +139,41 @@ def clear_all_widgets(themes):
 
 
 def clear_all_features(pref, themes):
-    """
-    Clear other theme feature settings
-    """
+    """Clear other theme feature settings."""
+
     for feat in COMMON_FEATURES:
         pref.erase(feat)
-    for k, v in themes.items():
+    for v in themes.values():
         for feat in v.get("theme_specific_keys", []):
             pref.erase(feat)
 
 
 class ClearAprosopoThemeCommand(sublime_plugin.ApplicationCommand):
+
+    """Clear Aprosopo theme settings."""
+
     def run(self):
-        """
-        Clear all settings
-        """
+        """Clear all settings."""
+
         pref = sublime.load_settings(PREFERENCES)
         plug = sublime.load_settings(PLUGIN_SETTINGS)
         themes = plug.get("themes", {})
         clear_all_themes(pref, themes)
         clear_all_theme_colors(pref, themes, "colors", "color_key")
         clear_all_theme_colors(pref, themes, "dirty_colors", "dirty_color_key")
-        clear_all_sizes(pref, themes, SIDEBAR_SIZES, SIDEBAR_COMMON_FEATURE)
-        clear_all_sizes(pref, themes, SIDEBAR_FONT_SIZES, SIDEBAR_FONT_COMMON_FEATURE)
+        clear_all_sizes(pref, SIDEBAR_SIZES, SIDEBAR_COMMON_FEATURE)
+        clear_all_sizes(pref, SIDEBAR_FONT_SIZES, SIDEBAR_FONT_COMMON_FEATURE)
         clear_all_features(pref, themes)
         clear_all_widgets(themes)
         sublime.save_settings(PREFERENCES)
 
 
 class SetAprosopoThemeCommand(sublime_plugin.ApplicationCommand):
+
+    """Set various Aprosopo theme settings."""
+
     def run(self, color, theme):
-        """
-        Setup and set the specified theme
-        """
+        """Setup and set the specified theme."""
 
         # Get needed theme attributes etc.
         pref = sublime.load_settings(PREFERENCES)
@@ -209,6 +216,8 @@ class SetAprosopoThemeCommand(sublime_plugin.ApplicationCommand):
         self.set_theme_color(current, theme)
 
     def set_theme_color(self, current_theme, new_theme):
+        """Set the theme color."""
+
         if current_theme is not None and current_theme != new_theme:
             sublime.run_command(
                 "inherhit_aprosopo_dirty_color",
@@ -221,9 +230,8 @@ class SetAprosopoThemeCommand(sublime_plugin.ApplicationCommand):
             )
 
     def is_checked(self, color, theme):
-        """
-        Should menu option be check marked?
-        """
+        """Should menu option be check marked?."""
+
         plug = sublime.load_settings(PLUGIN_SETTINGS)
         themes = plug.get("themes", {})
         colors = themes.get(theme, {}).get("colors", [])
@@ -235,7 +243,12 @@ class SetAprosopoThemeCommand(sublime_plugin.ApplicationCommand):
 
 
 class InherhitAprosopoDirtyColorCommand(sublime_plugin.ApplicationCommand):
+
+    """Inherit the dirty color from light or dark when switching between them."""
+
     def run(self, old_theme, new_theme):
+        """Run command."""
+
         # Get needed theme attributes etc.
         pref = sublime.load_settings(PREFERENCES)
         plug = sublime.load_settings(PLUGIN_SETTINGS)
@@ -255,7 +268,12 @@ class InherhitAprosopoDirtyColorCommand(sublime_plugin.ApplicationCommand):
 
 
 class SetAprosopoThemeDirtyCommand(sublime_plugin.ApplicationCommand):
+
+    """Set the dirty theme setting."""
+
     def run(self, color, theme):
+        """Run command."""
+
         # Get needed theme attributes etc.
         pref = sublime.load_settings(PREFERENCES)
         plug = sublime.load_settings(PLUGIN_SETTINGS)
@@ -277,9 +295,8 @@ class SetAprosopoThemeDirtyCommand(sublime_plugin.ApplicationCommand):
         sublime.save_settings(PREFERENCES)
 
     def is_checked(self, color, theme):
-        """
-        Should menu option be check marked?
-        """
+        """Check if menu option be checkmarked."""
+
         plug = sublime.load_settings(PLUGIN_SETTINGS)
         themes = plug.get("themes", {})
         colors = themes.get(theme, {}).get("dirty_colors", [])
@@ -295,13 +312,15 @@ class SetAprosopoThemeDirtyCommand(sublime_plugin.ApplicationCommand):
 
 
 class _SetAprosopoSizeFeature(sublime_plugin.ApplicationCommand):
+
+    """Set Arposopo size."""
+
     sizes = []
     size_key = "%s"
 
     def run(self, size):
-        """
-        Set size
-        """
+        """Set size."""
+
         pref = sublime.load_settings(PREFERENCES)
         if size not in self.sizes:
             return
@@ -311,9 +330,8 @@ class _SetAprosopoSizeFeature(sublime_plugin.ApplicationCommand):
         sublime.save_settings(PREFERENCES)
 
     def is_checked(self, size):
-        """
-        Should menu option be check marked?
-        """
+        """Check if menu option be checkmarked."""
+
         if size not in self.sizes:
             return False
         pref = sublime.load_settings(PREFERENCES)
@@ -321,25 +339,32 @@ class _SetAprosopoSizeFeature(sublime_plugin.ApplicationCommand):
 
 
 class SetAprosopoThemeSidebarSizeCommand(_SetAprosopoSizeFeature):
+
+    """Configure sidebar size."""
+
     sizes = SIDEBAR_SIZES
     size_key = SIDEBAR_COMMON_FEATURE
 
 
 class SetAprosopoThemeSidebarFontSizeCommand(_SetAprosopoSizeFeature):
+
+    """Configure sidebar font size."""
+
     sizes = SIDEBAR_FONT_SIZES
     size_key = SIDEBAR_FONT_COMMON_FEATURE
 
 
 class ToggleAprosopoThemeFeatureCommand(sublime_plugin.ApplicationCommand):
+
+    """Toggle various Aprosopo theme features."""
+
     def run(
         self, feature,
         set_when_true=[], set_when_false=[],
         unset_when_true=[], unset_when_false=[],
         st_version=0
     ):
-        """
-        Toggle feature true or false (when false, the setting is erased)
-        """
+        """Toggle feature true or false (when false, the setting is erased)."""
 
         self.pref = sublime.load_settings(PREFERENCES)
         self.modified = False
@@ -355,6 +380,8 @@ class ToggleAprosopoThemeFeatureCommand(sublime_plugin.ApplicationCommand):
             sublime.save_settings(PREFERENCES)
 
     def toggle_feature(self, feature, state):
+        """Toggle a feature."""
+
         if state is None or state is False:
             self.pref.set(feature, True)
             self.modified = True
@@ -363,19 +390,23 @@ class ToggleAprosopoThemeFeatureCommand(sublime_plugin.ApplicationCommand):
             self.modified = True
 
     def set_feature(self, feature, value):
+        """Set the feature."""
+
         state = self.pref.get(feature, None)
         if value:
             if state is None or state is False:
                 self.pref.set(feature, True)
                 self.modified = True
         elif state is not None:
-                self.pref.erase(feature)
-                self.modified = True
+            self.pref.erase(feature)
+            self.modified = True
 
     def handle_dependants(
         self, set_when_true, set_when_false,
         unset_when_true, unset_when_false, state
     ):
+        """Handle dependants."""
+
         if state is None or state is False:
             for feature in set_when_true:
                 self.set_feature(feature, True)
@@ -395,9 +426,7 @@ class ToggleAprosopoThemeFeatureCommand(sublime_plugin.ApplicationCommand):
         unset_when_true=[], unset_when_false=[],
         st_version=0
     ):
-        """
-        Show option if ST version matches
-        """
+        """Show option if ST version matches."""
 
         if isinstance(st_version, list):
             size = len(st_version)
@@ -426,9 +455,7 @@ class ToggleAprosopoThemeFeatureCommand(sublime_plugin.ApplicationCommand):
         unset_when_true=[], unset_when_false=[],
         st_version=0
     ):
-        """
-        Should menu option be check marked?
-        """
+        """Determine if the menu option be checkmarked."""
 
         pref = sublime.load_settings(PREFERENCES)
         return pref.get(feature, False) is True

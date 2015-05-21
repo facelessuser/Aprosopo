@@ -12,7 +12,7 @@ Aprosopo takes inspiration from:
 - Phoenix Theme: https://github.com/netatoo/phoenix-theme
 - Nil Theme: https://github.com/nilium/st2-nil-theme
 - Flatland Theme: https://github.com/thinkpixellab/flatland
-- Tommorrow Color Schemes: https://github.com/chriskempson/tomorrow-theme
+- Tomorrow Color Schemes: https://github.com/chriskempson/tomorrow-theme
 - Soda Theme http://buymeasoda.com
 
 # Features
@@ -21,10 +21,7 @@ Aprosopo takes inspiration from:
 - Select different dirty indicator colors
 - Customize the tab styling
 - Customize the sidebar styling
-- 2 inlcuded color schemes
-
-# Installation
-Package Control is the preferred method: https://sublime.wbond.net/installation
+- 2 included color schemes
 
 # Documentation
 http://facelessuser.github.io/Aprosopo/
