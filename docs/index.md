@@ -3,7 +3,7 @@ A highly customizable dark and light theme.
 
 ---
 
-# Overview
+## Overview
 <img src="https://dl.dropboxusercontent.com/u/342698/UnnamedTheme2/Screenshot_Dark.png" border="0">
 
 <img src="https://dl.dropboxusercontent.com/u/342698/UnnamedTheme2/Screenshot_Light.png" border="0">
@@ -18,7 +18,7 @@ Aprosopo takes inspiration from:
 - Tomorrow Color Schemes: https://github.com/chriskempson/tomorrow-theme
 - Soda Theme http://buymeasoda.com
 
-# Features
+## Features
 - Theme and theme settings can all be set via the menu
 - Select different theme color variations
 - Select different dirty indicator colors
