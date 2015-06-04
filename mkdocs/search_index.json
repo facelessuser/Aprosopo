@@ -67,23 +67,8 @@
         }, 
         {
             "location": "/usage/#questions", 
-            "text": "", 
+            "text": "ST3 and ST2?  As far as I know.  I am using ST3 version   3062 and I don t have sidebar icons?  ST3 version 3062 introduced new sidebar file icons.  With this new addition, the theme displays the icons differently.  If you are using an ST3 version   3062, you can use the menu option  Disable Sidebar File Icons  to revert to the old way of displaying folder icons to restore them.  Retina?  Theoretically, but I don t have a retina display to test on.", 
             "title": "Questions"
-        }, 
-        {
-            "location": "/usage/#st3-and-st2", 
-            "text": "As far as I know.", 
-            "title": "ST3 and ST2?"
-        }, 
-        {
-            "location": "/usage/#i-am-using-st3-version-3062-and-i-dont-have-sidebar-icons", 
-            "text": "ST3 version 3062 introduced new sidebar file icons.  With this new addition, the theme displays the icons differently.  If you are using an ST3 version   3062, you can use the menu option  Disable Sidebar File Icons  to revert to the old way of displaying folder icons to restore them.", 
-            "title": "I am using ST3 version  3062 and I don't have sidebar icons?"
-        }, 
-        {
-            "location": "/usage/#retina", 
-            "text": "Theoretically, but I don t have a retina display to test on.", 
-            "title": "Retina?"
         }, 
         {
             "location": "/contributing/", 
@@ -112,13 +97,8 @@
         }, 
         {
             "location": "/contributing/#pull-requests", 
-            "text": "Pull requests are welcome, and if you plan on contributing directly to the code, there are a couple of things to be mindful of.  Continuous integration tests on are run on all pull requests and commits via Travis CI.  When making a pull request, the tests will automatically be run, and the request must pass to be accepted.  You can (and should) run these tests before pull requesting.  If it is not possible to run these tests locally, they will be run when the pull request is made, but it is strongly suggested that requesters make an effort to verify before requesting to allow for a quick, smooth merge.  Feel free to use a virtual environment if you are concerned about installing any of the Python packages.  In the future, I may use tox, but as I currently only test on Python 3.3, I wanted to keep things simple.", 
+            "text": "Pull requests are welcome, and if you plan on contributing directly to the code, there are a couple of things to be mindful of.  Continuous integration tests on are run on all pull requests and commits via Travis CI.  When making a pull request, the tests will automatically be run, and the request must pass to be accepted.  You can (and should) run these tests before pull requesting.  If it is not possible to run these tests locally, they will be run when the pull request is made, but it is strongly suggested that requesters make an effort to verify before requesting to allow for a quick, smooth merge.  Feel free to use a virtual environment if you are concerned about installing any of the Python packages.  In the future, I may use tox, but as I currently only test on Python 3.3, I wanted to keep things simple.  Running Validation Tests   Tip  If you are running Sublime on a OSX or Linux/Unix system, you run all tests by by running the shell script (assuming you have installed your environment fulfills all requirements below):  chmod +x run_tests.sh\n./run_tests.sh   There are a couple of dependencies that must be present before running the tests.    As  ST3  is the only current actively supported version, Python 3.3 must be used to validate the tests.    Unit tests are run with  nose .  You can install nose via:  pip install nose  The tests should be run from the root folder of the plugin by using the following command:  nosetests .    Linting is performed on the entire project with  flake8   flake8_docstrings ,  pep8-naming .  These can be installed via:  pip install flake8\npip install flake8_docstrings\npip install pep8-naming  Linting is performed with the following command:  flake8 .", 
             "title": "Pull Requests"
-        }, 
-        {
-            "location": "/contributing/#running-validation-tests", 
-            "text": "Tip  If you are running Sublime on a OSX or Linux/Unix system, you run all tests by by running the shell script (assuming you have installed your environment fulfills all requirements below):  chmod +x run_tests.sh\n./run_tests.sh   There are a couple of dependencies that must be present before running the tests.    As  ST3  is the only current actively supported version, Python 3.3 must be used to validate the tests.    Unit tests are run with  nose .  You can install nose via:  pip install nose  The tests should be run from the root folder of the plugin by using the following command:  nosetests .    Linting is performed on the entire project with  flake8   flake8_docstrings ,  pep8-naming .  These can be installed via:  pip install flake8\npip install flake8_docstrings\npip install pep8-naming  Linting is performed with the following command:  flake8 .", 
-            "title": "Running Validation Tests"
         }, 
         {
             "location": "/contributing/#documentation-improvements", 
