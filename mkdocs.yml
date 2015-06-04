@@ -2,27 +2,27 @@ site_name: Aprosopo Theme Documentation
 repo_url: https://github.com/facelessuser/Aprosopo
 site_description: A theme for Sublime Text.
 pages:
-- About Theme Aprosopo: index.md
-- Installation: installation.md
-- User Guide: usage.md
-- Contributing & Support: contributing.md
+  - About Theme Aprosopo: index.md
+  - Installation: installation.md
+  - User Guide: usage.md
+  - Contributing &amp; Support: contributing.md
 theme: readthedocs
 theme_dir: doc_theme
 markdown_extensions:
-- markdown.extensions.extra
-- markdown.extensions.admonition
-- markdown.extensions.smarty
-- markdown.extensions.nl2br
-- markdown.extensions.codehilite:
-    guess_lang: false
-- pymdownx.inlinehilite
-- pymdownx.magiclink
-- pymdownx.betterem
-- pymdownx.tilde
-- pymdownx.caret
-- pymdownx.smartsymbols
-- pymdownx.githubemoji
-- pymdownx.tasklist
-- pymdownx.superfences
-- pymdownx.progressbar
-- pymdownx.headeranchor
+  - markdown.extensions.extra
+  - markdown.extensions.admonition
+  - markdown.extensions.smarty
+  - markdown.extensions.nl2br
+  - markdown.extensions.codehilite:
+      guess_lang: false
+  - pymdownx.inlinehilite
+  - pymdownx.magiclink
+  - pymdownx.betterem
+  - pymdownx.tilde
+  - pymdownx.caret
+  - pymdownx.smartsymbols
+  - pymdownx.githubemoji
+  - pymdownx.tasklist
+  - pymdownx.superfences
+  - pymdownx.progressbar
+  - pymdownx.headeranchor
