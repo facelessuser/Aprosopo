@@ -27,5 +27,5 @@ Aprosopo takes inspiration from:
 # Documentation
 http://facelessuser.github.io/Aprosopo/
 
-[travis-image]: https://img.shields.io/travis/facelessuser/Aprosopo/main.svg
+[travis-image]: https://img.shields.io/travis/facelessuser/Aprosopo/master.svg
 [travis-link]: https://travis-ci.org/facelessuser/Aprosopo
