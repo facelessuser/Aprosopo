@@ -19,9 +19,9 @@ Aprosopo takes inspiration from:
 - Soda Theme http://buymeasoda.com
 
 ## Features
-- Theme and theme settings can all be set via the menu
-- Select different theme color variations
-- Select different dirty indicator colors
-- Customize the tab styling
-- Customize the sidebar styling
-- 2 included color schemes
+- Theme and theme settings can all be set via the menu.
+- Select different theme color variations.
+- Select different dirty indicator colors.
+- Customize the tab styling.
+- Customize the sidebar styling.
+- 2 included color schemes.

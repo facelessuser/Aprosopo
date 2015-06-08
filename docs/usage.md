@@ -4,7 +4,7 @@ Configuration of the Aprosopo theme.
 ---
 
 ## Overview
-It is highly configurable in regards to to setting colors and styles of `active` and `dirty` indicators.
+Aprosopo is highly configurable in regards to to setting colors and styles of `active` and `dirty` indicators.
 
 Both the dark and light theme have the following colors that can be used as the base color or dirty color:
 
@@ -29,12 +29,12 @@ Even the color scheme for the search bar inputs respond to color changes by alte
 
 <img src="https://dl.dropboxusercontent.com/u/342698/UnnamedTheme2/Findbar.png" border="0">
 
-Theme is easily selected and configured from the menu:
+The theme is easily selected and configured from the menu:
 
 <img src="https://dl.dropboxusercontent.com/u/342698/UnnamedTheme2/Menu.png" border="0">
 
 ## Setup
-Everything is driven via the menu.  Go to `Preferences > Package Settings > Theme - Aprosopo` and set the theme with the color of your choice (a restart may be required after initially setting the theme; when changing features, resizing your window or restarting may be required to refresh the theme elements).  Themes can be unset from the menu as well which should completely cleanup all settings etc.
+Everything is driven via the menu.  Go to `Preferences > Package Settings > Theme - Aprosopo` and set the theme with the color of your choice.  A restart may be required after initially setting the theme.  When changing features, resizing your window or restarting may be required to refresh the theme elements.  Themes can be unset from the menu as well which should completely cleanup all settings etc.
 
 ## Customizing
 For personal tweaking, feel free to do whatever; fork it, mod it, and share it.  **There is no promise I will accept variations on the official branch**.
