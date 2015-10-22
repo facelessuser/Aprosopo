@@ -149,7 +149,6 @@ def clear_all_features(pref, themes):
 
 
 class ClearAprosopoThemeCommand(sublime_plugin.ApplicationCommand):
-
     """Clear Aprosopo theme settings."""
 
     def run(self):
@@ -169,7 +168,6 @@ class ClearAprosopoThemeCommand(sublime_plugin.ApplicationCommand):
 
 
 class SetAprosopoThemeCommand(sublime_plugin.ApplicationCommand):
-
     """Set various Aprosopo theme settings."""
 
     def run(self, color, theme):
@@ -243,7 +241,6 @@ class SetAprosopoThemeCommand(sublime_plugin.ApplicationCommand):
 
 
 class InherhitAprosopoDirtyColorCommand(sublime_plugin.ApplicationCommand):
-
     """Inherit the dirty color from light or dark when switching between them."""
 
     def run(self, old_theme, new_theme):
@@ -268,7 +265,6 @@ class InherhitAprosopoDirtyColorCommand(sublime_plugin.ApplicationCommand):
 
 
 class SetAprosopoThemeDirtyCommand(sublime_plugin.ApplicationCommand):
-
     """Set the dirty theme setting."""
 
     def run(self, color, theme):
@@ -312,7 +308,6 @@ class SetAprosopoThemeDirtyCommand(sublime_plugin.ApplicationCommand):
 
 
 class _SetAprosopoSizeFeature(sublime_plugin.ApplicationCommand):
-
     """Set Arposopo size."""
 
     sizes = []
@@ -339,7 +334,6 @@ class _SetAprosopoSizeFeature(sublime_plugin.ApplicationCommand):
 
 
 class SetAprosopoThemeSidebarSizeCommand(_SetAprosopoSizeFeature):
-
     """Configure sidebar size."""
 
     sizes = SIDEBAR_SIZES
@@ -347,7 +341,6 @@ class SetAprosopoThemeSidebarSizeCommand(_SetAprosopoSizeFeature):
 
 
 class SetAprosopoThemeSidebarFontSizeCommand(_SetAprosopoSizeFeature):
-
     """Configure sidebar font size."""
 
     sizes = SIDEBAR_FONT_SIZES
@@ -355,7 +348,6 @@ class SetAprosopoThemeSidebarFontSizeCommand(_SetAprosopoSizeFeature):
 
 
 class ToggleAprosopoThemeFeatureCommand(sublime_plugin.ApplicationCommand):
-
     """Toggle various Aprosopo theme features."""
 
     def run(
