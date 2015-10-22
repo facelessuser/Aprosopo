@@ -49,7 +49,7 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment, string.quoted.double.block.python, string.quoted.double.block.raw-regex.python</string>
+			<string>comment, string.quoted.double.block.python, string.quoted.double.block.raw-regex.python, source.python string.quoted.docstring</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
