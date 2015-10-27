@@ -11,12 +11,16 @@
 		<dict>
 			<key>settings</key>
 			<dict>
+				<key>activeGuide</key>
+				<string>#CCCCCC</string>
 				<key>background</key>
 				<string>#232628</string>
 				<key>caret</key>
 				<string>#CCCCCC</string>
 				<key>foreground</key>
 				<string>#CCCCCC</string>
+				<key>guide</key>
+				<string>#CCCCCC22</string>
 				<key>gutterForeground</key>
 				<string>#888888</string>
 				<key>invisibles</key>
@@ -25,12 +29,8 @@
 				<string>#3C3F4180</string>
 				<key>selection</key>
 				<string>#3C3F41</string>
-				<key>activeGuide</key>
-				<string>#CCCCCC</string>
 				<key>stackGuide</key>
 				<string>#CCCCCC88</string>
-				<key>guide</key>
-				<string>#CCCCCC22</string>
 			</dict>
 		</dict>
 		<dict>
@@ -517,8 +517,42 @@
 				<string>#F2777A</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Error</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.error</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F2777A</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Gutter Mark</string>
+			<key>scope</key>
+			<string>sublimelinter.gutter-mark</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F99157</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>DE477E5B-BD4D-46B0-BF80-2EA32A2814D5</string>
 </dict>
 </plist>
+
