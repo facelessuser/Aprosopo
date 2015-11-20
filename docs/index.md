@@ -24,4 +24,5 @@ Aprosopo takes inspiration from:
 - Select different dirty indicator colors.
 - Customize the tab styling.
 - Customize the sidebar styling.
+- Customize statusbar font size.
 - 2 included color schemes.

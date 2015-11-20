@@ -387,6 +387,48 @@
                             },
                             { "caption": "-" },
                             {
+                                "caption": "Set Statusbar Font Size",
+                                "children":
+                                [
+                                    {
+                                        "command": "set_aprosopo_theme_statusbar_font_size", "args":
+                                        {
+                                            "size": "xsmall"
+                                        },
+                                        "caption": "Extra Small"
+                                    },
+                                    {
+                                        "command": "set_aprosopo_theme_statusbar_font_size", "args":
+                                        {
+                                            "size": "small"
+                                        },
+                                        "caption": "Small"
+                                    },
+                                    {
+                                        "command": "set_aprosopo_theme_statusbar_font_size", "args":
+                                        {
+                                            "size": "medium"
+                                        },
+                                        "caption": "Medium"
+                                    },
+                                    {
+                                        "command": "set_aprosopo_theme_statusbar_font_size", "args":
+                                        {
+                                            "size": "large"
+                                        },
+                                        "caption": "Large"
+                                    },
+                                    {
+                                        "command": "set_aprosopo_theme_statusbar_font_size", "args":
+                                        {
+                                            "size": "xlarge"
+                                        },
+                                        "caption": "Extra Large"
+                                    }
+                                ]
+                            },
+                            { "caption": "-" },
+                            {
                                 "command": "toggle_aprosopo_theme_feature", "args":
                                 {
                                     "feature": "aprosopo_show_tab_close_buttons",

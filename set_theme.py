@@ -33,6 +33,8 @@ SIDEBAR_SIZES = ["xsmall", "small", "medium", "large", "xlarge"]
 SIDEBAR_FONT_SIZES = ["xsmall", "small", "medium", "large", "xlarge"]
 SIDEBAR_COMMON_FEATURE = "aprosopo_sidebar_tree_%s"
 SIDEBAR_FONT_COMMON_FEATURE = "aprosopo_sidebar_font_%s"
+STATUSBAR_FONT_SIZES = ["xsmall", "small", "medium", "large", "xlarge"]
+STATUSBAR_FONT_COMMON_FEATURE = "aprosopo_statusbar_font_%s"
 
 
 def get_theme(obj, default=None):
@@ -162,6 +164,7 @@ class ClearAprosopoThemeCommand(sublime_plugin.ApplicationCommand):
         clear_all_theme_colors(pref, themes, "dirty_colors", "dirty_color_key")
         clear_all_sizes(pref, SIDEBAR_SIZES, SIDEBAR_COMMON_FEATURE)
         clear_all_sizes(pref, SIDEBAR_FONT_SIZES, SIDEBAR_FONT_COMMON_FEATURE)
+        clear_all_sizes(pref, STATUSBAR_FONT_SIZES, STATUSBAR_FONT_COMMON_FEATURE)
         clear_all_features(pref, themes)
         clear_all_widgets(themes)
         sublime.save_settings(PREFERENCES)
@@ -345,6 +348,13 @@ class SetAprosopoThemeSidebarFontSizeCommand(_SetAprosopoSizeFeature):
 
     sizes = SIDEBAR_FONT_SIZES
     size_key = SIDEBAR_FONT_COMMON_FEATURE
+
+
+class SetAprosopoThemeStatusbarFontSizeCommand(_SetAprosopoSizeFeature):
+    """Configure statusbar font size."""
+
+    sizes = STATUSBAR_FONT_SIZES
+    size_key = STATUSBAR_FONT_COMMON_FEATURE
 
 
 class ToggleAprosopoThemeFeatureCommand(sublime_plugin.ApplicationCommand):
