@@ -1693,6 +1693,13 @@
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
+    {
+        "class": "panel_button_control",
+        "layer0.texture": "Theme - Aprosopo/Common/panels.png",
+        "layer0.opacity": 0.7,
+        "layer0.tint": [60, 63, 65],
+        "content_margin": [12, 8]
+    },
 
 ////////////////////////////////////
 // Quick Panel
