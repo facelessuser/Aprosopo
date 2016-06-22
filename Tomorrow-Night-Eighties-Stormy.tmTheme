@@ -96,8 +96,6 @@
 					.markup.underline.link { color: #99CCCC; }
 					.markup.bold { color: #CC99CC; font-weight: bold; }
 					.markup.italic { color: #CC99CC; font-style: italic; }
-					.scope-hunter.content { margin: 0; padding: 0.5em; }
-					.scope-hunter.small { font-size: 0.8em; }
 
 					html{ background-color: #3C3F41;   }
 
