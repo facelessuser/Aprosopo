@@ -69,8 +69,6 @@
 					dd { padding-left: 0.5em; }
 					ul, ol { padding-left: 2.0em; }
 
-					.highlight { padding: 0.5em; }
-					.admonition { padding: 0.5em; }
 					.foreground { color: #4D4D4C; }
 					.background { background-color: #FCFCFC; }
 					.comment { color: #8E908C; }
