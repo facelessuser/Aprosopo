@@ -31,6 +31,87 @@
 				<string>#3C3F41</string>
 				<key>stackGuide</key>
 				<string>#CCCCCC88</string>
+				<key>popupCss</key>
+				<string><![CDATA[
+					body {
+					    color: black;
+					    background-color: white;
+					    margin: 1px;
+					    font-size: 1.2em;
+					    padding: 0.2em;
+					}
+
+					h1 { font-size: 1.7em; }
+					h2 { font-size: 1.6em; }
+					h3 { font-size: 1.5em; }
+					h4 { font-size: 1.4em; }
+					h5 { font-size: 1.3em; }
+					h6 { font-size: 1.2em; }
+					h1, h2, h3, h4, h5, h6 { margin-top: 0.2em; margin-bottom: 0.2em; }
+
+					blockquote { display: block; font-style: italic; }
+
+					hr { display: block; padding: 1px; margin: 1em 1em; }
+
+					dl { display: block; }
+					dt { display: block; font-style: italic; font-weight: bold; }
+					dd { display: block; margin-left: 1em; }
+
+					pre { display: block; }
+
+					blockquote, ol, ul, dl, p, div {
+					    padding: 0;
+					    margin-top: 0;
+					    margin-bottom: 0.5em;
+					    margin-left: 0;
+					    margin-right: 0;
+					}
+					dd { padding-left: 0.5em; }
+					ul, ol { padding-left: 2.0em; }
+
+					.foreground { color: #CCCCCC; }
+					.background { background-color: #232628; }
+					.comment { color: #888888; }
+					.constant.other { color: #CCCCCC; }
+					.entity.name.tag { color: #F2777A; }
+					.entity.other.attribute-name { color: #F2777A; }
+					.constant.numeric { color: #F99157; }
+					.support.constant { color: #F99157; }
+					.constant.character { color: #F99157; }
+					.variable.parameter { color: #F99157; }
+					.support.type { color: #FFCC66; }
+					.support.class { color: #FFCC66; }
+					.string { color: #99CC99; }
+					.entity.other.inherited-class { color: #99CC99; }
+					.markup.heading { color: #99CC99; }
+					.keyword.operator { color: #66CCCC; }
+					.entity.name.function { color: #6699CC; }
+					.support.function { color: #6699CC; }
+					.keyword { color: #CC99CC; }
+					.storage { color: #CC99CC; }
+					.storage.type { color: #CC99CC; }
+					.invalid { color: #FAFDFF; background-color: #F2777A; }
+					.invalid.deprecated { color: #FAFDFF; background-color: #CC99CC; }
+					.variable.language { color: #FFCC66; }
+					.markup.underline.link { color: #99CCCC; }
+					.markup.bold { color: #CC99CC; font-weight: bold; }
+					.markup.italic { color: #CC99CC; font-style: italic; }
+					.scope-hunter.content { margin: 0; padding: 0.5em; }
+					.scope-hunter.small { font-size: 0.8em; }
+
+					html{ background-color: #3C3F41;   }
+
+					h1, h2, h3, h4, h5, h6 { color: #99CC99;  }
+					blockquote { color: #888888;  }
+
+					a { color: #66CCCC;  }
+
+					hr { background-color: #888888  }
+					body { color: #CCCCCC; background-color: #232628;  }
+					.error, .deleted { color: #F2777A; }
+					.success, .inserted { color: #99CC99; }
+					.warning, .modified { color: #F99157; }
+				]]></string>
 			</dict>
 		</dict>
 		<dict>
@@ -555,4 +636,3 @@
 	<string>DE477E5B-BD4D-46B0-BF80-2EA32A2814D5</string>
 </dict>
 </plist>
-
