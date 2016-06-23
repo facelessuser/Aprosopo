@@ -33,41 +33,12 @@
 				<string>#4d4d4c88</string>
 				<key>popupCss</key>
 				<string><![CDATA[
-					body {
-					    color: black;
-					    background-color: white;
-					    margin: 1px;
-					    font-size: 1.2em;
-					    padding: 0.2em;
-					}
-
-					h1 { font-size: 1.7em; }
-					h2 { font-size: 1.6em; }
-					h3 { font-size: 1.5em; }
-					h4 { font-size: 1.4em; }
-					h5 { font-size: 1.3em; }
-					h6 { font-size: 1.2em; }
-					h1, h2, h3, h4, h5, h6 { margin-top: 0.2em; margin-bottom: 0.2em; }
-
-					blockquote { display: block; font-style: italic; }
-
-					hr { display: block; padding: 1px; margin: 1em 1em; }
-
-					dl { display: block; }
-					dt { display: block; font-style: italic; font-weight: bold; }
-					dd { display: block; margin-left: 1em; }
-
-					pre { display: block; }
-
-					blockquote, ol, ul, dl, p, div {
-					    padding: 0;
-					    margin-top: 0;
-					    margin-bottom: 0.5em;
-					    margin-left: 0;
-					    margin-right: 0;
-					}
-					dd { padding-left: 0.5em; }
-					ul, ol { padding-left: 2.0em; }
+					html{ background-color: #E3E3E3; }
+					body { color: #4D4D4C; background-color: #FCFCFC;  margin: 1px; padding: 0.2em; }
+					a { color: #3E999F;  }
+					.error, .deleted { color: #c82829; }
+					.success, .inserted { color: #718c00; }
+					.warning, .modified { color: #f5871f; }
 
 					.foreground { color: #4D4D4C; }
 					.background { background-color: #FCFCFC; }
@@ -96,19 +67,6 @@
 					.markup.underline.link { color: #3E999F; }
 					.markup.bold { color: #8959A8; font-weight: bold; }
 					.markup.italic { color: #8959A8; font-style: italic; }
-
-					html{ background-color: #E3E3E3;   }
-
-					h1, h2, h3, h4, h5, h6 { color: #718C00;  }
-					blockquote { color: #8E908C;  }
-
-					a { color: #3E999F;  }
-
-					hr { background-color: #8E908C  }
-					body { color: #4D4D4C; background-color: #FCFCFC;  }
-					.error, .deleted { color: #c82829; }
-					.success, .inserted { color: #718c00; }
-					.warning, .modified { color: #f5871f; }
 				]]></string>
 			</dict>
 		</dict>
