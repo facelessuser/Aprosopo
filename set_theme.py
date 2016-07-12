@@ -27,7 +27,8 @@ COMMON_FEATURES = [
     "aprosopo_show_tab_close_on_hover",
     "aprosopo_hide_folder_expand_icon",
     "aprosopo_hide_open_file_icons",
-    "aprosopo_combined_dirty_active_bar"
+    "aprosopo_combined_dirty_active_bar",
+    "aprosopo_popup_border"
 ]
 SIDEBAR_SIZES = ["xsmall", "small", "medium", "large", "xlarge"]
 SIDEBAR_FONT_SIZES = ["xsmall", "small", "medium", "large", "xlarge"]

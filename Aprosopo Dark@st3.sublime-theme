@@ -2026,7 +2026,16 @@
 ////////////////////////////////////
     {
         "class": "popup_control",
+        "layer0.tint": [35, 38, 40, 255],
+        "layer0.opacity": 0.0,
         "content_margin": [0, 0]
+    },
+    {
+        "class": "popup_control",
+        "layer0.tint": [60, 63, 65, 255],
+        "layer0.opacity": 1.0,
+        "settings": ["aprosopo_popup_border"],
+        "content_margin": [2, 2]
     },
     {
         "class": "auto_complete",

@@ -514,6 +514,14 @@
                                     "feature": "aprosopo_hide_open_file_icons"
                                 },
                                 "caption": "Hide Open File Icons"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "toggle_aprosopo_theme_feature", "args":
+                                {
+                                    "feature": "aprosopo_popup_border"
+                                },
+                                "caption": "Enable Heavy Popup Border"
                             }
                         ]
                     }
